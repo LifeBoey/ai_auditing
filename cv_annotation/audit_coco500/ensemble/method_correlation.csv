@@ -1,0 +1,7 @@
+,cleanlab_coco500_frcnn_mbv3,cleanlab_coco500_yolo11x,fiftyone_coco500_frcnn_mbv3,fiftyone_coco500_yolo11x,flags_coco500_frcnn_mbv3,flags_coco500_yolo11x
+cleanlab_coco500_frcnn_mbv3,1.0,0.6875,0.709,0.5629,0.5482,0.5143
+cleanlab_coco500_yolo11x,0.6875,1.0,0.5923,0.6229,0.5348,0.6169
+fiftyone_coco500_frcnn_mbv3,0.709,0.5923,1.0,0.7301,0.7431,0.6394
+fiftyone_coco500_yolo11x,0.5629,0.6229,0.7301,1.0,0.6032,0.8416
+flags_coco500_frcnn_mbv3,0.5482,0.5348,0.7431,0.6032,1.0,0.6678
+flags_coco500_yolo11x,0.5143,0.6169,0.6394,0.8416,0.6678,1.0

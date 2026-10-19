@@ -1,0 +1,7 @@
+{
+  "default_n_bins": 4,
+  "brightness": {"edges": [150, 180], "names": ["dark", "normal", "bright"]},
+  "n_gt": {"n_bins": 3},
+  "crowding": {"n_bins": 3},
+  "clip_cluster": {"k": 5}
+}

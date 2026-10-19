@@ -1,0 +1,19 @@
+{
+  "name": "flags_coco500_yolo11x",
+  "method": "flag_annotations",
+  "group": "coco500_yolo11x",
+  "signals": {
+    "s_score": "combined severity of all flags (1 - prod(1 - severity))",
+    "s_max_severity": "severity of the worst single flag (low_confidence excluded)"
+  },
+  "weights": {
+    "s_score": 0.5,
+    "s_max_severity": 1
+  },
+  "params": {
+    "predictions": "../DATA/prediction_jsons/predictions_coco500_yolo11x.json",
+    "labels": "../DATA/labels_sub500_v2.json",
+    "flag_annotations_args": [],
+    "work_dir": "audit_coco500/work/flags_coco500_yolo11x"
+  }
+}

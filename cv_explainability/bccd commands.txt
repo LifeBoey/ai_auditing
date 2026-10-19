@@ -1,0 +1,20 @@
+python fiftyone_data_audit.py --dataset-name bccd-audit \
+  --data-path ../DATA/bccd_images --labels-path ../DATA/bccd_ground_truth.json \
+  --csv-path audit_scores_bccd.csv \
+  --model-predictions ../DATA/prediction_jsons/predictions_bccd_frcnn_mbv3.json \
+  --suspect-predictions ../DATA/prediction_jsons/predictions_bccd_yolo11n.json \
+  --suspect-tag yolo11n \
+  --explain-dir artifacts_bccd_frcnn
+
+python failure_analysis.py --dir artifacts_bccd_frcnn
+python failure_explorer.py --dir artifacts_bccd_frcnn
+
+
+python phoenix_slices.py \
+    --preds ../DATA/prediction_jsons/predictions_bccd_frcnn_mbv3.json \
+    --labels ../DATA/bccd_ground_truth.json  \
+    --images ../DATA/bccd_images \
+    --out    bccd-audit-px \
+    --project bccd-audit-px
+
+python failure_report_md.py --dir bccd-audit-px

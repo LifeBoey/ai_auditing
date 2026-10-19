@@ -1,0 +1,2 @@
+aspect,trusted,n_groups,AP50_spread,recall_spread,worst_group,worst_AP50,worst_d_recall,worst_recall_q,best_group
+odd_even,True,3,0.4734,0.1155,neither,0.4825,-0.1017,0.0,odd

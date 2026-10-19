@@ -1,0 +1,19 @@
+method,kind,missing box,wrong class,bad location,spurious box,low confidence,none,mentions_right_problem
+cleanlab · frcnn_mbv3,missing,0.8,0.0,0.16,0.0,0.0,0.04,0.8
+cleanlab · frcnn_mbv3,wrong,0.32,0.16,0.48,0.0,0.0,0.04,0.16
+cleanlab · ssdlite,missing,0.72,0.0,0.08,0.0,0.0,0.2,0.72
+cleanlab · ssdlite,wrong,0.36,0.12,0.44,0.0,0.0,0.08,0.12
+cleanlab · yolo11n,missing,0.96,0.0,0.04,0.0,0.0,0.0,0.96
+cleanlab · yolo11n,wrong,0.64,0.04,0.32,0.0,0.0,0.0,0.04
+fiftyone · frcnn_mbv3,missing,0.96,0.04,0.0,0.0,0.0,0.0,1.0
+fiftyone · frcnn_mbv3,wrong,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+fiftyone · ssdlite,missing,0.92,0.08,0.0,0.0,0.0,0.0,1.0
+fiftyone · ssdlite,wrong,0.08,0.92,0.0,0.0,0.0,0.0,0.92
+fiftyone · yolo11n,missing,0.64,0.04,0.0,0.0,0.0,0.32,0.68
+fiftyone · yolo11n,wrong,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+flags · frcnn_mbv3,missing,1.0,0.0,0.0,0.0,0.0,0.0,1.0
+flags · frcnn_mbv3,wrong,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+flags · ssdlite,missing,1.0,0.0,0.0,0.0,0.0,0.0,1.0
+flags · ssdlite,wrong,0.08,0.92,0.0,0.0,0.0,0.0,0.92
+flags · yolo11n,missing,0.88,0.0,0.08,0.0,0.04,0.0,0.88
+flags · yolo11n,wrong,0.16,0.84,0.0,0.0,0.0,0.0,0.84

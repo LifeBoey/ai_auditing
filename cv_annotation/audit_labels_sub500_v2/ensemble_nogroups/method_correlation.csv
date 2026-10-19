@@ -1,0 +1,7 @@
+,cleanlab_rcnn,cleanlab_yolo11x,fiftyone_rcnn,fiftyone_yolo11x,flags_rcnn,flags_yolo11x
+cleanlab_rcnn,1.0,0.6929,0.7045,0.5717,0.5474,0.5068
+cleanlab_yolo11x,0.6929,1.0,0.5992,0.6257,0.53,0.6134
+fiftyone_rcnn,0.7045,0.5992,1.0,0.7291,0.7513,0.6429
+fiftyone_yolo11x,0.5717,0.6257,0.7291,1.0,0.6009,0.8291
+flags_rcnn,0.5474,0.53,0.7513,0.6009,1.0,0.647
+flags_yolo11x,0.5068,0.6134,0.6429,0.8291,0.647,1.0

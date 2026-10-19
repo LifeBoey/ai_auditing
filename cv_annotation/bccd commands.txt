@@ -1,0 +1,18 @@
+python3 run_audit.py --labels ../DATA/bccdp_ground_truth.json  --images-dir  ../DATA/bccdp_images/ --predictions ../DATA/prediction_jsons/predictions_bccdp_frcnn_mbv3.json,../DATA/prediction_jsons/predictions_bccdp_ssdlite.json,../DATA/prediction_jsons/predictions_bccdp_yolo11n.json
+
+python ensemble_audit.py audit_bccdp_ground_truth/scores/* --labels ../DATA/bccdp_ground_truth.json
+
+
+python3 coco_review_slideshow.py --csv audit_bccdp_ground_truth/ensemble/review_list.csv --predictions ../DATA/prediction_jsons/predictions_bccdp_frcnn_mbv3.json  --labels ../DATA/bccdp_ground_truth.json --output review_bccdp.html --score-threshold 0.5
+
+
+python analyze_audit_artifacts.py --audit-dir audit_bccdp_ground_truth
+
+
+
+
+python3 run_audit.py --labels ../DATA/bccd_ground_truth.json  --images-dir  ../DATA/bccd_images/ --predictions ../DATA/prediction_jsons/predictions_bccd_frcnn_mbv3.json,../DATA/prediction_jsons/predictions_bccd_ssdlite.json,../DATA/prediction_jsons/predictions_bccd_yolo11n.json
+
+python ensemble_audit.py audit_bccd_ground_truth/scores/* --labels ../DATA/bccd_ground_truth.json
+
+python analyze_audit_artifacts.py --audit-dir audit_bccd_ground_truth --unlabelled

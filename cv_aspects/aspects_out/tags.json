@@ -1,0 +1,390 @@
+{
+  "images": "Y:\\home\\bjieyong\\aiverify2\\auditing\\DATA\\bccd_images",
+  "labels": "Y:\\home\\bjieyong\\aiverify2\\auditing\\DATA\\bccd_ground_truth.json",
+  "clip": "C:/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt",
+  "aspects": {
+    "brightness": {
+      "kind": "numeric",
+      "description": "mean grey level (0-255)",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        179.12592315673828,
+        181.32752227783203,
+        183.46518325805664
+      ],
+      "groups": [
+        "1: [165, 179)",
+        "2: [179, 181)",
+        "3: [181, 183)",
+        "4: [183, 194]"
+      ],
+      "counts": {
+        "1: [165, 179)": 91,
+        "2: [179, 181)": 91,
+        "3: [181, 183)": 91,
+        "4: [183, 194]": 91
+      }
+    },
+    "contrast": {
+      "kind": "numeric",
+      "description": "std of grey level",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        19.36518669128418,
+        20.60539436340332,
+        21.750202655792236
+      ],
+      "groups": [
+        "1: [11.9, 19.4)",
+        "2: [19.4, 20.6)",
+        "3: [20.6, 21.8)",
+        "4: [21.8, 25.4]"
+      ],
+      "counts": {
+        "1: [11.9, 19.4)": 91,
+        "2: [19.4, 20.6)": 91,
+        "3: [20.6, 21.8)": 91,
+        "4: [21.8, 25.4]": 91
+      }
+    },
+    "sharpness": {
+      "kind": "numeric",
+      "description": "variance of the Laplacian (low = blurry)",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        7.069971084594727,
+        7.534618377685547,
+        7.924400448799133
+      ],
+      "groups": [
+        "1: [5.37, 7.07)",
+        "2: [7.07, 7.53)",
+        "3: [7.53, 7.92)",
+        "4: [7.92, 16.5]"
+      ],
+      "counts": {
+        "1: [5.37, 7.07)": 91,
+        "2: [7.07, 7.53)": 91,
+        "3: [7.53, 7.92)": 91,
+        "4: [7.92, 16.5]": 91
+      }
+    },
+    "saturation": {
+      "kind": "numeric",
+      "description": "mean HSV saturation (0-1)",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.09271859750151634,
+        0.0991506353020668,
+        0.10614084079861641
+      ],
+      "groups": [
+        "1: [0.0636, 0.0927)",
+        "2: [0.0927, 0.0992)",
+        "3: [0.0992, 0.106)",
+        "4: [0.106, 0.139]"
+      ],
+      "counts": {
+        "1: [0.0636, 0.0927)": 91,
+        "2: [0.0927, 0.0992)": 91,
+        "3: [0.0992, 0.106)": 91,
+        "4: [0.106, 0.139]": 91
+      }
+    },
+    "hue": {
+      "kind": "numeric",
+      "description": "saturation-weighted mean hue (degrees, unwrapped around the dataset mean) - stain colour",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        -40.02278137207031,
+        -29.090776443481445,
+        -14.37205696105957
+      ],
+      "groups": [
+        "1: [-64.4, -40)",
+        "2: [-40, -29.1)",
+        "3: [-29.1, -14.4)",
+        "4: [-14.4, 16.1]"
+      ],
+      "counts": {
+        "1: [-64.4, -40)": 91,
+        "2: [-40, -29.1)": 91,
+        "3: [-29.1, -14.4)": 91,
+        "4: [-14.4, 16.1]": 91
+      }
+    },
+    "n_gt": {
+      "kind": "numeric",
+      "description": "number of GT boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        11.0,
+        13.5,
+        16.0
+      ],
+      "groups": [
+        "1: [1, 11)",
+        "2: [11, 13.5)",
+        "3: [13.5, 16)",
+        "4: [16, 30]"
+      ],
+      "counts": {
+        "1: [1, 11)": 76,
+        "2: [11, 13.5)": 106,
+        "3: [13.5, 16)": 77,
+        "4: [16, 30]": 105
+      }
+    },
+    "n_classes": {
+      "kind": "categorical",
+      "description": "number of distinct classes present",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "counts": {
+        "1": 10,
+        "2": 164,
+        "3": 190
+      }
+    },
+    "crowding": {
+      "kind": "numeric",
+      "description": "mean max IoU between GT boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.030876035273703667,
+        0.04843612195650045,
+        0.08111927423845988
+      ],
+      "groups": [
+        "1: [0, 0.0309)",
+        "2: [0.0309, 0.0484)",
+        "3: [0.0484, 0.0811)",
+        "4: [0.0811, 0.286]"
+      ],
+      "counts": {
+        "1: [0, 0.0309)": 91,
+        "2: [0.0309, 0.0484)": 91,
+        "3: [0.0484, 0.0811)": 91,
+        "4: [0.0811, 0.286]": 91
+      }
+    },
+    "small_frac": {
+      "kind": "numeric",
+      "description": "fraction of GT boxes smaller than 32^2 px",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.04
+      ],
+      "groups": [
+        "1: [0, 0.04)",
+        "2: [0.04, 0.5]"
+      ],
+      "counts": {
+        "1: [0, 0.04)": 330,
+        "2: [0.04, 0.5]": 34
+      }
+    },
+    "mean_box_area": {
+      "kind": "numeric",
+      "description": "mean GT box area / image area",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.034381765288747715,
+        0.03868359375,
+        0.043404373895554314
+      ],
+      "groups": [
+        "1: [0.00508, 0.0344)",
+        "2: [0.0344, 0.0387)",
+        "3: [0.0387, 0.0434)",
+        "4: [0.0434, 0.156]"
+      ],
+      "counts": {
+        "1: [0.00508, 0.0344)": 91,
+        "2: [0.0344, 0.0387)": 91,
+        "3: [0.0387, 0.0434)": 91,
+        "4: [0.0434, 0.156]": 91
+      }
+    },
+    "n_RBC": {
+      "kind": "numeric",
+      "description": "number of RBC boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        9.0,
+        11.0,
+        14.0
+      ],
+      "groups": [
+        "1: [0, 9)",
+        "2: [9, 11)",
+        "3: [11, 14)",
+        "4: [14, 27]"
+      ],
+      "counts": {
+        "1: [0, 9)": 65,
+        "2: [9, 11)": 74,
+        "3: [11, 14)": 118,
+        "4: [14, 27]": 107
+      }
+    },
+    "has_RBC": {
+      "kind": "categorical",
+      "description": "image contains a RBC",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 15,
+        "yes": 349
+      }
+    },
+    "n_WBC": {
+      "kind": "numeric",
+      "description": "number of WBC boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 6,
+        "2: [1, 2]": 358
+      }
+    },
+    "has_WBC": {
+      "kind": "categorical",
+      "description": "image contains a WBC",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 6,
+        "yes": 358
+      }
+    },
+    "n_Platelets": {
+      "kind": "numeric",
+      "description": "number of Platelets boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0,
+        2.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2)",
+        "3: [2, 6]"
+      ],
+      "counts": {
+        "1: [0, 1)": 163,
+        "2: [1, 2)": 96,
+        "3: [2, 6]": 105
+      }
+    },
+    "has_Platelets": {
+      "kind": "categorical",
+      "description": "image contains a Platelets",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 163,
+        "yes": 201
+      }
+    },
+    "clip_cluster": {
+      "kind": "categorical",
+      "description": "KMeans cluster of the CLIP image embedding",
+      "requires": [
+        "clip"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "counts": {
+        "c0": 143,
+        "c1": 83,
+        "c2": 59,
+        "c3": 43,
+        "c4": 36
+      }
+    }
+  },
+  "skipped": {},
+  "dropped": {
+    "aspect_ratio": "only one group (1: [1.33, 1.33]) - the aspect is constant on this data",
+    "megapixels": "only one group (1: [0.307, 0.307]) - the aspect is constant on this data"
+  }
+}

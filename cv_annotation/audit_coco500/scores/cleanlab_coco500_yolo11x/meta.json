@@ -1,0 +1,25 @@
+{
+  "name": "cleanlab_coco500_yolo11x",
+  "method": "cleanlab",
+  "group": "coco500_yolo11x",
+  "signals": {
+    "s_swap": "1 - lowest ObjectLab swap score over annotations",
+    "s_overlooked": "1 - lowest ObjectLab overlooked score over predictions",
+    "s_badloc": "1 - lowest ObjectLab badloc score over annotations",
+    "s_label_issue": "1 - ObjectLab label_quality_score"
+  },
+  "weights": {
+    "s_swap": 1,
+    "s_overlooked": 1,
+    "s_badloc": 0.25,
+    "s_label_issue": 0
+  },
+  "params": {
+    "predictions": "../DATA/prediction_jsons/predictions_coco500_yolo11x.json",
+    "labels": "../DATA/labels_sub500_v2.json",
+    "flag_score": 0.2,
+    "flag_badloc": 0.05,
+    "cleanlab_args": [],
+    "work_dir": "audit_coco500/work/cleanlab_coco500_yolo11x_ann"
+  }
+}

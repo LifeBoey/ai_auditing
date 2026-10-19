@@ -1,0 +1,415 @@
+file_name,file_path,s_mistakenness,s_possible_missing,s_possible_spurious,flagged,reason
+BloodImage_00000.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00000.jpg,0.4682,0,0,False,
+BloodImage_00001.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00001.jpg,0.4734,0,0,False,
+BloodImage_00002.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00002.jpg,0.4428,0,0,False,
+BloodImage_00003.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00003.jpg,0.3457,0,0,False,
+BloodImage_00003_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00003_wrong.jpg,0.8536,0,0,True,annotated WBC: mistakenness 0.85
+BloodImage_00004.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00004.jpg,0.492,1,0,True,possible missing: RBC 0.80
+BloodImage_00005.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00005.jpg,0.4948,1,0,True,possible missing: RBC 0.82
+BloodImage_00006.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00006.jpg,0.4858,0,0,False,
+BloodImage_00007.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00007.jpg,0.4785,0,2,True,2 possible spurious annotation(s)
+BloodImage_00008.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00008.jpg,0.49,0,1,True,1 possible spurious annotation(s)
+BloodImage_00009.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00009.jpg,0.4468,0,0,False,
+BloodImage_00010.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00010.jpg,0.4489,0,1,True,1 possible spurious annotation(s)
+BloodImage_00011.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00011.jpg,0.4912,0,0,False,
+BloodImage_00012.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00012.jpg,0.4206,0,0,False,
+BloodImage_00012_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00012_missing.jpg,0.4206,2,0,True,possible missing: RBC 0.93 (+1 more)
+BloodImage_00013.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00013.jpg,0.4935,0,0,False,
+BloodImage_00013_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00013_missing.jpg,0.4935,1,0,True,possible missing: RBC 0.87
+BloodImage_00014.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00014.jpg,0.4079,0,0,False,
+BloodImage_00015.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00015.jpg,0.2694,0,0,False,
+BloodImage_00015_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00015_missing.jpg,0.2694,1,0,True,possible missing: RBC 0.85
+BloodImage_00016.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00016.jpg,0.4649,0,0,False,
+BloodImage_00016_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00016_missing.jpg,0.4245,0,0,False,
+BloodImage_00017.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00017.jpg,0.4201,0,0,False,
+BloodImage_00018.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00018.jpg,0.4928,0,0,False,
+BloodImage_00019.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00019.jpg,0.4879,0,0,False,
+BloodImage_00020.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00020.jpg,0.489,0,0,False,
+BloodImage_00021.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00021.jpg,0.4897,0,0,False,
+BloodImage_00022.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00022.jpg,0.3423,0,0,False,
+BloodImage_00022_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00022_wrong.jpg,0.8578,0,0,True,annotated WBC: mistakenness 0.86
+BloodImage_00023.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00023.jpg,0.4923,0,0,False,
+BloodImage_00024.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00024.jpg,0.4258,0,0,False,
+BloodImage_00026.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00026.jpg,0.3916,1,1,True,possible missing: RBC 0.87; 1 possible spurious annotation(s)
+BloodImage_00028.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00028.jpg,0.4678,0,0,False,
+BloodImage_00029.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00029.jpg,0.4848,0,1,True,1 possible spurious annotation(s)
+BloodImage_00030.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00030.jpg,0.4894,0,1,True,1 possible spurious annotation(s)
+BloodImage_00031.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00031.jpg,0.4613,0,0,False,
+BloodImage_00032.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00032.jpg,0.4938,0,1,True,1 possible spurious annotation(s)
+BloodImage_00033.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00033.jpg,0.4902,0,0,False,
+BloodImage_00034.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00034.jpg,0.4938,0,1,True,1 possible spurious annotation(s)
+BloodImage_00035.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00035.jpg,0.4933,0,0,False,
+BloodImage_00036.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00036.jpg,0.4744,0,1,True,1 possible spurious annotation(s)
+BloodImage_00037.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00037.jpg,0.4858,0,1,True,1 possible spurious annotation(s)
+BloodImage_00038.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00038.jpg,0.4928,0,0,False,
+BloodImage_00039.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00039.jpg,0.4857,0,0,False,
+BloodImage_00040.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00040.jpg,0.4178,0,0,False,
+BloodImage_00041.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00041.jpg,0.4683,0,0,False,
+BloodImage_00042.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00042.jpg,0.4274,0,0,False,
+BloodImage_00042_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00042_wrong.jpg,0.8891,0,0,True,annotated WBC: mistakenness 0.89
+BloodImage_00043.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00043.jpg,0.3946,0,0,False,
+BloodImage_00044.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00044.jpg,0.3307,0,1,True,1 possible spurious annotation(s)
+BloodImage_00045.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00045.jpg,0.4891,0,1,True,1 possible spurious annotation(s)
+BloodImage_00046.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00046.jpg,0.4838,1,0,True,possible missing: RBC 0.82
+BloodImage_00046_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00046_missing.jpg,0.4838,3,0,True,possible missing: RBC 0.91 (+2 more)
+BloodImage_00047.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00047.jpg,0.4588,0,0,False,
+BloodImage_00048.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00048.jpg,0.4908,0,0,False,
+BloodImage_00049.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00049.jpg,0.4816,0,0,False,
+BloodImage_00049_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00049_missing.jpg,0.4738,1,0,True,possible missing: RBC 0.81
+BloodImage_00050.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00050.jpg,0.3564,0,0,False,
+BloodImage_00052.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00052.jpg,0.4278,0,0,False,
+BloodImage_00052_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00052_wrong.jpg,0.9137,0,0,True,annotated WBC: mistakenness 0.91
+BloodImage_00053.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00053.jpg,0.3107,0,0,False,
+BloodImage_00054.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00054.jpg,0.4496,0,0,False,
+BloodImage_00055.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00055.jpg,0.3929,0,0,False,
+BloodImage_00055_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00055_missing.jpg,0.3929,2,0,True,possible missing: WBC 0.86 (+1 more)
+BloodImage_00056.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00056.jpg,0.3755,0,0,False,
+BloodImage_00057.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00057.jpg,0.4056,0,0,False,
+BloodImage_00058.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00058.jpg,0.4097,0,0,False,
+BloodImage_00059.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00059.jpg,0.4259,0,0,False,
+BloodImage_00062.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00062.jpg,0.4108,0,0,False,
+BloodImage_00062_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00062_missing.jpg,0.4108,0,0,False,
+BloodImage_00063.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00063.jpg,0.2988,0,0,False,
+BloodImage_00064.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00064.jpg,0.426,1,0,True,possible missing: RBC 0.85
+BloodImage_00065.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00065.jpg,0.3879,0,0,False,
+BloodImage_00066.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00066.jpg,0.3502,0,0,False,
+BloodImage_00067.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00067.jpg,0.3133,0,0,False,
+BloodImage_00068.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00068.jpg,0.4245,0,0,False,
+BloodImage_00068_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00068_wrong.jpg,0.9392,0,0,True,annotated RBC: mistakenness 0.94
+BloodImage_00069.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00069.jpg,0.3542,1,0,True,possible missing: RBC 0.84
+BloodImage_00070.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00070.jpg,0.4023,0,0,False,
+BloodImage_00071.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00071.jpg,0.3205,0,0,False,
+BloodImage_00072.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00072.jpg,0.267,0,0,False,
+BloodImage_00073.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00073.jpg,0.409,1,0,True,possible missing: RBC 0.93
+BloodImage_00074.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00074.jpg,0.4404,0,0,False,
+BloodImage_00075.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00075.jpg,0.3967,0,0,False,
+BloodImage_00076.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00076.jpg,0.4351,0,0,False,
+BloodImage_00076_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00076_missing.jpg,0.4351,1,0,True,possible missing: RBC 0.85
+BloodImage_00077.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00077.jpg,0.3394,0,0,False,
+BloodImage_00078.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00078.jpg,0.3372,1,0,True,possible missing: RBC 0.89
+BloodImage_00079.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00079.jpg,0.4432,0,0,False,
+BloodImage_00081.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00081.jpg,0.4748,0,0,False,
+BloodImage_00082.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00082.jpg,0.4211,0,0,False,
+BloodImage_00083.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00083.jpg,0.4944,0,1,True,1 possible spurious annotation(s)
+BloodImage_00086.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00086.jpg,0.3762,0,0,False,
+BloodImage_00087.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00087.jpg,0.4528,0,0,False,
+BloodImage_00087_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00087_wrong.jpg,0.8019,0,0,True,annotated Platelets: mistakenness 0.80
+BloodImage_00088.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00088.jpg,0.4482,0,0,False,
+BloodImage_00089.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00089.jpg,0.4098,0,0,False,
+BloodImage_00089_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00089_wrong.jpg,0.9288,0,0,True,annotated WBC: mistakenness 0.93
+BloodImage_00090.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00090.jpg,0.4648,0,0,False,
+BloodImage_00091.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00091.jpg,0.3872,0,0,False,
+BloodImage_00092.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00092.jpg,0.4909,0,0,False,
+BloodImage_00093.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00093.jpg,0.3455,0,0,False,
+BloodImage_00094.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00094.jpg,0.466,0,0,False,
+BloodImage_00095.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00095.jpg,0.3847,0,0,False,
+BloodImage_00097.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00097.jpg,0.4856,0,0,False,
+BloodImage_00098.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00098.jpg,0.4034,0,0,False,
+BloodImage_00099.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00099.jpg,0.3545,1,0,True,possible missing: RBC 0.89
+BloodImage_00100.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00100.jpg,0.4944,0,0,False,
+BloodImage_00101.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00101.jpg,0.4447,0,0,False,
+BloodImage_00103.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00103.jpg,0.3971,0,0,False,
+BloodImage_00104.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00104.jpg,0.4778,0,0,False,
+BloodImage_00106.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00106.jpg,0.4231,0,0,False,
+BloodImage_00107.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00107.jpg,0.4092,0,0,False,
+BloodImage_00108.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00108.jpg,0.342,0,0,False,
+BloodImage_00109.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00109.jpg,0.4919,0,0,False,
+BloodImage_00110.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00110.jpg,0.3845,0,0,False,
+BloodImage_00111.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00111.jpg,0.4613,0,0,False,
+BloodImage_00112.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00112.jpg,0.4794,0,0,False,
+BloodImage_00112_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00112_missing.jpg,0.4794,2,0,True,possible missing: RBC 0.93 (+1 more)
+BloodImage_00113.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00113.jpg,0.8412,0,0,True,annotated WBC: mistakenness 0.84
+BloodImage_00114.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00114.jpg,0.3226,0,0,False,
+BloodImage_00115.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00115.jpg,0.4353,1,0,True,possible missing: RBC 0.85
+BloodImage_00117.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00117.jpg,0.3419,0,0,False,
+BloodImage_00120.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00120.jpg,0.3175,0,0,False,
+BloodImage_00123.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00123.jpg,0.4533,0,0,False,
+BloodImage_00124.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00124.jpg,0.3661,0,0,False,
+BloodImage_00125.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00125.jpg,0.4599,1,1,True,possible missing: RBC 0.87; 1 possible spurious annotation(s)
+BloodImage_00126.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00126.jpg,0.4225,1,0,True,possible missing: RBC 0.80
+BloodImage_00126_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00126_wrong.jpg,0.9429,1,0,True,annotated Platelets: mistakenness 0.94; possible missing: RBC 0.80
+BloodImage_00127.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00127.jpg,0.1899,0,0,False,
+BloodImage_00127_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00127_missing.jpg,0.1899,1,0,True,possible missing: Platelets 0.85
+BloodImage_00130.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00130.jpg,0.2998,0,0,False,
+BloodImage_00130_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00130_wrong.jpg,0.9209,0,0,True,annotated Platelets: mistakenness 0.92
+BloodImage_00132.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00132.jpg,0.2266,0,0,False,
+BloodImage_00133.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00133.jpg,0.8941,0,0,True,annotated Platelets: mistakenness 0.89
+BloodImage_00133_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00133_missing.jpg,0.8941,2,0,True,annotated Platelets: mistakenness 0.89; possible missing: RBC 0.86 (+1 more)
+BloodImage_00134.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00134.jpg,0.1467,1,0,True,possible missing: RBC 0.82
+BloodImage_00135.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00135.jpg,0.9351,0,0,True,annotated Platelets: mistakenness 0.94
+BloodImage_00136.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00136.jpg,0.3394,0,0,False,
+BloodImage_00137.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00137.jpg,0.2723,0,0,False,
+BloodImage_00139.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00139.jpg,0.4077,0,0,False,
+BloodImage_00139_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00139_missing.jpg,0.4077,0,0,False,
+BloodImage_00140.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00140.jpg,0.4729,2,0,True,possible missing: RBC 0.84 (+1 more)
+BloodImage_00141.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00141.jpg,0.3958,1,0,True,possible missing: RBC 0.84
+BloodImage_00142.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00142.jpg,0.2023,0,0,False,
+BloodImage_00143.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00143.jpg,0.3059,1,0,True,possible missing: RBC 0.83
+BloodImage_00144.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00144.jpg,0.4912,0,0,False,
+BloodImage_00145.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00145.jpg,0.3724,0,0,False,
+BloodImage_00145_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00145_missing.jpg,0.3724,4,0,True,possible missing: RBC 0.87 (+3 more)
+BloodImage_00147.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00147.jpg,0.1775,1,0,True,possible missing: RBC 0.81
+BloodImage_00148.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00148.jpg,0.2536,0,0,False,
+BloodImage_00149.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00149.jpg,0.2718,0,0,False,
+BloodImage_00150.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00150.jpg,0.2707,1,0,True,possible missing: RBC 0.80
+BloodImage_00152.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00152.jpg,0.0865,0,0,False,
+BloodImage_00154.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00154.jpg,0.3752,0,0,False,
+BloodImage_00156.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00156.jpg,0.2937,0,0,False,
+BloodImage_00157.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00157.jpg,0.2577,0,0,False,
+BloodImage_00158.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00158.jpg,0.3266,0,0,False,
+BloodImage_00159.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00159.jpg,0.2586,0,0,False,
+BloodImage_00159_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00159_wrong.jpg,0.9478,0,0,True,annotated WBC: mistakenness 0.95
+BloodImage_00160.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00160.jpg,0.2818,0,0,False,
+BloodImage_00161.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00161.jpg,0.3545,0,0,False,
+BloodImage_00162.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00162.jpg,0.377,0,0,False,
+BloodImage_00163.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00163.jpg,0.2206,1,0,True,possible missing: RBC 0.88
+BloodImage_00164.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00164.jpg,0.2987,0,0,False,
+BloodImage_00164_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00164_missing.jpg,0.2987,0,0,False,
+BloodImage_00165.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00165.jpg,0.2732,0,0,False,
+BloodImage_00166.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00166.jpg,0.3247,0,0,False,
+BloodImage_00166_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00166_wrong.jpg,0.939,0,0,True,annotated WBC: mistakenness 0.94
+BloodImage_00167.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00167.jpg,0.3115,0,0,False,
+BloodImage_00168.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00168.jpg,0.3118,1,0,True,possible missing: RBC 0.84
+BloodImage_00169.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00169.jpg,0.2424,0,0,False,
+BloodImage_00170.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00170.jpg,0.2962,1,0,True,possible missing: RBC 0.83
+BloodImage_00171.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00171.jpg,0.374,1,0,True,possible missing: RBC 0.86
+BloodImage_00172.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00172.jpg,0.4648,0,0,False,
+BloodImage_00174.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00174.jpg,0.1968,0,0,False,
+BloodImage_00175.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00175.jpg,0.3145,0,0,False,
+BloodImage_00176.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00176.jpg,0.3031,0,0,False,
+BloodImage_00177.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00177.jpg,0.2343,0,0,False,
+BloodImage_00178.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00178.jpg,0.3909,0,0,False,
+BloodImage_00179.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00179.jpg,0.3257,1,0,True,possible missing: RBC 0.83
+BloodImage_00180.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00180.jpg,0.2399,1,0,True,possible missing: RBC 0.83
+BloodImage_00182.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00182.jpg,0.3433,0,0,False,
+BloodImage_00183.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00183.jpg,0.2165,1,0,True,possible missing: RBC 0.81
+BloodImage_00184.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00184.jpg,0.378,0,0,False,
+BloodImage_00187.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00187.jpg,0.2928,1,0,True,possible missing: RBC 0.81
+BloodImage_00189.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00189.jpg,0.4266,1,0,True,possible missing: RBC 0.82
+BloodImage_00190.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00190.jpg,0.3861,2,0,True,possible missing: RBC 0.88 (+1 more)
+BloodImage_00191.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00191.jpg,0.3337,0,0,False,
+BloodImage_00192.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00192.jpg,0.2375,0,0,False,
+BloodImage_00193.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00193.jpg,0.399,0,0,False,
+BloodImage_00195.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00195.jpg,0.4232,0,0,False,
+BloodImage_00196.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00196.jpg,0.4571,0,0,False,
+BloodImage_00197.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00197.jpg,0.1933,0,0,False,
+BloodImage_00198.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00198.jpg,0.4052,0,0,False,
+BloodImage_00199.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00199.jpg,0.2782,0,0,False,
+BloodImage_00200.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00200.jpg,0.3089,1,0,True,possible missing: Platelets 0.85
+BloodImage_00201.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00201.jpg,0.3524,0,0,False,
+BloodImage_00202.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00202.jpg,0.235,0,0,False,
+BloodImage_00202_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00202_wrong.jpg,0.9649,0,0,True,annotated Platelets: mistakenness 0.96
+BloodImage_00203.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00203.jpg,0.3195,0,0,False,
+BloodImage_00204.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00204.jpg,0.4106,0,0,False,
+BloodImage_00204_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00204_wrong.jpg,0.9056,0,0,True,annotated Platelets: mistakenness 0.91
+BloodImage_00205.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00205.jpg,0.2173,0,0,False,
+BloodImage_00206.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00206.jpg,0.4414,1,0,True,possible missing: RBC 0.83
+BloodImage_00206_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00206_wrong.jpg,0.9303,1,0,True,annotated WBC: mistakenness 0.93; possible missing: RBC 0.83
+BloodImage_00207.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00207.jpg,0.4444,0,0,False,
+BloodImage_00208.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00208.jpg,0.446,0,0,False,
+BloodImage_00209.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00209.jpg,0.4074,0,0,False,
+BloodImage_00210.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00210.jpg,0.4184,1,0,True,possible missing: Platelets 0.86
+BloodImage_00211.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00211.jpg,0.3767,0,0,False,
+BloodImage_00212.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00212.jpg,0.2785,0,0,False,
+BloodImage_00214.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00214.jpg,0.3548,1,0,True,possible missing: RBC 0.86
+BloodImage_00214_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00214_wrong.jpg,0.9235,1,0,True,annotated RBC: mistakenness 0.92; possible missing: RBC 0.86
+BloodImage_00215.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00215.jpg,0.4175,0,0,False,
+BloodImage_00216.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00216.jpg,0.4125,0,0,False,
+BloodImage_00217.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00217.jpg,0.4583,0,0,False,
+BloodImage_00218.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00218.jpg,0.4418,0,0,False,
+BloodImage_00219.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00219.jpg,0.2264,0,0,False,
+BloodImage_00220.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00220.jpg,0.362,0,0,False,
+BloodImage_00221.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00221.jpg,0.3077,0,0,False,
+BloodImage_00222.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00222.jpg,0.1827,0,0,False,
+BloodImage_00223.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00223.jpg,0.264,0,0,False,
+BloodImage_00224.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00224.jpg,0.2042,0,0,False,
+BloodImage_00224_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00224_wrong.jpg,0.7958,0,0,True,annotated RBC: mistakenness 0.80
+BloodImage_00225.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00225.jpg,0.3388,0,0,False,
+BloodImage_00225_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00225_wrong.jpg,0.9169,0,0,True,annotated RBC: mistakenness 0.92
+BloodImage_00226.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00226.jpg,0.3226,0,0,False,
+BloodImage_00227.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00227.jpg,0.3084,0,0,False,
+BloodImage_00228.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00228.jpg,0.4012,0,0,False,
+BloodImage_00229.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00229.jpg,0.3223,0,0,False,
+BloodImage_00230.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00230.jpg,0.2209,0,0,False,
+BloodImage_00231.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00231.jpg,0.3934,0,0,False,
+BloodImage_00232.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00232.jpg,0.2575,0,0,False,
+BloodImage_00233.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00233.jpg,0.3699,1,0,True,possible missing: RBC 0.83
+BloodImage_00234.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00234.jpg,0.3629,0,0,False,
+BloodImage_00235.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00235.jpg,0.2549,1,0,True,possible missing: RBC 0.82
+BloodImage_00236.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00236.jpg,0.2331,0,0,False,
+BloodImage_00237.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00237.jpg,0.2583,0,0,False,
+BloodImage_00239.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00239.jpg,0.3364,0,0,False,
+BloodImage_00240.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00240.jpg,0.3419,0,0,False,
+BloodImage_00241.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00241.jpg,0.3894,0,0,False,
+BloodImage_00242.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00242.jpg,0.2999,0,0,False,
+BloodImage_00243.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00243.jpg,0.4368,0,0,False,
+BloodImage_00244.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00244.jpg,0.2939,1,0,True,possible missing: RBC 0.80
+BloodImage_00245.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00245.jpg,0.4131,0,0,False,
+BloodImage_00246.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00246.jpg,0.2726,0,0,False,
+BloodImage_00246_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00246_wrong.jpg,0.94,0,0,True,annotated RBC: mistakenness 0.94
+BloodImage_00247.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00247.jpg,0.3089,0,0,False,
+BloodImage_00248.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00248.jpg,0.3515,0,0,False,
+BloodImage_00248_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00248_missing.jpg,0.2634,1,0,True,possible missing: WBC 0.89
+BloodImage_00249.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00249.jpg,0.0647,0,0,False,
+BloodImage_00250.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00250.jpg,0.039,1,0,True,possible missing: RBC 0.81
+BloodImage_00251.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00251.jpg,0.4933,0,0,False,
+BloodImage_00252.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00252.jpg,0.3434,0,0,False,
+BloodImage_00253.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00253.jpg,0.4283,0,0,False,
+BloodImage_00254.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00254.jpg,0.2297,0,0,False,
+BloodImage_00255.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00255.jpg,0.3327,0,0,False,
+BloodImage_00256.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00256.jpg,0.2771,0,0,False,
+BloodImage_00257.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00257.jpg,0.2455,0,0,False,
+BloodImage_00258.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00258.jpg,0.2262,1,0,True,possible missing: RBC 0.87
+BloodImage_00259.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00259.jpg,0.3906,0,0,False,
+BloodImage_00260.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00260.jpg,0.2988,0,0,False,
+BloodImage_00261.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00261.jpg,0.2356,0,0,False,
+BloodImage_00261_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00261_wrong.jpg,0.8874,0,0,True,annotated WBC: mistakenness 0.89
+BloodImage_00262.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00262.jpg,0.2732,0,0,False,
+BloodImage_00263.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00263.jpg,0.3934,0,0,False,
+BloodImage_00264.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00264.jpg,0.2974,0,0,False,
+BloodImage_00265.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00265.jpg,0.3364,0,0,False,
+BloodImage_00266.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00266.jpg,0.4263,0,1,True,1 possible spurious annotation(s)
+BloodImage_00267.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00267.jpg,0.1888,1,0,True,possible missing: RBC 0.85
+BloodImage_00267_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00267_wrong.jpg,0.8112,1,0,True,annotated WBC: mistakenness 0.81; possible missing: RBC 0.85
+BloodImage_00268.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00268.jpg,0.1196,2,0,True,possible missing: RBC 0.83 (+1 more)
+BloodImage_00269.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00269.jpg,0.2765,0,0,False,
+BloodImage_00270.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00270.jpg,0.2971,0,0,False,
+BloodImage_00271.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00271.jpg,0.4457,0,0,False,
+BloodImage_00272.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00272.jpg,0.3914,0,0,False,
+BloodImage_00273.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00273.jpg,0.2815,0,0,False,
+BloodImage_00274.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00274.jpg,0.3316,0,0,False,
+BloodImage_00275.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00275.jpg,0.4637,0,0,False,
+BloodImage_00276.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00276.jpg,0.3678,0,0,False,
+BloodImage_00277.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00277.jpg,0.385,0,0,False,
+BloodImage_00278.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00278.jpg,0.4002,0,0,False,
+BloodImage_00279.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00279.jpg,0.3725,0,0,False,
+BloodImage_00281.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00281.jpg,0.3737,1,0,True,possible missing: RBC 0.84
+BloodImage_00282.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00282.jpg,0.2218,1,0,True,possible missing: RBC 0.83
+BloodImage_00283.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00283.jpg,0.2849,0,0,False,
+BloodImage_00284.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00284.jpg,0.1272,1,1,True,possible missing: RBC 0.92; 1 possible spurious annotation(s)
+BloodImage_00285.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00285.jpg,0.2025,1,0,True,possible missing: RBC 0.81
+BloodImage_00287.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00287.jpg,0.4154,2,0,True,possible missing: RBC 0.83 (+1 more)
+BloodImage_00288.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00288.jpg,0.4613,1,0,True,possible missing: RBC 0.82
+BloodImage_00289.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00289.jpg,0.3905,1,0,True,possible missing: RBC 0.86
+BloodImage_00290.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00290.jpg,0.3598,0,0,False,
+BloodImage_00291.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00291.jpg,0.4421,0,0,False,
+BloodImage_00292.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00292.jpg,0.252,0,0,False,
+BloodImage_00292_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00292_missing.jpg,0.252,0,0,False,
+BloodImage_00293.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00293.jpg,0.3334,0,0,False,
+BloodImage_00294.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00294.jpg,0.3699,1,0,True,possible missing: RBC 0.85
+BloodImage_00295.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00295.jpg,0.3037,1,2,True,possible missing: RBC 0.82; 2 possible spurious annotation(s)
+BloodImage_00296.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00296.jpg,0.264,0,0,False,
+BloodImage_00297.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00297.jpg,0.3311,0,0,False,
+BloodImage_00298.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00298.jpg,0.2797,0,0,False,
+BloodImage_00299.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00299.jpg,0.2963,0,0,False,
+BloodImage_00300.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00300.jpg,0.3156,0,0,False,
+BloodImage_00301.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00301.jpg,0.3836,0,0,False,
+BloodImage_00302.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00302.jpg,0.4419,0,0,False,
+BloodImage_00303.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00303.jpg,0.09,0,0,False,
+BloodImage_00304.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00304.jpg,0.4849,0,0,False,
+BloodImage_00305.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00305.jpg,0.252,1,0,True,possible missing: RBC 0.83
+BloodImage_00307.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00307.jpg,0.4594,0,0,False,
+BloodImage_00308.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00308.jpg,0.327,0,0,False,
+BloodImage_00309.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00309.jpg,0.4665,0,0,False,
+BloodImage_00309_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00309_wrong.jpg,0.8429,0,0,True,annotated Platelets: mistakenness 0.84
+BloodImage_00310.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00310.jpg,0.3344,0,0,False,
+BloodImage_00311.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00311.jpg,0.2353,0,0,False,
+BloodImage_00312.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00312.jpg,0.4558,1,0,True,possible missing: RBC 0.87
+BloodImage_00313.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00313.jpg,0.4262,0,0,False,
+BloodImage_00314.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00314.jpg,0.4024,0,0,False,
+BloodImage_00314_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00314_missing.jpg,0.3975,1,0,True,possible missing: Platelets 0.86
+BloodImage_00315.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00315.jpg,0.3171,0,0,False,
+BloodImage_00317.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00317.jpg,0.3207,0,0,False,
+BloodImage_00318.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00318.jpg,0.3613,1,0,True,possible missing: RBC 0.88
+BloodImage_00318_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00318_wrong.jpg,0.9128,1,0,True,annotated Platelets: mistakenness 0.91; possible missing: RBC 0.88
+BloodImage_00319.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00319.jpg,0.3929,1,1,True,possible missing: RBC 0.82; 1 possible spurious annotation(s)
+BloodImage_00320.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00320.jpg,0.4665,0,0,False,
+BloodImage_00322.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00322.jpg,0.3342,0,0,False,
+BloodImage_00323.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00323.jpg,0.2584,1,0,True,possible missing: RBC 0.86
+BloodImage_00324.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00324.jpg,0.2517,0,0,False,
+BloodImage_00324_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00324_missing.jpg,0.2147,0,0,False,
+BloodImage_00325.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00325.jpg,0.4905,0,0,False,
+BloodImage_00326.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00326.jpg,0.4458,0,0,False,
+BloodImage_00327.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00327.jpg,0.2265,0,0,False,
+BloodImage_00330.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00330.jpg,0.0283,1,0,True,possible missing: RBC 0.82
+BloodImage_00331.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00331.jpg,0.1758,1,1,True,possible missing: RBC 0.85; 1 possible spurious annotation(s)
+BloodImage_00332.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00332.jpg,0.3843,1,0,True,possible missing: RBC 0.89
+BloodImage_00333.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00333.jpg,0.4338,2,0,True,possible missing: RBC 0.88 (+1 more)
+BloodImage_00334.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00334.jpg,0.27,0,0,False,
+BloodImage_00335.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00335.jpg,0.2978,0,0,False,
+BloodImage_00336.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00336.jpg,0.4124,2,0,True,possible missing: RBC 0.83 (+1 more)
+BloodImage_00337.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00337.jpg,0.4257,2,1,True,possible missing: RBC 0.82 (+1 more); 1 possible spurious annotation(s)
+BloodImage_00338.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00338.jpg,0.4651,2,0,True,possible missing: RBC 0.85 (+1 more)
+BloodImage_00339.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00339.jpg,0.3308,0,0,False,
+BloodImage_00340.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00340.jpg,0.3876,0,0,False,
+BloodImage_00340_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00340_wrong.jpg,0.9475,0,0,True,annotated WBC: mistakenness 0.95
+BloodImage_00341.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00341.jpg,0.1841,0,0,False,
+BloodImage_00341_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00341_missing.jpg,0.1841,2,0,True,possible missing: WBC 0.93 (+1 more)
+BloodImage_00342.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00342.jpg,0.3729,1,0,True,possible missing: RBC 0.85
+BloodImage_00343.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00343.jpg,0.3758,1,0,True,possible missing: RBC 0.87
+BloodImage_00344.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00344.jpg,0.4424,1,0,True,possible missing: RBC 0.82
+BloodImage_00345.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00345.jpg,0.278,2,0,True,possible missing: RBC 0.88 (+1 more)
+BloodImage_00346.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00346.jpg,0.2541,0,0,False,
+BloodImage_00347.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00347.jpg,0.3659,1,0,True,possible missing: RBC 0.81
+BloodImage_00347_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00347_missing.jpg,0.3659,2,0,True,possible missing: RBC 0.84 (+1 more)
+BloodImage_00348.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00348.jpg,0.2145,0,0,False,
+BloodImage_00348_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00348_wrong.jpg,0.9198,0,0,True,annotated WBC: mistakenness 0.92
+BloodImage_00349.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00349.jpg,0.3234,0,0,False,
+BloodImage_00350.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00350.jpg,0.0691,2,0,True,possible missing: RBC 0.85 (+1 more)
+BloodImage_00351.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00351.jpg,0.2964,0,0,False,
+BloodImage_00352.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00352.jpg,0.4682,0,0,False,
+BloodImage_00353.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00353.jpg,0.3789,1,0,True,possible missing: RBC 0.82
+BloodImage_00354.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00354.jpg,0.4053,1,0,True,possible missing: RBC 0.82
+BloodImage_00355.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00355.jpg,0.3855,1,0,True,possible missing: RBC 0.84
+BloodImage_00356.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00356.jpg,0.3139,0,0,False,
+BloodImage_00357.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00357.jpg,0.4164,0,0,False,
+BloodImage_00359.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00359.jpg,0.159,0,0,False,
+BloodImage_00360.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00360.jpg,0.2083,0,0,False,
+BloodImage_00361.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00361.jpg,0.3754,0,0,False,
+BloodImage_00362.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00362.jpg,0.495,0,0,False,
+BloodImage_00364.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00364.jpg,0.2917,0,0,False,
+BloodImage_00365.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00365.jpg,0.2647,1,0,True,possible missing: RBC 0.81
+BloodImage_00366.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00366.jpg,0.3784,0,0,False,
+BloodImage_00367.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00367.jpg,0.3216,0,0,False,
+BloodImage_00368.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00368.jpg,0.4588,0,0,False,
+BloodImage_00368_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00368_missing.jpg,0.4588,0,0,False,
+BloodImage_00369.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00369.jpg,0.2703,0,0,False,
+BloodImage_00370.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00370.jpg,0.2276,0,0,False,
+BloodImage_00371.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00371.jpg,0.3588,0,0,False,
+BloodImage_00372.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00372.jpg,0.3391,0,0,False,
+BloodImage_00374.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00374.jpg,0.2648,0,0,False,
+BloodImage_00374_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00374_missing.jpg,0.2648,2,0,True,possible missing: RBC 0.92 (+1 more)
+BloodImage_00375.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00375.jpg,0.3654,0,0,False,
+BloodImage_00376.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00376.jpg,0.3432,0,0,False,
+BloodImage_00377.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00377.jpg,0.3393,0,0,False,
+BloodImage_00378.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00378.jpg,0.2945,0,0,False,
+BloodImage_00379.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00379.jpg,0.4569,0,0,False,
+BloodImage_00381.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00381.jpg,0.4473,0,0,False,
+BloodImage_00382.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00382.jpg,0.2902,1,0,True,possible missing: RBC 0.81
+BloodImage_00383.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00383.jpg,0.3575,0,0,False,
+BloodImage_00384.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00384.jpg,0.1871,0,0,False,
+BloodImage_00385.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00385.jpg,0.395,0,0,False,
+BloodImage_00386.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00386.jpg,0.2502,0,0,False,
+BloodImage_00387.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00387.jpg,0.3048,0,0,False,
+BloodImage_00388.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00388.jpg,0.3016,0,0,False,
+BloodImage_00389.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00389.jpg,0.4007,0,0,False,
+BloodImage_00389_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00389_missing.jpg,0.4007,1,0,True,possible missing: WBC 0.88
+BloodImage_00390.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00390.jpg,0.2961,0,0,False,
+BloodImage_00391.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00391.jpg,0.172,0,0,False,
+BloodImage_00392.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00392.jpg,0.1785,0,0,False,
+BloodImage_00393.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00393.jpg,0.3602,1,0,True,possible missing: RBC 0.82
+BloodImage_00395.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00395.jpg,0.2688,0,0,False,
+BloodImage_00396.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00396.jpg,0.3952,0,0,False,
+BloodImage_00397.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00397.jpg,0.2801,0,0,False,
+BloodImage_00398.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00398.jpg,0.3556,0,0,False,
+BloodImage_00400.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00400.jpg,0.428,0,0,False,
+BloodImage_00402.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00402.jpg,0.2925,0,0,False,
+BloodImage_00403.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00403.jpg,0.448,0,1,True,1 possible spurious annotation(s)
+BloodImage_00403_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00403_wrong.jpg,0.9621,0,1,True,annotated WBC: mistakenness 0.96; 1 possible spurious annotation(s)
+BloodImage_00404.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00404.jpg,0.2608,0,0,False,
+BloodImage_00405.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00405.jpg,0.3439,0,0,False,
+BloodImage_00405_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00405_missing.jpg,0.3439,0,0,False,
+BloodImage_00407.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00407.jpg,0.3583,0,0,False,
+BloodImage_00408.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00408.jpg,0.3452,0,0,False,
+BloodImage_00409.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00409.jpg,0.4388,0,0,False,
+BloodImage_00410.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00410.jpg,0.3574,0,0,False,

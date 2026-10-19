@@ -1,0 +1,7 @@
+error_label,count
+Background false positive,4683
+Localization,2296
+Classification + localization,1005
+Duplicate,809
+Classification,398
+Missed ground truth,334

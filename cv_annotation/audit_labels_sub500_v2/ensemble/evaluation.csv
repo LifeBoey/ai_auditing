@@ -1,0 +1,13 @@
+what,wrong_top50,wrong_top100,wrong_auc,missing_top50,missing_top100,missing_auc,any_top50,any_top100,any_auc
+method cleanlab_rcnn,5,10,0.7398,5,9,0.6124,10,19,0.6761
+method cleanlab_yolo11x,11,20,0.8625,5,6,0.6435,16,26,0.753
+method fiftyone_rcnn,6,7,0.7561,4,13,0.6763,10,20,0.7162
+method fiftyone_yolo11x,8,21,0.8801,9,14,0.7662,17,35,0.8232
+method flags_rcnn,12,17,0.8638,15,17,0.8753,27,34,0.8696
+method flags_yolo11x,13,20,0.9159,13,20,0.84,26,40,0.8779
+rule rrf (final),12,20,0.8987,10,14,0.8307,22,34,0.8647
+rule mean,12,19,0.902,11,15,0.8169,23,34,0.8595
+rule max,10,19,0.8767,9,15,0.8312,19,34,0.8539
+rule vote,12,19,0.9066,11,15,0.8196,23,34,0.8631
+rrf without rcnn,14,21,0.9176,11,17,0.817,25,38,0.8673
+rrf without yolo11x,9,16,0.8405,10,14,0.7974,19,30,0.819

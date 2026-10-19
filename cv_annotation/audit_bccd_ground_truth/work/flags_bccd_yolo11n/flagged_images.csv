@@ -1,0 +1,9 @@
+file_path,file_name,image_id,score,max_severity,flagged,main_issue,main_reason,n_wrong_class,n_bad_location,n_unsupported,n_low_confidence,n_duplicate_box,n_invalid_box,n_missing,n_annotations,n_predictions,eval_tp,eval_fp,eval_fn
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00331.jpg,BloodImage_00331.jpg,293,0.9981,0.9217,True,duplicate_box,annotated RBC twice at IoU 0.92 (same as annotation 3850),0,0,0,0,1,0,3,15,37,14,7,1
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00020.jpg,BloodImage_00020.jpg,21,0.9945,0.9286,True,duplicate_box,annotated RBC twice at IoU 0.93 (same as annotation 371),0,2,1,3,1,0,0,23,81,11,0,12
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00284.jpg,BloodImage_00284.jpg,252,0.9944,0.9312,True,duplicate_box,annotated RBC twice at IoU 0.93 (same as annotation 3368),0,0,0,0,1,0,1,11,28,10,3,1
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00100.jpg,BloodImage_00100.jpg,92,0.988,0.9325,True,duplicate_box,annotated RBC twice at IoU 0.93 (same as annotation 1504),0,2,0,2,1,0,0,17,33,10,2,7
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00403.jpg,BloodImage_00403.jpg,358,0.9739,0.9326,True,duplicate_box,annotated RBC twice at IoU 0.93 (same as annotation 4767),0,1,0,1,1,0,0,18,50,12,1,6
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00251.jpg,BloodImage_00251.jpg,220,0.9662,0.933,True,duplicate_box,annotated RBC twice at IoU 0.93 (same as annotation 3025),0,0,0,0,1,0,1,9,52,5,4,4
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00073.jpg,BloodImage_00073.jpg,69,0.9652,0.9269,True,missing,model sees RBC 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.00),0,1,0,1,0,0,1,14,65,12,2,2
+/home/bjieyong/aiverify2/auditing/DATA/bccd_images/BloodImage_00104.jpg,BloodImage_00104.jpg,95,0.9528,0.9152,True,duplicate_box,annotated RBC twice at IoU 0.92 (same as annotation 1566),0,1,0,0,1,0,0,16,54,10,2,6

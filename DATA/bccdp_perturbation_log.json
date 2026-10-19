@@ -1,0 +1,2363 @@
+{
+  "seed": 42,
+  "missing_fraction": 0.3,
+  "wrong_fraction": 0.3,
+  "perturbations": [
+    {
+      "image": "BloodImage_00368_missing.jpg",
+      "source": "BloodImage_00368.jpg",
+      "type": "missing",
+      "n_original": 14,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            231,
+            87,
+            337,
+            177
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            370,
+            144,
+            482,
+            237
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            366,
+            217,
+            512,
+            334
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            262,
+            164,
+            357,
+            250
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00062_missing.jpg",
+      "source": "BloodImage_00062.jpg",
+      "type": "missing",
+      "n_original": 13,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            61,
+            1,
+            160,
+            72
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            521,
+            231,
+            629,
+            328
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            360,
+            283,
+            451,
+            374
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            140,
+            161,
+            264,
+            253
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00012_missing.jpg",
+      "source": "BloodImage_00012.jpg",
+      "type": "missing",
+      "n_original": 19,
+      "n_removed": 6,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            14,
+            335,
+            125,
+            434
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            329,
+            376,
+            412,
+            477
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            377,
+            210,
+            483,
+            314
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            299,
+            431,
+            381,
+            480
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            564,
+            232,
+            640,
+            328
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            349,
+            146,
+            475,
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00164_missing.jpg",
+      "source": "BloodImage_00164.jpg",
+      "type": "missing",
+      "n_original": 12,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            532,
+            151,
+            639,
+            268
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            345,
+            124,
+            451,
+            245
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            455,
+            69,
+            593,
+            184
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            309,
+            233,
+            415,
+            354
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00145_missing.jpg",
+      "source": "BloodImage_00145.jpg",
+      "type": "missing",
+      "n_original": 14,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            375,
+            102,
+            479,
+            211
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            3,
+            76,
+            112,
+            175
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            340,
+            300,
+            385,
+            346
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            498,
+            114,
+            621,
+            236
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00133_missing.jpg",
+      "source": "BloodImage_00133.jpg",
+      "type": "missing",
+      "n_original": 10,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            336,
+            158,
+            443,
+            256
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            552,
+            200,
+            640,
+            318
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            520,
+            312,
+            632,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00076_missing.jpg",
+      "source": "BloodImage_00076.jpg",
+      "type": "missing",
+      "n_original": 12,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            117,
+            398,
+            214,
+            476
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            221,
+            383,
+            324,
+            464
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            158,
+            136,
+            284,
+            215
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            102,
+            1,
+            199,
+            78
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00055_missing.jpg",
+      "source": "BloodImage_00055.jpg",
+      "type": "missing",
+      "n_original": 14,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            555,
+            304,
+            640,
+            415
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            280,
+            407,
+            366,
+            480
+          ]
+        },
+        {
+          "class": "WBC",
+          "bbox_xyxy": [
+            153,
+            134,
+            275,
+            258
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            77,
+            1,
+            186,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00389_missing.jpg",
+      "source": "BloodImage_00389.jpg",
+      "type": "missing",
+      "n_original": 8,
+      "n_removed": 2,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            305,
+            79,
+            424,
+            195
+          ]
+        },
+        {
+          "class": "WBC",
+          "bbox_xyxy": [
+            1,
+            11,
+            222,
+            221
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00314_missing.jpg",
+      "source": "BloodImage_00314.jpg",
+      "type": "missing",
+      "n_original": 16,
+      "n_removed": 5,
+      "removed": [
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            187,
+            427,
+            231,
+            470
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            98,
+            49,
+            143,
+            85
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            77,
+            230,
+            116,
+            268
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            259,
+            1,
+            297,
+            26
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            445,
+            41,
+            545,
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00046_missing.jpg",
+      "source": "BloodImage_00046.jpg",
+      "type": "missing",
+      "n_original": 24,
+      "n_removed": 7,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            157,
+            391,
+            262,
+            480
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            47,
+            237,
+            99,
+            281
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            521,
+            90,
+            609,
+            181
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            463,
+            172,
+            551,
+            263
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            218,
+            417,
+            315,
+            480
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            340,
+            143,
+            473,
+            259
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            61,
+            313,
+            174,
+            417
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00341_missing.jpg",
+      "source": "BloodImage_00341.jpg",
+      "type": "missing",
+      "n_original": 10,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "WBC",
+          "bbox_xyxy": [
+            356,
+            70,
+            582,
+            317
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            152,
+            322,
+            265,
+            428
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            58,
+            45,
+            175,
+            141
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00248_missing.jpg",
+      "source": "BloodImage_00248.jpg",
+      "type": "missing",
+      "n_original": 12,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            1,
+            357,
+            84,
+            454
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            348,
+            187,
+            464,
+            291
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            102,
+            47,
+            218,
+            151
+          ]
+        },
+        {
+          "class": "WBC",
+          "bbox_xyxy": [
+            149,
+            233,
+            354,
+            423
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00016_missing.jpg",
+      "source": "BloodImage_00016.jpg",
+      "type": "missing",
+      "n_original": 13,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            324,
+            115,
+            418,
+            236
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            427,
+            364,
+            519,
+            477
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            97,
+            327,
+            129,
+            365
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            450,
+            329,
+            542,
+            442
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00015_missing.jpg",
+      "source": "BloodImage_00015.jpg",
+      "type": "missing",
+      "n_original": 16,
+      "n_removed": 5,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            1,
+            396,
+            134,
+            480
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            248,
+            201,
+            351,
+            308
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            1,
+            272,
+            102,
+            379
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            411,
+            359,
+            522,
+            459
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            564,
+            140,
+            640,
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00049_missing.jpg",
+      "source": "BloodImage_00049.jpg",
+      "type": "missing",
+      "n_original": 19,
+      "n_removed": 6,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            279,
+            236,
+            377,
+            343
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            1,
+            124,
+            87,
+            267
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            369,
+            171,
+            480,
+            263
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            556,
+            347,
+            639,
+            438
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            378,
+            44,
+            485,
+            164
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            453,
+            1,
+            594,
+            108
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00127_missing.jpg",
+      "source": "BloodImage_00127.jpg",
+      "type": "missing",
+      "n_original": 7,
+      "n_removed": 2,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            9,
+            249,
+            109,
+            357
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            546,
+            82,
+            584,
+            118
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00139_missing.jpg",
+      "source": "BloodImage_00139.jpg",
+      "type": "missing",
+      "n_original": 12,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            258,
+            225,
+            368,
+            333
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            77,
+            226,
+            187,
+            334
+          ]
+        },
+        {
+          "class": "Platelets",
+          "bbox_xyxy": [
+            179,
+            208,
+            223,
+            245
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            159,
+            314,
+            269,
+            422
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00292_missing.jpg",
+      "source": "BloodImage_00292.jpg",
+      "type": "missing",
+      "n_original": 14,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            508,
+            354,
+            617,
+            469
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            281,
+            240,
+            383,
+            345
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            209,
+            46,
+            318,
+            142
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            44,
+            78,
+            153,
+            193
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00347_missing.jpg",
+      "source": "BloodImage_00347.jpg",
+      "type": "missing",
+      "n_original": 19,
+      "n_removed": 6,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            72,
+            45,
+            171,
+            142
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            255,
+            233,
+            356,
+            305
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            560,
+            72,
+            640,
+            190
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            109,
+            196,
+            225,
+            295
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            450,
+            1,
+            551,
+            69
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            327,
+            1,
+            428,
+            92
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00013_missing.jpg",
+      "source": "BloodImage_00013.jpg",
+      "type": "missing",
+      "n_original": 15,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            255,
+            283,
+            371,
+            392
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            500,
+            214,
+            599,
+            325
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            466,
+            57,
+            564,
+            174
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            90,
+            98,
+            200,
+            189
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00324_missing.jpg",
+      "source": "BloodImage_00324.jpg",
+      "type": "missing",
+      "n_original": 12,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            244,
+            349,
+            369,
+            449
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            22,
+            105,
+            114,
+            201
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            326,
+            189,
+            429,
+            317
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            201,
+            206,
+            310,
+            316
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00112_missing.jpg",
+      "source": "BloodImage_00112.jpg",
+      "type": "missing",
+      "n_original": 15,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            430,
+            243,
+            525,
+            337
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            205,
+            30,
+            314,
+            143
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            423,
+            385,
+            518,
+            480
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            178,
+            350,
+            278,
+            438
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00374_missing.jpg",
+      "source": "BloodImage_00374.jpg",
+      "type": "missing",
+      "n_original": 11,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            555,
+            225,
+            640,
+            344
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            107,
+            28,
+            212,
+            125
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            485,
+            332,
+            602,
+            450
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00405_missing.jpg",
+      "source": "BloodImage_00405.jpg",
+      "type": "missing",
+      "n_original": 15,
+      "n_removed": 4,
+      "removed": [
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            376,
+            142,
+            480,
+            239
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            1,
+            203,
+            68,
+            322
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            176,
+            212,
+            291,
+            315
+          ]
+        },
+        {
+          "class": "RBC",
+          "bbox_xyxy": [
+            151,
+            1,
+            245,
+            89
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00246_wrong.jpg",
+      "source": "BloodImage_00246.jpg",
+      "type": "wrong",
+      "n_original": 14,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "WBC",
+          "to": "RBC",
+          "bbox_xyxy": [
+            132,
+            274,
+            355,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            354,
+            116,
+            467,
+            204
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            559,
+            212,
+            640,
+            358
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            513,
+            75,
+            625,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00130_wrong.jpg",
+      "source": "BloodImage_00130.jpg",
+      "type": "wrong",
+      "n_original": 9,
+      "n_changed": 3,
+      "changed": [
+        {
+          "from": "WBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            238,
+            53,
+            414,
+            210
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            470,
+            282,
+            551,
+            370
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            254,
+            231,
+            335,
+            323
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00261_wrong.jpg",
+      "source": "BloodImage_00261.jpg",
+      "type": "wrong",
+      "n_original": 10,
+      "n_changed": 3,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            278,
+            358,
+            408,
+            467
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            492,
+            250,
+            596,
+            355
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            162,
+            65,
+            274,
+            175
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00340_wrong.jpg",
+      "source": "BloodImage_00340.jpg",
+      "type": "wrong",
+      "n_original": 12,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            296,
+            1,
+            421,
+            73
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            401,
+            44,
+            531,
+            158
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            491,
+            150,
+            580,
+            277
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            152,
+            225,
+            284,
+            326
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00166_wrong.jpg",
+      "source": "BloodImage_00166.jpg",
+      "type": "wrong",
+      "n_original": 13,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            5,
+            198,
+            127,
+            299
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            494,
+            357,
+            578,
+            466
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            383,
+            353,
+            491,
+            468
+          ]
+        },
+        {
+          "from": "Platelets",
+          "to": "WBC",
+          "bbox_xyxy": [
+            509,
+            182,
+            555,
+            223
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00003_wrong.jpg",
+      "source": "BloodImage_00003.jpg",
+      "type": "wrong",
+      "n_original": 17,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            49,
+            396,
+            183,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            1,
+            347,
+            86,
+            434
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            1,
+            126,
+            79,
+            240
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            47,
+            202,
+            158,
+            317
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            56,
+            66,
+            151,
+            211
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00089_wrong.jpg",
+      "source": "BloodImage_00089.jpg",
+      "type": "wrong",
+      "n_original": 12,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            211,
+            345,
+            321,
+            417
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            1,
+            20,
+            80,
+            146
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            26,
+            59,
+            129,
+            169
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            487,
+            159,
+            604,
+            275
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00403_wrong.jpg",
+      "source": "BloodImage_00403.jpg",
+      "type": "wrong",
+      "n_original": 18,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            1,
+            14,
+            90,
+            122
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            339,
+            159,
+            466,
+            262
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            303,
+            284,
+            374,
+            389
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            490,
+            10,
+            590,
+            116
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            234,
+            84,
+            361,
+            187
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00204_wrong.jpg",
+      "source": "BloodImage_00204.jpg",
+      "type": "wrong",
+      "n_original": 17,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            567,
+            193,
+            640,
+            294
+          ]
+        },
+        {
+          "from": "Platelets",
+          "to": "RBC",
+          "bbox_xyxy": [
+            266,
+            54,
+            304,
+            83
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            485,
+            308,
+            584,
+            407
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            435,
+            426,
+            527,
+            477
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            337,
+            1,
+            441,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00087_wrong.jpg",
+      "source": "BloodImage_00087.jpg",
+      "type": "wrong",
+      "n_original": 8,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            296,
+            86,
+            402,
+            179
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            373,
+            386,
+            479,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00126_wrong.jpg",
+      "source": "BloodImage_00126.jpg",
+      "type": "wrong",
+      "n_original": 12,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "WBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            400,
+            370,
+            547,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            307,
+            235,
+            409,
+            328
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            330,
+            133,
+            442,
+            227
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            444,
+            129,
+            550,
+            204
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00202_wrong.jpg",
+      "source": "BloodImage_00202.jpg",
+      "type": "wrong",
+      "n_original": 13,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            550,
+            218,
+            640,
+            326
+          ]
+        },
+        {
+          "from": "WBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            389,
+            341,
+            604,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            286,
+            375,
+            405,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            203,
+            318,
+            321,
+            409
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00225_wrong.jpg",
+      "source": "BloodImage_00225.jpg",
+      "type": "wrong",
+      "n_original": 14,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            176,
+            93,
+            277,
+            192
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            206,
+            252,
+            312,
+            355
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            46,
+            335,
+            152,
+            438
+          ]
+        },
+        {
+          "from": "WBC",
+          "to": "RBC",
+          "bbox_xyxy": [
+            262,
+            1,
+            543,
+            217
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00052_wrong.jpg",
+      "source": "BloodImage_00052.jpg",
+      "type": "wrong",
+      "n_original": 18,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            6,
+            388,
+            121,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            448,
+            392,
+            547,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            22,
+            278,
+            136,
+            401
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            481,
+            236,
+            546,
+            321
+          ]
+        },
+        {
+          "from": "WBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            113,
+            232,
+            241,
+            366
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00214_wrong.jpg",
+      "source": "BloodImage_00214.jpg",
+      "type": "wrong",
+      "n_original": 18,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            206,
+            125,
+            333,
+            236
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            146,
+            341,
+            249,
+            446
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            487,
+            408,
+            600,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            32,
+            272,
+            135,
+            377
+          ]
+        },
+        {
+          "from": "Platelets",
+          "to": "RBC",
+          "bbox_xyxy": [
+            1,
+            75,
+            34,
+            123
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00206_wrong.jpg",
+      "source": "BloodImage_00206.jpg",
+      "type": "wrong",
+      "n_original": 17,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            93,
+            1,
+            198,
+            95
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            285,
+            263,
+            379,
+            355
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            395,
+            71,
+            499,
+            174
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            167,
+            298,
+            289,
+            410
+          ]
+        },
+        {
+          "from": "Platelets",
+          "to": "WBC",
+          "bbox_xyxy": [
+            453,
+            292,
+            491,
+            329
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00348_wrong.jpg",
+      "source": "BloodImage_00348.jpg",
+      "type": "wrong",
+      "n_original": 15,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            373,
+            116,
+            470,
+            221
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            395,
+            389,
+            508,
+            480
+          ]
+        },
+        {
+          "from": "WBC",
+          "to": "RBC",
+          "bbox_xyxy": [
+            62,
+            7,
+            294,
+            225
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            103,
+            220,
+            224,
+            322
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00159_wrong.jpg",
+      "source": "BloodImage_00159.jpg",
+      "type": "wrong",
+      "n_original": 9,
+      "n_changed": 3,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            487,
+            20,
+            620,
+            137
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            487,
+            253,
+            598,
+            363
+          ]
+        },
+        {
+          "from": "Platelets",
+          "to": "RBC",
+          "bbox_xyxy": [
+            544,
+            213,
+            600,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00022_wrong.jpg",
+      "source": "BloodImage_00022.jpg",
+      "type": "wrong",
+      "n_original": 16,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "Platelets",
+          "to": "WBC",
+          "bbox_xyxy": [
+            149,
+            1,
+            188,
+            30
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            289,
+            142,
+            392,
+            234
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            471,
+            143,
+            579,
+            263
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            441,
+            59,
+            579,
+            163
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            406,
+            374,
+            538,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00267_wrong.jpg",
+      "source": "BloodImage_00267.jpg",
+      "type": "wrong",
+      "n_original": 4,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "Platelets",
+          "to": "WBC",
+          "bbox_xyxy": [
+            15,
+            309,
+            53,
+            350
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00309_wrong.jpg",
+      "source": "BloodImage_00309.jpg",
+      "type": "wrong",
+      "n_original": 13,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            452,
+            314,
+            566,
+            414
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            1,
+            1,
+            96,
+            98
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            286,
+            197,
+            382,
+            296
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            505,
+            222,
+            608,
+            325
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00068_wrong.jpg",
+      "source": "BloodImage_00068.jpg",
+      "type": "wrong",
+      "n_original": 14,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            29,
+            394,
+            120,
+            479
+          ]
+        },
+        {
+          "from": "WBC",
+          "to": "RBC",
+          "bbox_xyxy": [
+            1,
+            224,
+            94,
+            351
+          ]
+        },
+        {
+          "from": "Platelets",
+          "to": "WBC",
+          "bbox_xyxy": [
+            322,
+            110,
+            356,
+            147
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            388,
+            147,
+            488,
+            243
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00224_wrong.jpg",
+      "source": "BloodImage_00224.jpg",
+      "type": "wrong",
+      "n_original": 2,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "Platelets",
+          "to": "RBC",
+          "bbox_xyxy": [
+            300,
+            87,
+            334,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00042_wrong.jpg",
+      "source": "BloodImage_00042.jpg",
+      "type": "wrong",
+      "n_original": 16,
+      "n_changed": 5,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            151,
+            1,
+            260,
+            84
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            545,
+            81,
+            640,
+            207
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            545,
+            187,
+            639,
+            313
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            236,
+            281,
+            330,
+            377
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            463,
+            384,
+            563,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "image": "BloodImage_00318_wrong.jpg",
+      "source": "BloodImage_00318.jpg",
+      "type": "wrong",
+      "n_original": 12,
+      "n_changed": 4,
+      "changed": [
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            377,
+            60,
+            488,
+            182
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            35,
+            392,
+            142,
+            480
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "Platelets",
+          "bbox_xyxy": [
+            1,
+            268,
+            82,
+            392
+          ]
+        },
+        {
+          "from": "RBC",
+          "to": "WBC",
+          "bbox_xyxy": [
+            470,
+            95,
+            560,
+            212
+          ]
+        }
+      ]
+    }
+  ]
+}

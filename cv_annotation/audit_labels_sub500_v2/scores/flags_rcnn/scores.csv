@@ -1,0 +1,501 @@
+file_name,file_path,s_score,s_max_severity,flagged,reason
+000000000139.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000000139.jpg,0.9998,0.9462,True,missing: model sees dining table 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.13)
+000000000785.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000000785.jpg,0.0,0.0,False,
+000000000785_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000000785_missing.jpg,0.9494,0.9494,True,missing: model sees skis 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+000000001425.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000001425.jpg,0.0,0.0,False,
+000000001818.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000001818.jpg,0.0,0.0,False,
+000000002431.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000002431.jpg,0.992,0.9086,True,missing: model sees cup 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.22)
+000000006614.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000006614.jpg,0.9739,0.8609,False,missing: model sees donut 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000006614_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000006614_missing.jpg,0.9591,0.8609,False,missing: model sees donut 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000006818.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000006818.jpg,0.0,0.0,False,
+000000007511.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000007511.jpg,0.307,0.0855,False,unsupported: annotated kite; nothing predicted there
+000000007977.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000007977.jpg,0.6297,0.2118,False,low_confidence: annotated person; model only gives person 0.00
+000000010583.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000010583.jpg,0.9803,0.8508,False,missing: model sees pizza 0.85 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+000000011149.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000011149.jpg,0.7159,0.7159,False,missing: model sees person 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.38)
+000000012280.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000012280.jpg,0.4523,0.3416,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.46 (score 0.63)
+000000012667.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000012667.jpg,0.9905,0.9289,True,missing: model sees remote 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.27)
+000000013201.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000013201.jpg,0.0,0.0,False,
+000000013774.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000013774.jpg,0.3,0.0,False,low_confidence: annotated frisbee; model only gives frisbee 0.00
+000000015660.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000015660.jpg,0.835,0.8108,False,missing: model sees surfboard 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.18)
+000000017178.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000017178.jpg,0.1382,0.0,False,low_confidence: annotated horse; model only gives horse 0.16
+000000018150.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000018150.jpg,0.9555,0.7557,False,missing: model sees teddy bear 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+000000018193.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000018193.jpg,0.9361,0.9359,True,missing: model sees chair 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+000000018837.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000018837.jpg,0.9735,0.9427,True,missing: model sees bus 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+000000022935.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000022935.jpg,0.0,0.0,False,
+000000023666.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000023666.jpg,0.0,0.0,False,
+000000027620.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000027620.jpg,0.0,0.0,False,
+000000028452.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000028452.jpg,0.0,0.0,False,
+000000028452_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000028452_wrong.jpg,0.9925,0.9925,True,wrong_class: annotated wine glass; model says bottle 0.99 at IoU 0.87 (wine glass 0.00)
+000000029397.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000029397.jpg,0.9644,0.8223,False,missing: model sees book 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.13)
+000000030213.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000030213.jpg,0.8539,0.4653,False,bad_location: annotated apple; best confident apple box only overlaps at IoU 0.16 (score 0.55)
+000000031735.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000031735.jpg,0.0,0.0,False,
+000000031817.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000031817.jpg,0.9831,0.8298,False,missing: model sees person 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.36)
+000000032610.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000032610.jpg,0.999,0.8398,False,missing: model sees keyboard 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.27)
+000000033114.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000033114.jpg,0.9671,0.92,True,wrong_class: annotated parking meter; model says fire hydrant 0.93 at IoU 0.89 (parking meter 0.01)
+000000034071.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000034071.jpg,0.0,0.0,False,
+000000034205.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000034205.jpg,0.9482,0.7541,False,bad_location: annotated broccoli; best confident broccoli box only overlaps at IoU 0.14 (score 0.88)
+000000034760.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000034760.jpg,0.0,0.0,False,
+000000036539.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000036539.jpg,0.3588,0.3588,False,missing: model sees skis 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000036660.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000036660.jpg,0.9919,0.8681,False,missing: model sees person 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.23)
+000000036936.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000036936.jpg,0.9996,0.9402,True,missing: model sees dining table 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.27)
+000000038048.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000038048.jpg,0.3018,0.0912,False,low_confidence: annotated handbag; model only gives handbag 0.12
+000000038118.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000038118.jpg,0.0,0.0,False,
+000000041872.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000041872.jpg,0.0,0.0,False,
+000000042102.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000042102.jpg,0.0,0.0,False,
+000000043314.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000043314.jpg,0.9696,0.9516,True,duplicate_box: annotated person twice at IoU 0.95 (same as annotation 477579)
+000000044877.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000044877.jpg,0.9996,0.8719,False,missing: model sees bicycle 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.10)
+000000046497.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000046497.jpg,0.9443,0.7804,False,missing: model sees person 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000051598.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000051598.jpg,0.339,0.3065,False,missing: model sees bottle 0.70 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000051598_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000051598_missing.jpg,0.9963,0.9944,True,missing: model sees sink 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000054164.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000054164.jpg,0.0,0.0,False,
+000000054654.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000054654.jpg,0.8511,0.3075,False,missing: model sees bottle 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000054654_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000054654_missing.jpg,0.9994,0.996,True,missing: model sees person 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.10)
+000000057244.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000057244.jpg,0.9847,0.9498,True,missing: model sees skateboard 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+000000058393.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000058393.jpg,0.9676,0.8005,False,missing: model sees person 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.24)
+000000059386.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000059386.jpg,0.9953,0.8699,False,bad_location: annotated giraffe; best confident giraffe box only overlaps at IoU 0.13 (score 1.00)
+000000060363.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000060363.jpg,0.3826,0.1242,False,low_confidence: annotated bird; model only gives bird 0.10
+000000061584.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000061584.jpg,0.9642,0.7361,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.26 (score 1.00)
+000000062025.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000062025.jpg,0.461,0.461,False,bad_location: annotated bottle; best confident bottle box only overlaps at IoU 0.49 (score 0.90)
+000000065074.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000065074.jpg,0.2574,0.0,False,low_confidence: annotated book; model only gives book 0.04
+000000066135.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000066135.jpg,0.0,0.0,False,
+000000066817.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000066817.jpg,0.9371,0.7206,False,missing: model sees bowl 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.45)
+000000067534.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000067534.jpg,0.4195,0.4195,False,bad_location: annotated chair; best confident chair box only overlaps at IoU 0.42 (score 0.72)
+000000069795.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000069795.jpg,0.0,0.0,False,
+000000073326.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000073326.jpg,1.0,0.8918,False,missing: model sees bottle 0.89 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+000000076625.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000076625.jpg,0.829,0.6037,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.40 (score 1.00)
+000000078266.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078266.jpg,0.89,0.5349,False,missing: model sees sink 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.09)
+000000078266_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078266_wrong.jpg,0.9884,0.7741,False,wrong_class: annotated microwave; model says refrigerator 0.77 at IoU 0.60 (microwave 0.00)
+000000078565.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078565.jpg,0.9649,0.5795,False,bad_location: annotated boat; best confident boat box only overlaps at IoU 0.36 (score 0.91)
+000000078823.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078823.jpg,0.7482,0.7482,False,missing: model sees chair 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.16)
+000000078915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078915.jpg,0.9997,0.6591,False,missing: model sees chair 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+000000079034.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000079034.jpg,0.6261,0.4131,False,bad_location: annotated car; best confident car box only overlaps at IoU 0.49 (score 0.81)
+000000079034_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000079034_missing.jpg,0.9997,0.9993,True,missing: model sees fire hydrant 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000079188.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000079188.jpg,0.0,0.0,False,
+000000080022.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080022.jpg,0.0,0.0,False,
+000000080340.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080340.jpg,0.9832,0.8027,False,bad_location: annotated cup; best confident cup box only overlaps at IoU 0.12 (score 0.91)
+000000080340_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080340_missing.jpg,0.9999,0.9692,True,missing: model sees person 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+000000080932.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080932.jpg,0.9971,0.9006,True,missing: model sees chair 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.24)
+000000081061.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000081061.jpg,0.0,0.0,False,
+000000082688.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000082688.jpg,0.9999,0.9686,True,missing: model sees person 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.32)
+000000084477.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000084477.jpg,0.9621,0.9621,True,missing: model sees umbrella 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.48)
+000000087038.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000087038.jpg,0.9575,0.7875,False,missing: model sees bench 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000088040.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088040.jpg,0.9983,0.9399,True,missing: model sees spoon 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.46)
+000000088345.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088345.jpg,0.0,0.0,False,
+000000088462.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088462.jpg,0.6051,0.1484,False,low_confidence: annotated car; model only gives car 0.00
+000000088485.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088485.jpg,0.0,0.0,False,
+000000090155.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000090155.jpg,0.2607,0.2607,False,missing: model sees traffic light 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000094852.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000094852.jpg,0.0,0.0,False,
+000000094871.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000094871.jpg,0.9798,0.7667,False,missing: model sees backpack 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.17)
+000000094871_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000094871_wrong.jpg,0.9999,0.9937,True,wrong_class: annotated toaster; model says person 0.99 at IoU 0.90 (toaster 0.00)
+000000095069.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000095069.jpg,0.0,0.0,False,
+000000096825.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000096825.jpg,0.7557,0.6162,False,bad_location: annotated backpack; best confident backpack box only overlaps at IoU 0.36 (score 0.97)
+000000097585.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000097585.jpg,0.989,0.788,False,wrong_class: annotated vase; model says chair 0.82 at IoU 0.89 (vase 0.03)
+000000097994.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000097994.jpg,0.6707,0.328,False,unsupported: annotated mouse; nothing predicted there
+000000098261.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000098261.jpg,0.9126,0.9126,True,missing: model sees bird 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.47)
+000000098633.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000098633.jpg,0.0,0.0,False,
+000000099114.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000099114.jpg,0.9996,0.8288,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.17 (score 0.99)
+000000099114_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000099114_wrong.jpg,0.9993,0.8288,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.17 (score 0.99)
+000000101787.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000101787.jpg,0.0,0.0,False,
+000000101884.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000101884.jpg,0.6354,0.549,False,wrong_class: annotated truck; model says car 0.86 at IoU 0.85 (truck 0.31)
+000000106266.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000106266.jpg,0.7549,0.7549,False,bad_location: annotated pizza; best confident pizza box only overlaps at IoU 0.13 (score 0.86)
+000000106389.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000106389.jpg,0.9992,0.8153,False,missing: model sees book 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+000000112626.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000112626.jpg,0.0,0.0,False,
+000000112634.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000112634.jpg,0.0,0.0,False,
+000000112997.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000112997.jpg,0.9463,0.9463,True,missing: model sees cell phone 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.44)
+000000113403.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000113403.jpg,0.0,0.0,False,
+000000113720.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000113720.jpg,0.8702,0.7301,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.26 (score 0.98)
+000000115870.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000115870.jpg,0.9973,0.757,False,missing: model sees couch 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.28)
+000000115885.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000115885.jpg,0.8361,0.7903,False,missing: model sees tv 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.40)
+000000117492.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000117492.jpg,0.9994,0.8689,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.13 (score 1.00)
+000000117914.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000117914.jpg,0.9998,0.9725,True,missing: model sees toilet 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.47)
+000000122046.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122046.jpg,0.8876,0.8489,False,missing: model sees umbrella 0.85 where nothing is annotated (best overlap with an annotation: IoU 0.44)
+000000122672.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122672.jpg,0.0,0.0,False,
+000000122745.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122745.jpg,0.0,0.0,False,
+000000122969.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122969.jpg,0.0,0.0,False,
+000000127494.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000127494.jpg,0.9926,0.8357,False,missing: model sees dining table 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.22)
+000000127660.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000127660.jpg,0.2632,0.0,False,low_confidence: annotated suitcase; model only gives suitcase 0.04
+000000128051.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000128051.jpg,0.9275,0.9037,True,missing: model sees bus 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.18)
+000000129322.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000129322.jpg,0.0,0.0,False,
+000000130566.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000130566.jpg,0.0,0.0,False,
+000000131431.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000131431.jpg,0.0,0.0,False,
+000000134689.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000134689.jpg,0.0,0.0,False,
+000000138819.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000138819.jpg,0.9902,0.9902,True,missing: model sees toilet 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.38)
+000000142472.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000142472.jpg,0.9691,0.9635,True,wrong_class: annotated truck; model says car 0.99 at IoU 0.92 (truck 0.03)
+000000144798.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000144798.jpg,0.7472,0.7472,False,missing: model sees sink 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000145591.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000145591.jpg,0.0,0.0,False,
+000000146155.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000146155.jpg,0.9994,0.8127,False,missing: model sees dining table 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.17)
+000000146358.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000146358.jpg,1.0,0.8463,False,missing: model sees cake 0.85 where nothing is annotated (best overlap with an annotation: IoU 0.19)
+000000147498.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000147498.jpg,0.3187,0.0225,False,unsupported: annotated bird; nothing predicted there
+000000147725.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000147725.jpg,0.7071,0.6565,False,wrong_class: annotated truck; model says car 0.94 at IoU 0.90 (truck 0.29)
+000000149568.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000149568.jpg,0.4917,0.4917,False,bad_location: annotated dog; best confident dog box only overlaps at IoU 0.34 (score 0.74)
+000000150930.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000150930.jpg,0.3714,0.3714,False,missing: model sees clock 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+000000151938.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000151938.jpg,0.7849,0.7095,False,missing: model sees person 0.71 where nothing is annotated (best overlap with an annotation: IoU 0.40)
+000000152120.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000152120.jpg,0.0,0.0,False,
+000000153529.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000153529.jpg,0.9978,0.8603,False,missing: model sees backpack 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000153797.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000153797.jpg,0.0,0.0,False,
+000000155154.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000155154.jpg,0.1593,0.0,False,low_confidence: annotated toilet; model only gives toilet 0.14
+000000155451.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000155451.jpg,0.9959,0.8476,False,missing: model sees bowl 0.85 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000157098.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000157098.jpg,0.0,0.0,False,
+000000158744.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000158744.jpg,0.9539,0.8544,False,bad_location: annotated car; best confident car box only overlaps at IoU 0.13 (score 0.98)
+000000159791.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000159791.jpg,0.9926,0.8336,False,missing: model sees refrigerator 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.46)
+000000159791_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000159791_wrong.jpg,0.9878,0.8336,False,missing: model sees refrigerator 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.46)
+000000160864.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000160864.jpg,0.6721,0.3878,False,bad_location: annotated baseball glove; best confident baseball glove box only overlaps at IoU 0.47 (score 0.73)
+000000161642.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000161642.jpg,0.0,0.0,False,
+000000163258.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000163258.jpg,0.0,0.0,False,
+000000164115.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000164115.jpg,0.3,0.0,False,low_confidence: annotated bicycle; model only gives bicycle 0.00
+000000167240.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000167240.jpg,0.0,0.0,False,
+000000170893.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000170893.jpg,0.9146,0.9146,True,missing: model sees sink 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.12)
+000000172330.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000172330.jpg,0.0,0.0,False,
+000000172648.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000172648.jpg,0.878,0.8378,False,missing: model sees truck 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.43)
+000000173371.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000173371.jpg,0.9988,0.9805,True,missing: model sees broccoli 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000175443.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000175443.jpg,0.0,0.0,False,
+000000176799.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000176799.jpg,0.5359,0.5124,False,missing: model sees car 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000177934.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000177934.jpg,0.9543,0.8861,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.11 (score 1.00)
+000000179265.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000179265.jpg,0.7335,0.5751,False,missing: model sees potted plant 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000179642.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000179642.jpg,0.9999,0.9192,True,missing: model sees chair 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.37)
+000000180188.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000180188.jpg,0.3593,0.3593,False,missing: model sees person 0.70 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000180878.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000180878.jpg,0.5974,0.5974,False,wrong_class: annotated cake; model says car 0.61 at IoU 0.88 (cake 0.01)
+000000181303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181303.jpg,0.7424,0.7424,False,missing: model sees person 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.33)
+000000181753.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181753.jpg,0.9991,0.9412,True,missing: model sees potted plant 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+000000181796.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181796.jpg,0.9999,0.7751,False,missing: model sees bowl 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.20)
+000000181796_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181796_missing.jpg,1.0,0.9922,True,missing: model sees dining table 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.21)
+000000182202.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000182202.jpg,0.843,0.843,False,wrong_class: annotated dining table; model says laptop 0.91 at IoU 0.71 (dining table 0.07)
+000000182611.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000182611.jpg,1.0,0.9746,True,wrong_class: annotated cup; model says bowl 0.97 at IoU 0.89 (cup 0.00)
+000000184400.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000184400.jpg,0.9508,0.9308,True,missing: model sees train 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.30)
+000000186980.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000186980.jpg,0.996,0.9092,True,missing: model sees bicycle 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000187055.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000187055.jpg,0.5562,0.5562,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.44 (score 0.99)
+000000187249.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000187249.jpg,0.9627,0.7335,False,missing: model sees potted plant 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000187990.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000187990.jpg,0.0,0.0,False,
+000000189828.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000189828.jpg,0.0,0.0,False,
+000000190140.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000190140.jpg,0.9683,0.832,False,missing: model sees boat 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.48)
+000000190923.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000190923.jpg,0.9678,0.8066,False,missing: model sees backpack 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.45)
+000000191288.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000191288.jpg,0.0,0.0,False,
+000000193348.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000193348.jpg,0.0,0.0,False,
+000000193674.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000193674.jpg,0.9988,0.9779,True,missing: model sees surfboard 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.48)
+000000194724.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000194724.jpg,0.9983,0.7947,False,missing: model sees book 0.85 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+000000195045.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000195045.jpg,0.0,0.0,False,
+000000198915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000198915.jpg,0.0,0.0,False,
+000000200252.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000200252.jpg,0.2068,0.0782,False,low_confidence: annotated book; model only gives book 0.16
+000000200252_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000200252_wrong.jpg,0.9893,0.9864,True,wrong_class: annotated toilet; model says bed 0.99 at IoU 0.94 (toilet 0.00)
+000000201676.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000201676.jpg,0.0,0.0,False,
+000000201934.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000201934.jpg,0.7134,0.656,False,bad_location: annotated car; best confident car box only overlaps at IoU 0.23 (score 0.85)
+000000201934_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000201934_wrong.jpg,0.9936,0.9778,True,wrong_class: annotated train; model says bus 0.99 at IoU 0.91 (train 0.01)
+000000203629.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000203629.jpg,1.0,0.9766,True,missing: model sees person 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.44)
+000000204871.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000204871.jpg,0.5821,0.3636,False,unsupported: annotated bus; nothing predicted there
+000000205834.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000205834.jpg,0.0,0.0,False,
+000000207538.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000207538.jpg,0.0,0.0,False,
+000000209613.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000209613.jpg,0.9075,0.709,False,bad_location: annotated sheep; best confident sheep box only overlaps at IoU 0.29 (score 1.00)
+000000209757.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000209757.jpg,0.1839,0.0536,False,low_confidence: annotated person; model only gives person 0.16
+000000210030.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210030.jpg,0.0,0.0,False,
+000000210032.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210032.jpg,0.8458,0.7179,False,missing: model sees person 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.18)
+000000210394.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210394.jpg,0.9175,0.1941,False,low_confidence: annotated motorcycle; model only gives motorcycle 0.00
+000000210502.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210502.jpg,0.0,0.0,False,
+000000210502_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210502_wrong.jpg,0.971,0.971,True,wrong_class: annotated truck; model says train 0.99 at IoU 0.81 (truck 0.02)
+000000212072.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000212072.jpg,0.8204,0.6879,False,missing: model sees umbrella 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000212453.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000212453.jpg,0.8605,0.2475,False,low_confidence: annotated person; model only gives person 0.00
+000000212453_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000212453_wrong.jpg,0.8913,0.2858,False,low_confidence: annotated cow; model only gives cow 0.00
+000000213593.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000213593.jpg,0.9367,0.5829,False,missing: model sees car 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.50)
+000000214703.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000214703.jpg,0.3,0.0,False,low_confidence: annotated surfboard; model only gives surfboard 0.00
+000000214703_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000214703_wrong.jpg,0.9967,0.9954,True,wrong_class: annotated clock; model says person 1.00 at IoU 0.90 (clock 0.00)
+000000222559.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000222559.jpg,0.9926,0.6957,False,bad_location: annotated boat; best confident boat box only overlaps at IoU 0.17 (score 0.84)
+000000224119.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000224119.jpg,0.8509,0.5078,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.48 (score 0.98)
+000000226883.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000226883.jpg,0.0,0.0,False,
+000000227482.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000227482.jpg,0.1635,0.1635,False,missing: model sees clock 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000227511.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000227511.jpg,0.0,0.0,False,
+000000227985.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000227985.jpg,0.6012,0.6012,False,bad_location: annotated sandwich; best confident sandwich box only overlaps at IoU 0.39 (score 0.99)
+000000229753.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000229753.jpg,0.0,0.0,False,
+000000229948.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000229948.jpg,0.9947,0.8989,False,missing: model sees truck 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.22)
+000000229948_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000229948_missing.jpg,1.0,0.9972,True,missing: model sees horse 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.44)
+000000230450.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000230450.jpg,0.741,0.5773,False,bad_location: annotated parking meter; best confident parking meter box only overlaps at IoU 0.39 (score 0.95)
+000000231237.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000231237.jpg,0.0,0.0,False,
+000000235064.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000235064.jpg,0.0,0.0,False,
+000000235064_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000235064_wrong.jpg,0.9995,0.9995,True,wrong_class: annotated zebra; model says bear 1.00 at IoU 0.93 (zebra 0.00)
+000000236914.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000236914.jpg,0.9605,0.8098,False,missing: model sees teddy bear 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.33)
+000000237118.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000237118.jpg,0.4297,0.4297,False,unsupported: annotated refrigerator; nothing predicted there (best: refrigerator 0.04 at IoU 0.35)
+000000243626.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000243626.jpg,0.9998,0.9877,True,missing: model sees sandwich 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000244019.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000244019.jpg,0.0,0.0,False,
+000000245915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000245915.jpg,0.1941,0.1941,False,unsupported: annotated elephant; nothing predicted there
+000000246522.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000246522.jpg,0.0,0.0,False,
+000000246963.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000246963.jpg,0.6303,0.6303,False,bad_location: annotated motorcycle; best confident motorcycle box only overlaps at IoU 0.27 (score 0.87)
+000000246968.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000246968.jpg,1.0,0.9126,True,missing: model sees potted plant 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.40)
+000000247806.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000247806.jpg,0.0,0.0,False,
+000000248314.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000248314.jpg,0.9931,0.8442,False,missing: model sees dining table 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.39)
+000000256518.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000256518.jpg,0.9812,0.8453,False,wrong_class: annotated spoon; model says knife 0.88 at IoU 0.78 (spoon 0.04)
+000000256518_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000256518_wrong.jpg,0.9998,0.9878,True,wrong_class: annotated bowl; model says cup 1.00 at IoU 0.94 (bowl 0.01)
+000000257370.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000257370.jpg,0.9905,0.8225,False,missing: model sees potted plant 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.33)
+000000259382.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259382.jpg,0.0,0.0,False,
+000000259625.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259625.jpg,0.0,0.0,False,
+000000259690.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259690.jpg,0.9989,0.8029,False,wrong_class: annotated chair; model says bicycle 0.80 at IoU 0.71 (chair 0.00)
+000000259690_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259690_wrong.jpg,1.0,0.9994,True,wrong_class: annotated remote; model says person 1.00 at IoU 0.93 (remote 0.00)
+000000262487.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000262487.jpg,0.992,0.9802,True,missing: model sees person 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.35)
+000000262895.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000262895.jpg,0.0,0.0,False,
+000000263299.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000263299.jpg,0.9223,0.9223,True,missing: model sees surfboard 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.13)
+000000266409.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000266409.jpg,0.9821,0.931,True,missing: model sees backpack 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.11)
+000000267434.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000267434.jpg,0.0,0.0,False,
+000000267434_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000267434_wrong.jpg,0.9942,0.9942,True,wrong_class: annotated elephant; model says cow 0.99 at IoU 0.93 (elephant 0.00)
+000000267946.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000267946.jpg,0.0,0.0,False,
+000000269113.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000269113.jpg,0.8113,0.8113,False,bad_location: annotated dog; best confident dog box only overlaps at IoU 0.19 (score 1.00)
+000000275727.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000275727.jpg,0.0,0.0,False,
+000000275791.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000275791.jpg,0.9479,0.7255,False,bad_location: annotated boat; best confident boat box only overlaps at IoU 0.13 (score 0.83)
+000000277051.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000277051.jpg,0.9918,0.9659,True,duplicate_box: annotated bird twice at IoU 0.97 (same as annotation 2229976)
+000000277197.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000277197.jpg,0.9947,0.8332,False,missing: model sees chair 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+000000277689.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000277689.jpg,0.9996,0.7308,False,missing: model sees dining table 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.47)
+000000278705.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000278705.jpg,0.7106,0.7106,False,missing: model sees car 0.71 where nothing is annotated (best overlap with an annotation: IoU 0.37)
+000000279541.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000279541.jpg,0.9828,0.8701,False,missing: model sees dining table 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000279714.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000279714.jpg,0.9562,0.8987,False,wrong_class: annotated parking meter; model says car 0.93 at IoU 0.71 (parking meter 0.03)
+000000279714_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000279714_missing.jpg,1.0,0.9987,True,missing: model sees car 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000281754.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000281754.jpg,0.8796,0.8796,False,missing: model sees umbrella 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.20)
+000000283037.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000283037.jpg,0.0,0.0,False,
+000000287347.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000287347.jpg,0.9993,0.8707,False,bad_location: annotated bottle; best confident bottle box only overlaps at IoU 0.10 (score 0.97)
+000000288391.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000288391.jpg,0.0692,0.0,False,low_confidence: annotated cell phone; model only gives cell phone 0.23
+000000288862.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000288862.jpg,0.8294,0.8294,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.12 (score 0.95)
+000000289059.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289059.jpg,0.7056,0.7056,False,missing: model sees person 0.71 where nothing is annotated (best overlap with an annotation: IoU 0.20)
+000000289059_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289059_missing.jpg,0.9994,0.9981,True,missing: model sees tennis racket 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.19)
+000000289229.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289229.jpg,0.0,0.0,False,
+000000289417.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289417.jpg,0.9128,0.6738,False,missing: model sees backpack 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.13)
+000000289659.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289659.jpg,0.0,0.0,False,
+000000289741.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289741.jpg,0.9998,0.7455,False,missing: model sees chair 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.28)
+000000293474.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000293474.jpg,0.9981,0.9971,True,missing: model sees person 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000295809.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000295809.jpg,0.7997,0.5481,False,bad_location: annotated fire hydrant; best confident fire hydrant box only overlaps at IoU 0.39 (score 0.90)
+000000297022.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000297022.jpg,0.0,0.0,False,
+000000297353.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000297353.jpg,0.6053,0.3738,False,missing: model sees book 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+000000300233.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000300233.jpg,0.9912,0.9673,True,missing: model sees dining table 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.16)
+000000301867.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000301867.jpg,0.9266,0.7667,False,missing: model sees handbag 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.36)
+000000302760.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000302760.jpg,0.8088,0.8088,False,missing: model sees chair 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000303653.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000303653.jpg,0.6949,0.4721,False,missing: model sees person 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+000000303653_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000303653_missing.jpg,1.0,0.9957,True,missing: model sees horse 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.46)
+000000303908.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000303908.jpg,0.7955,0.6106,False,wrong_class: annotated boat; model says truck 0.74 at IoU 0.83 (boat 0.13)
+000000305609.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000305609.jpg,0.9999,0.9355,True,missing: model sees pizza 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.09)
+000000308193.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000308193.jpg,0.0,0.0,False,
+000000308466.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000308466.jpg,0.739,0.739,False,missing: model sees sink 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.09)
+000000309655.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000309655.jpg,1.0,1.0,True,invalid_box: annotated skis; box 2.0px on its short side or outside the image
+000000310980.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000310980.jpg,0.0,0.0,False,
+000000311303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000311303.jpg,0.8456,0.7976,False,bad_location: annotated sandwich; best confident sandwich box only overlaps at IoU 0.19 (score 0.99)
+000000312720.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000312720.jpg,0.0,0.0,False,
+000000313034.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000313034.jpg,0.7995,0.6272,False,wrong_class: annotated bottle; model says vase 0.89 at IoU 0.79 (bottle 0.26)
+000000313034_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000313034_wrong.jpg,0.7999,0.6272,False,wrong_class: annotated bottle; model says vase 0.89 at IoU 0.79 (bottle 0.26)
+000000315187.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000315187.jpg,0.6603,0.5193,False,bad_location: annotated traffic light; best confident traffic light box only overlaps at IoU 0.35 (score 0.80)
+000000318455.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000318455.jpg,0.9735,0.6592,False,missing: model sees sandwich 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000318908.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000318908.jpg,0.0,0.0,False,
+000000319534.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000319534.jpg,0.9952,0.8614,False,missing: model sees person 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.39)
+000000319617.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000319617.jpg,0.0,0.0,False,
+000000320632.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000320632.jpg,0.9925,0.9712,True,missing: model sees zebra 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.31)
+000000320743.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000320743.jpg,1.0,0.998,True,missing: model sees elephant 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.13)
+000000321214.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000321214.jpg,0.0066,0.0,False,low_confidence: annotated chair; model only gives chair 0.29
+000000322163.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000322163.jpg,0.997,0.827,False,missing: model sees refrigerator 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.28)
+000000322895.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000322895.jpg,0.9031,0.7273,False,missing: model sees dining table 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.12)
+000000322968.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000322968.jpg,0.945,0.8365,False,missing: model sees potted plant 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000323571.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000323571.jpg,0.6185,0.4844,False,bad_location: annotated traffic light; best confident traffic light box only overlaps at IoU 0.13 (score 0.56)
+000000325527.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000325527.jpg,0.0,0.0,False,
+000000326541.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000326541.jpg,0.9652,0.8832,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.11 (score 0.99)
+000000326541_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000326541_wrong.jpg,0.945,0.8832,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.11 (score 0.99)
+000000327769.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000327769.jpg,0.9962,0.947,True,missing: model sees sink 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.35)
+000000328959.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000328959.jpg,0.0,0.0,False,
+000000332570.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000332570.jpg,0.0,0.0,False,
+000000334309.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000334309.jpg,0.9707,0.7455,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.24 (score 0.98)
+000000334309_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000334309_wrong.jpg,0.948,0.7455,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.24 (score 0.98)
+000000335529.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000335529.jpg,0.9867,0.7585,False,missing: model sees boat 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.13)
+000000338191.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000338191.jpg,0.0,0.0,False,
+000000341469.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000341469.jpg,0.9997,0.8628,False,wrong_class: annotated handbag; model says suitcase 0.98 at IoU 0.67 (handbag 0.11)
+000000341469_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000341469_missing.jpg,1.0,0.9287,True,missing: model sees suitcase 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000343218.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000343218.jpg,0.992,0.7915,False,bad_location: annotated car; best confident car box only overlaps at IoU 0.11 (score 0.89)
+000000343453.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000343453.jpg,0.0,0.0,False,
+000000343976.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000343976.jpg,0.3469,0.1399,False,missing: model sees traffic light 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000344029.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000344029.jpg,0.9965,0.7169,False,missing: model sees person 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.42)
+000000344614.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000344614.jpg,0.0,0.0,False,
+000000345027.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000345027.jpg,1.0,1.0,True,invalid_box: annotated umbrella; box 1.9px on its short side or outside the image
+000000345027_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000345027_wrong.jpg,1.0,1.0,True,invalid_box: annotated umbrella; box 1.9px on its short side or outside the image
+000000345941.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000345941.jpg,0.9141,0.9141,True,missing: model sees dining table 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+000000346968.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000346968.jpg,0.9384,0.7853,False,missing: model sees book 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.35)
+000000351362.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000351362.jpg,0.8203,0.7433,False,missing: model sees sink 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000351589.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000351589.jpg,0.0,0.0,False,
+000000352760.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000352760.jpg,0.8966,0.8966,False,missing: model sees skis 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.27)
+000000354547.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000354547.jpg,0.7397,0.7397,False,bad_location: annotated tie; best confident tie box only overlaps at IoU 0.25 (score 0.99)
+000000354547_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000354547_wrong.jpg,0.9999,0.9996,True,wrong_class: annotated frisbee; model says person 1.00 at IoU 0.88 (frisbee 0.00)
+000000355325.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000355325.jpg,0.9827,0.9395,True,missing: model sees cup 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.21)
+000000356261.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000356261.jpg,0.495,0.495,False,unsupported: annotated horse; nothing predicted there
+000000356432.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000356432.jpg,0.9696,0.8783,False,missing: model sees chair 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000356612.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000356612.jpg,0.9572,0.5702,False,bad_location: annotated cow; best confident cow box only overlaps at IoU 0.10 (score 0.63)
+000000359781.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000359781.jpg,0.0,0.0,False,
+000000361238.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000361238.jpg,1.0,0.9556,True,missing: model sees bottle 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.11)
+000000361238_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000361238_missing.jpg,1.0,0.9718,True,missing: model sees person 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000361571.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000361571.jpg,0.0,0.0,False,
+000000362434.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000362434.jpg,0.0,0.0,False,
+000000362716.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000362716.jpg,0.0,0.0,False,
+000000365387.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000365387.jpg,0.2716,0.1908,False,unsupported: annotated cup; nothing predicted there
+000000365387_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000365387_missing.jpg,0.1907,0.1908,False,unsupported: annotated cup; nothing predicted there
+000000365766.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000365766.jpg,0.9726,0.907,True,missing: model sees oven 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000368456.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000368456.jpg,0.0,0.0,False,
+000000368684.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000368684.jpg,0.9752,0.6939,False,missing: model sees person 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+000000370677.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000370677.jpg,0.87,0.5985,False,missing: model sees pizza 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.15)
+000000370999.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000370999.jpg,1.0,0.9779,True,missing: model sees donut 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000374052.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000374052.jpg,1.0,0.8875,False,bad_location: annotated bird; best confident bird box only overlaps at IoU 0.11 (score 1.00)
+000000374083.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000374083.jpg,0.9056,0.7009,False,missing: model sees wine glass 0.70 where nothing is annotated (best overlap with an annotation: IoU 0.12)
+000000376322.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000376322.jpg,1.0,0.917,True,missing: model sees spoon 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.27)
+000000377113.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000377113.jpg,0.9863,0.7772,False,missing: model sees person 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.43)
+000000378116.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000378116.jpg,0.0,0.0,False,
+000000379441.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000379441.jpg,0.5591,0.1895,False,missing: model sees book 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000383289.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000383289.jpg,0.9971,0.8662,False,bad_location: annotated car; best confident car box only overlaps at IoU 0.11 (score 0.97)
+000000383289_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000383289_wrong.jpg,0.9996,0.9718,True,wrong_class: annotated bus; model says car 0.97 at IoU 0.71 (bus 0.00)
+000000383838.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000383838.jpg,0.6729,0.6729,False,unsupported: annotated chair; nothing predicted there
+000000384350.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000384350.jpg,0.5455,0.5455,False,bad_location: annotated airplane; best confident airplane box only overlaps at IoU 0.45 (score 1.00)
+000000384666.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000384666.jpg,1.0,1.0,True,invalid_box: annotated person; box 1.5px on its short side or outside the image
+000000388215.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000388215.jpg,0.0,0.0,False,
+000000392933.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000392933.jpg,0.0,0.0,False,
+000000396903.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000396903.jpg,0.2393,0.0866,False,low_confidence: annotated person; model only gives person 0.13
+000000397303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000397303.jpg,1.0,0.7155,False,missing: model sees bed 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.35)
+000000397354.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000397354.jpg,0.9989,0.8329,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.16 (score 0.99)
+000000400161.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000400161.jpg,0.9659,0.7924,False,missing: model sees banana 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000400573.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000400573.jpg,0.9473,0.7185,False,missing: model sees tie 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+000000400922.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000400922.jpg,0.5781,0.5781,False,wrong_class: annotated airplane; model says kite 0.83 at IoU 0.92 (airplane 0.26)
+000000402346.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000402346.jpg,0.9997,0.9433,True,missing: model sees dining table 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.29)
+000000405205.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000405205.jpg,0.1961,0.0,False,low_confidence: annotated bus; model only gives bus 0.10
+000000405279.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000405279.jpg,0.5545,0.1359,False,unsupported: annotated kite; nothing predicted there
+000000407646.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000407646.jpg,0.0,0.0,False,
+000000407943.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000407943.jpg,0.9943,0.9507,True,missing: model sees umbrella 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+000000408112.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000408112.jpg,0.33,0.0405,False,low_confidence: annotated person; model only gives person 0.03
+000000408696.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000408696.jpg,0.9935,0.7653,False,missing: model sees person 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.18)
+000000409358.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000409358.jpg,0.7614,0.7614,False,missing: model sees toilet 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.21)
+000000409358_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000409358_wrong.jpg,0.9756,0.8978,False,wrong_class: annotated couch; model says toilet 0.90 at IoU 0.54 (couch 0.00)
+000000410880.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000410880.jpg,0.8933,0.769,False,wrong_class: annotated bench; model says chair 0.87 at IoU 0.87 (bench 0.10)
+000000410880_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000410880_missing.jpg,0.9796,0.8664,False,missing: model sees chair 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000411938.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000411938.jpg,0.9967,0.78,False,bad_location: annotated bicycle; best confident bicycle box only overlaps at IoU 0.16 (score 0.93)
+000000411938_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000411938_missing.jpg,1.0,0.9387,True,missing: model sees bicycle 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.33)
+000000413552.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000413552.jpg,0.8976,0.8976,False,missing: model sees person 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.19)
+000000417043.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000417043.jpg,0.0,0.0,False,
+000000417608.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000417608.jpg,0.9519,0.7142,False,missing: model sees carrot 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+000000420281.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000420281.jpg,0.0,0.0,False,
+000000420281_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000420281_missing.jpg,0.8932,0.8932,False,missing: model sees hot dog 0.89 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+000000424721.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000424721.jpg,1.0,0.9201,True,missing: model sees carrot 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.16)
+000000427034.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000427034.jpg,0.981,0.7135,False,wrong_class: annotated person; model says dog 0.99 at IoU 0.62 (person 0.28)
+000000427160.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000427160.jpg,0.2897,0.1809,False,unsupported: annotated sports ball; nothing predicted there (best: sports ball 0.01 at IoU 0.36)
+000000428218.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000428218.jpg,0.0,0.0,False,
+000000429761.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000429761.jpg,0.8254,0.8254,False,missing: model sees tennis racket 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.33)
+000000430056.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000430056.jpg,0.9368,0.9368,True,missing: model sees dining table 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.17)
+000000430377.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000430377.jpg,0.1619,0.1619,False,missing: model sees cell phone 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000433103.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000433103.jpg,1.0,0.9848,True,missing: model sees person 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.28)
+000000433915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000433915.jpg,0.9239,0.8435,False,wrong_class: annotated tv; model says person 0.99 at IoU 0.64 (tv 0.15)
+000000435081.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000435081.jpg,1.0,0.7453,False,missing: model sees dining table 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+000000437205.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000437205.jpg,0.9636,0.8344,False,missing: model sees banana 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.18)
+000000437205_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000437205_wrong.jpg,0.9982,0.9496,True,wrong_class: annotated pizza; model says banana 0.95 at IoU 0.53 (pizza 0.00)
+000000440475.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000440475.jpg,1.0,0.9379,True,missing: model sees potted plant 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.30)
+000000441247.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000441247.jpg,0.9999,0.9616,True,wrong_class: annotated oven; model says microwave 0.96 at IoU 0.86 (oven 0.00)
+000000441442.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000441442.jpg,0.0794,0.0,False,low_confidence: annotated chair; model only gives chair 0.22
+000000442836.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000442836.jpg,0.0,0.0,False,
+000000442836_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000442836_missing.jpg,0.9995,0.9995,True,missing: model sees person 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000443303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000443303.jpg,0.7772,0.7772,False,missing: model sees suitcase 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.30)
+000000447088.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000447088.jpg,0.3,0.0,False,low_confidence: annotated baseball bat; model only gives baseball bat 0.00
+000000447088_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000447088_wrong.jpg,0.9986,0.9981,True,wrong_class: annotated dog; model says person 1.00 at IoU 0.53 (dog 0.00)
+000000449579.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000449579.jpg,0.0,0.0,False,
+000000449661.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000449661.jpg,0.9618,0.8443,False,wrong_class: annotated tv; model says toaster 0.84 at IoU 0.85 (tv 0.00)
+000000452122.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000452122.jpg,0.0,0.0,False,
+000000452321.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000452321.jpg,0.9893,0.8192,False,bad_location: annotated bus; best confident bus box only overlaps at IoU 0.15 (score 0.96)
+000000453584.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000453584.jpg,0.8944,0.7337,False,missing: model sees chair 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000455555.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000455555.jpg,0.0,0.0,False,
+000000456559.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000456559.jpg,0.0,0.0,False,
+000000457884.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000457884.jpg,0.7408,0.5245,False,wrong_class: annotated motorcycle; model says car 0.52 at IoU 0.95 (motorcycle 0.00)
+000000458992.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000458992.jpg,0.992,0.9626,True,missing: model sees bottle 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000459634.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000459634.jpg,0.9004,0.8593,False,missing: model sees handbag 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.23)
+000000459662.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000459662.jpg,0.9926,0.9102,True,wrong_class: annotated chair; model says person 0.99 at IoU 0.55 (chair 0.08)
+000000460929.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000460929.jpg,0.8746,0.8746,False,missing: model sees dining table 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.19)
+000000461573.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000461573.jpg,0.6873,0.6873,False,bad_location: annotated bench; best confident bench box only overlaps at IoU 0.31 (score 1.00)
+000000462371.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000462371.jpg,0.9632,0.8633,False,missing: model sees person 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.28)
+000000464824.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000464824.jpg,0.8199,0.7427,False,missing: model sees skateboard 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+000000464824_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000464824_missing.jpg,0.7427,0.7427,False,missing: model sees skateboard 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+000000465180.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000465180.jpg,0.9985,0.9205,True,missing: model sees elephant 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.49)
+000000465822.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000465822.jpg,0.9999,0.837,False,missing: model sees person 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.44)
+000000466256.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000466256.jpg,0.9683,0.8363,False,bad_location: annotated carrot; best confident carrot box only overlaps at IoU 0.14 (score 0.97)
+000000466602.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000466602.jpg,0.5227,0.495,False,unsupported: annotated skis; nothing predicted there
+000000466602_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000466602_missing.jpg,0.7,0.7,False,unsupported: annotated skis; nothing predicted there
+000000467176.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000467176.jpg,1.0,0.9199,True,wrong_class: annotated remote; model says book 0.92 at IoU 0.84 (remote 0.00)
+000000468233.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000468233.jpg,0.8864,0.7068,False,missing: model sees laptop 0.71 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000471789.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000471789.jpg,0.9643,0.7695,False,bad_location: annotated kite; best confident kite box only overlaps at IoU 0.22 (score 0.99)
+000000473406.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000473406.jpg,0.9888,0.848,False,bad_location: annotated sink; best confident sink box only overlaps at IoU 0.13 (score 0.98)
+000000473821.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000473821.jpg,0.8232,0.8232,False,missing: model sees dining table 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.32)
+000000474095.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000474095.jpg,0.5277,0.5277,False,unsupported: annotated toilet; nothing predicted there
+000000475365.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000475365.jpg,0.8192,0.6509,False,wrong_class: annotated train; model says truck 0.92 at IoU 0.98 (train 0.27)
+000000475732.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000475732.jpg,0.0,0.0,False,
+000000476415.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000476415.jpg,0.0,0.0,False,
+000000476491.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000476491.jpg,0.3203,0.1997,False,missing: model sees person 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000480021.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000480021.jpg,0.112,0.112,False,unsupported: annotated car; nothing predicted there (best: car 0.08 at IoU 0.69)
+000000481390.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000481390.jpg,0.9866,0.2357,False,low_confidence: annotated bench; model only gives bench 0.00
+000000481582.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000481582.jpg,0.7845,0.7845,False,missing: model sees handbag 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.50)
+000000481582_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000481582_wrong.jpg,0.9998,0.9874,True,wrong_class: annotated potted plant; model says person 0.99 at IoU 0.66 (potted plant 0.00)
+000000482487.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000482487.jpg,0.5719,0.5719,False,missing: model sees car 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000485480.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000485480.jpg,0.0,0.0,False,
+000000486040.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000486040.jpg,0.912,0.7067,False,missing: model sees keyboard 0.71 where nothing is annotated (best overlap with an annotation: IoU 0.17)
+000000491008.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000491008.jpg,0.9999,0.9189,True,wrong_class: annotated knife; model says remote 0.92 at IoU 0.84 (knife 0.00)
+000000491008_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000491008_missing.jpg,1.0,0.9937,True,missing: model sees pizza 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+000000493772.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000493772.jpg,0.0,0.0,False,
+000000495146.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000495146.jpg,0.9999,0.9695,True,wrong_class: annotated boat; model says car 0.97 at IoU 0.80 (boat 0.00)
+000000496954.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000496954.jpg,0.9983,0.9724,True,missing: model sees dining table 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.22)
+000000499109.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000499109.jpg,0.9977,0.9628,True,missing: model sees sandwich 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.38)
+000000499313.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000499313.jpg,0.9936,0.8958,False,wrong_class: annotated dining table; model says pizza 1.00 at IoU 0.67 (dining table 0.10)
+000000500211.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000500211.jpg,0.9154,0.7864,False,bad_location: annotated umbrella; best confident umbrella box only overlaps at IoU 0.13 (score 0.91)
+000000500716.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000500716.jpg,0.2619,0.0,False,low_confidence: annotated scissors; model only gives scissors 0.04
+000000502732.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000502732.jpg,0.0,0.0,False,
+000000503823.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000503823.jpg,0.9932,0.962,True,missing: model sees boat 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.38)
+000000504074.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000504074.jpg,0.9339,0.7235,False,missing: model sees chair 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.29)
+000000504074_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000504074_missing.jpg,1.0,0.9995,True,missing: model sees laptop 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.17)
+000000504439.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000504439.jpg,0.9501,0.9501,True,missing: model sees zebra 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.19)
+000000506279.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000506279.jpg,0.0,0.0,False,
+000000507037.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000507037.jpg,0.886,0.6956,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.30 (score 0.99)
+000000507893.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000507893.jpg,0.0,0.0,False,
+000000508312.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000508312.jpg,0.966,0.8342,False,wrong_class: annotated microwave; model says oven 0.95 at IoU 0.50 (microwave 0.12)
+000000512564.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000512564.jpg,0.8649,0.5462,False,bad_location: annotated car; best confident car box only overlaps at IoU 0.35 (score 0.84)
+000000513484.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000513484.jpg,0.0,0.0,False,
+000000515982.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000515982.jpg,0.0,0.0,False,
+000000519039.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000519039.jpg,0.0,0.0,False,
+000000519338.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000519338.jpg,0.0,0.0,False,
+000000521052.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000521052.jpg,0.6414,0.6414,False,missing: model sees car 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+000000521231.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000521231.jpg,0.0,0.0,False,
+000000521956.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000521956.jpg,0.0,0.0,False,
+000000522007.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000522007.jpg,0.9798,0.7511,False,missing: model sees oven 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.49)
+000000523957.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000523957.jpg,0.9946,0.9682,True,missing: model sees person 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.28)
+000000525083.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000525083.jpg,0.9957,0.929,True,missing: model sees chair 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000525247.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000525247.jpg,0.991,0.8571,False,missing: model sees tv 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000526103.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000526103.jpg,0.8228,0.8228,False,missing: model sees umbrella 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.37)
+000000526103_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000526103_missing.jpg,0.984,0.9096,True,missing: model sees umbrella 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000526751.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000526751.jpg,0.9225,0.7339,False,bad_location: annotated boat; best confident boat box only overlaps at IoU 0.15 (score 0.86)
+000000529528.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000529528.jpg,0.9937,0.9261,True,wrong_class: annotated cake; model says bowl 0.95 at IoU 0.56 (cake 0.03)
+000000529568.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000529568.jpg,1.0,1.0,True,invalid_box: annotated bowl; box 1.7px on its short side or outside the image
+000000529568_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000529568_missing.jpg,1.0,1.0,True,invalid_box: annotated bowl; box 1.7px on its short side or outside the image
+000000534394.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000534394.jpg,0.9208,0.4614,False,missing: model sees person 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.09)
+000000535306.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000535306.jpg,0.0,0.0,False,
+000000535306_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000535306_missing.jpg,0.9982,0.9982,True,missing: model sees person 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.29)
+000000536343.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000536343.jpg,0.0,0.0,False,
+000000539143.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000539143.jpg,0.0,0.0,False,
+000000539883.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000539883.jpg,0.8107,0.4644,False,bad_location: annotated book; best confident book box only overlaps at IoU 0.37 (score 0.73)
+000000540502.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000540502.jpg,0.9996,0.9106,True,missing: model sees dining table 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.14)
+000000543300.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000543300.jpg,0.0,0.0,False,
+000000544444.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000544444.jpg,0.4646,0.4646,False,missing: model sees skis 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.30)
+000000546829.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000546829.jpg,0.0,0.0,False,
+000000546964.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000546964.jpg,1.0,0.8773,False,missing: model sees potted plant 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.15)
+000000547502.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000547502.jpg,0.0,0.0,False,
+000000548506.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000548506.jpg,0.9999,0.9914,True,missing: model sees apple 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.45)
+000000549136.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000549136.jpg,0.0646,0.0,False,low_confidence: annotated teddy bear; model only gives teddy bear 0.24
+000000553221.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000553221.jpg,0.8836,0.6716,False,wrong_class: annotated surfboard; model says skateboard 0.72 at IoU 0.64 (surfboard 0.05)
+000000554579.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000554579.jpg,0.4518,0.4518,False,missing: model sees bowl 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+000000554838.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000554838.jpg,0.9985,0.9562,True,missing: model sees book 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+000000559513.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000559513.jpg,1.0,0.9835,True,missing: model sees cup 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+000000562197.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000562197.jpg,1.0,0.9726,True,missing: model sees broccoli 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+000000562443.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000562443.jpg,0.9538,0.7881,False,missing: model sees zebra 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.15)
+000000563648.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000563648.jpg,0.9974,0.8699,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.10 (score 0.97)
+000000563758.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000563758.jpg,0.8143,0.8143,False,missing: model sees bird 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+000000565045.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000565045.jpg,0.7995,0.7905,False,missing: model sees refrigerator 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+000000565607.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000565607.jpg,0.9395,0.4924,False,bad_location: annotated potted plant; best confident potted plant box only overlaps at IoU 0.12 (score 0.56)
+000000565853.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000565853.jpg,0.551,0.0486,False,low_confidence: annotated bottle; model only gives bottle 0.00
+000000568147.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000568147.jpg,0.191,0.0101,False,low_confidence: annotated person; model only gives person 0.12
+000000568439.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000568439.jpg,0.9951,0.8794,False,bad_location: annotated person; best confident person box only overlaps at IoU 0.11 (score 0.99)
+000000572303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000572303.jpg,0.5253,0.5175,False,missing: model sees clock 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+000000572555.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000572555.jpg,0.4465,0.4465,False,bad_location: annotated traffic light; best confident traffic light box only overlaps at IoU 0.34 (score 0.67)
+000000572555_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000572555_wrong.jpg,1.0,0.9999,True,wrong_class: annotated bicycle; model says train 1.00 at IoU 0.96 (bicycle 0.00)
+000000573943.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000573943.jpg,0.9999,0.8921,False,missing: model sees truck 0.89 where nothing is annotated (best overlap with an annotation: IoU 0.35)
+000000574315.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000574315.jpg,0.0,0.0,False,
+000000574520.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000574520.jpg,0.9487,0.9487,True,missing: model sees surfboard 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.39)
+000000576566.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000576566.jpg,0.3,0.0,False,low_confidence: annotated skateboard; model only gives skateboard 0.00
+000000578093.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000578093.jpg,0.109,0.109,False,missing: model sees person 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.30)
+000000579818.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000579818.jpg,0.9997,0.9714,True,missing: model sees train 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.48)
+000000579970.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000579970.jpg,0.9749,0.6642,False,bad_location: annotated couch; best confident couch box only overlaps at IoU 0.21 (score 0.84)
+000000580757.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000580757.jpg,0.0,0.0,False,
+000000581482.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000581482.jpg,0.5746,0.5746,False,bad_location: annotated clock; best confident clock box only overlaps at IoU 0.41 (score 0.97)

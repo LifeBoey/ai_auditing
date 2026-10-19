@@ -1,0 +1,27 @@
+{
+  "name": "cleanlab_rcnn",
+  "method": "cleanlab",
+  "group": "rcnn",
+  "signals": {
+    "s_swap": "1 - lowest ObjectLab swap score over annotations",
+    "s_overlooked": "1 - lowest ObjectLab overlooked score over predictions",
+    "s_badloc": "1 - lowest ObjectLab badloc score over annotations",
+    "s_label_issue": "1 - ObjectLab label_quality_score"
+  },
+  "weights": {
+    "s_swap": 1,
+    "s_overlooked": 1,
+    "s_badloc": 0.25,
+    "s_label_issue": 0
+  },
+  "params": {
+    "predictions": "prediction_jsons/predictions_rcnn.json",
+    "labels": "labels_sub500_v2.json",
+    "flag_score": 0.2,
+    "flag_badloc": 0.05,
+    "cleanlab_args": [
+      "--evaluate-planted"
+    ],
+    "work_dir": "audit_labels_sub500_v2/work/cleanlab_rcnn_ann"
+  }
+}

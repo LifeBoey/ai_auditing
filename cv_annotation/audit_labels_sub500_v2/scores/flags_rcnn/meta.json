@@ -1,0 +1,21 @@
+{
+  "name": "flags_rcnn",
+  "method": "flag_annotations",
+  "group": "rcnn",
+  "signals": {
+    "s_score": "combined severity of all flags (1 - prod(1 - severity))",
+    "s_max_severity": "severity of the worst single flag (low_confidence excluded)"
+  },
+  "weights": {
+    "s_score": 0.5,
+    "s_max_severity": 1
+  },
+  "params": {
+    "predictions": "prediction_jsons/predictions_rcnn.json",
+    "labels": "labels_sub500_v2.json",
+    "flag_annotations_args": [
+      "--evaluate-planted"
+    ],
+    "work_dir": "audit_labels_sub500_v2/work/flags_rcnn"
+  }
+}

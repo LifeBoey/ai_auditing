@@ -1,0 +1,18 @@
+what,type,wrong_top41,wrong_top100,wrong_auc,missing_top41,missing_top100,missing_auc,any_top41,any_top100,any_auc
+cleanlab · frcnn_mbv3,method,11,25,0.9396,9,11,0.7033,20,36,0.8214
+cleanlab · ssdlite,method,7,22,0.8652,5,8,0.6126,12,30,0.7389
+cleanlab · yolo11n,method,15,16,0.8977,3,8,0.5846,18,24,0.7412
+fiftyone · frcnn_mbv3,method,2,25,0.9142,13,16,0.8685,15,41,0.8914
+fiftyone · ssdlite,method,5,15,0.8136,11,15,0.8004,16,30,0.807
+fiftyone · yolo11n,method,6,25,0.913,11,12,0.7043,17,37,0.8086
+flags · frcnn_mbv3,method,14,24,0.9695,21,25,0.9933,35,49,0.9814
+flags · ssdlite,method,14,19,0.9199,20,25,0.9848,34,44,0.9524
+flags · yolo11n,method,11,20,0.883,11,17,0.8215,22,37,0.8523
+rrf (groups),rule,19,25,0.9826,13,23,0.9613,32,48,0.972
+mean (groups),rule,19,24,0.9847,12,24,0.9565,31,48,0.9706
+max (groups),rule,17,25,0.964,12,20,0.9358,29,45,0.9499
+vote (groups),rule,19,25,0.9855,12,25,0.9591,31,50,0.9723
+rrf (no groups),rule,19,25,0.9811,14,22,0.9569,33,47,0.969
+mean (no groups),rule,19,24,0.9847,12,24,0.9565,31,48,0.9706
+max (no groups),rule,14,21,0.939,16,25,0.9791,30,46,0.9591
+vote (no groups),rule,18,25,0.9776,14,25,0.9699,32,50,0.9737

@@ -1,0 +1,20 @@
+,images,flag_rate
+0,4.0,
+1,31.0,
+2,69.0,
+3,63.0,
+4,92.0,
+5,45.0,
+6,32.0,
+7,18.0,
+8,9.0,
+9,1.0,
+cleanlab · frcnn_mbv3,,0.5879120879120879
+cleanlab · ssdlite,,0.5467032967032966
+cleanlab · yolo11n,,0.8653846153846154
+fiftyone · frcnn_mbv3,,0.28296703296703296
+fiftyone · ssdlite,,0.8598901098901099
+fiftyone · yolo11n,,0.2445054945054945
+flags · frcnn_mbv3,,0.09615384615384616
+flags · ssdlite,,0.2032967032967033
+flags · yolo11n,,0.02197802197802198

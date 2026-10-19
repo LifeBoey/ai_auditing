@@ -1,0 +1,23 @@
+{
+  "name": "fiftyone_coco500_yolo11x",
+  "method": "fiftyone",
+  "group": "coco500_yolo11x",
+  "signals": {
+    "s_mistakenness": "max FiftyOne mistakenness over the image's annotations",
+    "s_possible_missing": "count of likely unannotated objects",
+    "s_possible_spurious": "count of likely nonexistent annotations"
+  },
+  "weights": {
+    "s_mistakenness": 1,
+    "s_possible_missing": 1,
+    "s_possible_spurious": 0.25
+  },
+  "params": {
+    "predictions": "../DATA/prediction_jsons/predictions_coco500_yolo11x.json",
+    "dataset": "audit_coco500",
+    "pred_field": "pred_coco500_yolo11x",
+    "min_score": 0.01,
+    "flag_mistakenness": 0.5,
+    "missing_conf": 0.8
+  }
+}

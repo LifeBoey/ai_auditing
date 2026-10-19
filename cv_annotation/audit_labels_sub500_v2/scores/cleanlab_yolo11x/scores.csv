@@ -1,0 +1,501 @@
+file_name,file_path,s_swap,s_overlooked,s_badloc,s_label_issue,flagged,reason
+000000000139.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000000139.jpg,0.4299,1.0,0.9629,0.6474,True,overlooked: unannotated vase (0.75) (+2 more)
+000000000785.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000000785.jpg,0.0695,0.0,0.0922,0.0396,False,
+000000000785_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000000785_missing.jpg,0.0627,0.0,0.0329,0.0111,False,
+000000001425.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000001425.jpg,0.0,0.0,0.1914,0.0591,False,
+000000001818.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000001818.jpg,0.0,0.0,0.3643,0.1343,False,
+000000002431.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000002431.jpg,0.9269,0.0,0.6701,0.3044,True,swap: annotated cup looks like bowl (0.79)
+000000006614.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000006614.jpg,0.0,0.0,0.0,0.0,False,
+000000006614_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000006614_missing.jpg,0.0,0.0,0.0,0.0,False,
+000000006818.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000006818.jpg,0.0,0.0,0.1358,0.0475,False,
+000000007511.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000007511.jpg,0.0,0.0,0.9987,0.8574,True,badloc: person box badly placed (IoU 0.00 with the model's box)
+000000007977.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000007977.jpg,0.1115,0.0,0.1739,0.0335,False,
+000000010583.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000010583.jpg,0.3777,0.0,0.8204,0.4332,False,
+000000011149.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000011149.jpg,0.1492,0.0,0.0761,0.0177,False,
+000000012280.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000012280.jpg,0.1104,0.0,0.0997,0.018,False,
+000000012667.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000012667.jpg,0.0,0.0,0.1199,0.0417,False,
+000000013201.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000013201.jpg,0.0562,0.0,0.0824,0.0243,False,
+000000013774.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000013774.jpg,0.0,0.0,0.0912,0.0259,False,
+000000015660.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000015660.jpg,0.0,0.0,0.3599,0.1045,False,
+000000017178.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000017178.jpg,0.0267,0.0,0.5112,0.2032,False,
+000000018150.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000018150.jpg,0.0893,0.0,0.1889,0.0556,False,
+000000018193.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000018193.jpg,0.5041,0.0,0.4307,0.3358,False,
+000000018837.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000018837.jpg,0.1454,0.0,0.237,0.0502,False,
+000000022935.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000022935.jpg,0.0877,0.0,0.0618,0.0413,False,
+000000023666.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000023666.jpg,0.0,0.0,0.0961,0.0331,False,
+000000027620.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000027620.jpg,0.1034,0.0,0.1922,0.039,False,
+000000028452.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000028452.jpg,0.007,0.0,0.1135,0.0342,False,
+000000028452_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000028452_wrong.jpg,0.9216,0.0,0.1135,0.0295,True,
+000000029397.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000029397.jpg,0.0604,0.0,0.0984,0.0469,False,
+000000030213.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000030213.jpg,0.1389,0.0,0.5243,0.1908,False,
+000000031735.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000031735.jpg,0.0193,1.0,0.7051,0.3309,True,overlooked: unannotated vase (0.65)
+000000031817.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000031817.jpg,0.7286,0.0,0.8404,0.4154,False,
+000000032610.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000032610.jpg,0.1409,0.0,0.932,0.5414,False,badloc: laptop box badly placed (IoU 0.94 with the model's box)
+000000033114.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000033114.jpg,0.0255,0.0,0.0274,0.0014,False,
+000000034071.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000034071.jpg,0.2638,0.0,0.1072,0.034,False,
+000000034205.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000034205.jpg,0.0,0.0,0.8964,0.4768,False,
+000000034760.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000034760.jpg,0.0,0.0,0.0502,0.0083,False,
+000000036539.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000036539.jpg,0.064,0.0,0.2521,0.0749,False,
+000000036660.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000036660.jpg,0.0597,0.0,0.099,0.0268,False,
+000000036936.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000036936.jpg,0.3545,1.0,0.9396,0.5643,True,overlooked: unannotated handbag (0.59) (+3 more)
+000000038048.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000038048.jpg,0.0009,0.0,0.1808,0.043,False,
+000000038118.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000038118.jpg,0.0336,0.0,0.2589,0.0877,False,
+000000041872.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000041872.jpg,0.0485,0.0,0.4981,0.1904,False,
+000000042102.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000042102.jpg,0.0605,0.0,0.366,0.1386,False,
+000000043314.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000043314.jpg,0.3377,0.0,0.0701,0.1304,False,
+000000044877.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000044877.jpg,0.3093,0.0,0.2517,0.0622,False,
+000000046497.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000046497.jpg,0.329,0.0,0.7522,0.3702,False,
+000000051598.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000051598.jpg,0.0,0.0,0.0685,0.0154,False,
+000000051598_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000051598_missing.jpg,0.0,1.0,0.0,0.0,True,overlooked: unannotated sink (0.90)
+000000054164.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000054164.jpg,0.0534,0.0,0.1437,0.0416,False,
+000000054654.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000054654.jpg,0.1499,0.0,0.2729,0.1255,False,
+000000054654_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000054654_missing.jpg,0.1338,1.0,0.2729,0.1428,True,overlooked: unannotated cake (0.63) (+1 more)
+000000057244.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000057244.jpg,0.0,0.0,0.2919,0.1087,False,
+000000058393.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000058393.jpg,0.1487,0.0,0.9145,0.5285,False,badloc: person box badly placed (IoU 0.37 with the model's box)
+000000059386.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000059386.jpg,0.0103,0.0,0.8915,0.4823,False,badloc: giraffe box badly placed (IoU 0.77 with the model's box)
+000000060363.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000060363.jpg,0.0,0.0,0.0275,0.0009,False,
+000000061584.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000061584.jpg,0.5645,1.0,0.8268,0.4408,True,overlooked: unannotated frisbee (0.57)
+000000062025.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000062025.jpg,0.0002,0.0,0.1272,0.0283,False,
+000000065074.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000065074.jpg,0.0021,0.0,0.0176,0.0035,False,
+000000066135.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000066135.jpg,0.0,0.0,0.063,0.0215,False,
+000000066817.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000066817.jpg,0.8551,0.0,0.0903,0.0073,True,
+000000067534.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000067534.jpg,0.4264,0.0,0.1719,0.0445,False,
+000000069795.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000069795.jpg,0.397,0.0,0.0709,0.021,False,
+000000073326.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000073326.jpg,0.0215,0.0,0.9583,0.6448,True,badloc: bottle box badly placed (IoU 0.80 with the model's box)
+000000076625.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000076625.jpg,0.0937,0.0,0.984,0.7257,True,badloc: person box badly placed (IoU 0.40 with the model's box) (+1 more)
+000000078266.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078266.jpg,0.0072,1.0,0.1842,0.0194,True,overlooked: unannotated chair (0.57)
+000000078266_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078266_wrong.jpg,0.8158,1.0,0.0,0.0,True,overlooked: unannotated chair (0.57)
+000000078565.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078565.jpg,0.0463,0.0,0.3145,0.0704,False,
+000000078823.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078823.jpg,0.1761,0.0,0.115,0.0454,False,
+000000078915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000078915.jpg,0.2314,0.0,0.3785,0.1149,False,
+000000079034.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000079034.jpg,0.0048,0.0,0.3295,0.0999,False,
+000000079034_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000079034_missing.jpg,0.0048,0.0,0.3295,0.1038,False,
+000000079188.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000079188.jpg,0.0,0.0,0.3834,0.1489,False,
+000000080022.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080022.jpg,0.1476,0.0,0.2684,0.0839,False,
+000000080340.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080340.jpg,0.6474,0.0,0.9655,0.566,True,badloc: cup box badly placed (IoU 0.60 with the model's box)
+000000080340_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080340_missing.jpg,0.6474,0.0,0.9655,0.5663,True,badloc: cup box badly placed (IoU 0.60 with the model's box)
+000000080932.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000080932.jpg,0.2669,0.0,0.7924,0.396,False,
+000000081061.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000081061.jpg,0.0519,0.0,0.0517,0.0125,False,
+000000082688.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000082688.jpg,0.0126,0.0,0.2332,0.0604,False,
+000000084477.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000084477.jpg,0.1255,0.0,0.2158,0.0609,False,
+000000087038.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000087038.jpg,0.3561,1.0,0.1359,0.0118,True,overlooked: unannotated skateboard (0.74)
+000000088040.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088040.jpg,0.8046,0.0,0.9583,0.6784,True,badloc: spoon box badly placed (IoU 0.93 with the model's box)
+000000088345.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088345.jpg,0.0,0.0,0.4849,0.1923,False,
+000000088462.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088462.jpg,0.0144,0.0,0.9405,0.5767,False,badloc: car box badly placed (IoU 0.64 with the model's box) (+1 more)
+000000088485.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000088485.jpg,0.0809,0.0,0.0279,0.0087,False,
+000000090155.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000090155.jpg,0.0,0.0,0.0275,0.0092,False,
+000000094852.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000094852.jpg,0.0,0.0,0.2253,0.0715,False,
+000000094871.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000094871.jpg,0.2795,0.0,0.6062,0.2885,False,
+000000094871_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000094871_wrong.jpg,0.9633,0.0,0.6062,0.2887,True,
+000000095069.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000095069.jpg,0.0,0.0,0.2301,0.0835,False,
+000000096825.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000096825.jpg,0.1256,0.0,0.3344,0.1122,False,
+000000097585.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000097585.jpg,0.0,0.0,0.1285,0.0168,False,
+000000097994.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000097994.jpg,0.4015,0.0,0.3193,0.0625,False,
+000000098261.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000098261.jpg,0.0,0.0,0.2898,0.1,False,
+000000098633.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000098633.jpg,0.0,0.0,0.0717,0.0245,False,
+000000099114.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000099114.jpg,0.3569,0.0,0.9096,0.4849,False,
+000000099114_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000099114_wrong.jpg,0.3569,0.0,0.9096,0.4988,False,
+000000101787.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000101787.jpg,0.0,0.0,0.1534,0.054,False,
+000000101884.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000101884.jpg,0.9331,0.0,0.1449,0.034,True,swap: annotated truck looks like car (0.61)
+000000106266.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000106266.jpg,0.0,1.0,0.0,0.0,True,overlooked: unannotated sandwich (0.89)
+000000106389.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000106389.jpg,0.2731,1.0,0.9127,0.4744,True,overlooked: unannotated book (0.64)
+000000112626.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000112626.jpg,0.1895,0.0,0.0802,0.0771,False,
+000000112634.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000112634.jpg,0.0,0.0,0.0552,0.0162,False,
+000000112997.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000112997.jpg,0.7102,0.0,0.2965,0.1027,False,
+000000113403.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000113403.jpg,0.2766,0.0,0.7373,0.342,False,
+000000113720.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000113720.jpg,0.2784,0.0,0.9909,0.6802,True,badloc: dining table box badly placed (IoU 0.70 with the model's box)
+000000115870.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000115870.jpg,0.5347,0.0,0.7589,0.3345,False,
+000000115885.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000115885.jpg,0.1859,0.0,0.0762,0.0626,False,
+000000117492.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000117492.jpg,0.3232,0.0,0.9897,0.6774,True,badloc: person box badly placed (IoU 0.01 with the model's box) (+1 more)
+000000117914.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000117914.jpg,0.0648,0.0,0.0321,0.0058,False,
+000000122046.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122046.jpg,0.2538,0.0,0.0461,0.0117,False,
+000000122672.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122672.jpg,0.3187,0.0,0.2214,0.0696,False,
+000000122745.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122745.jpg,0.0,0.0,0.0855,0.0294,False,
+000000122969.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000122969.jpg,0.0,0.0,0.3049,0.1074,False,
+000000127494.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000127494.jpg,0.1961,0.0,0.8783,0.5045,False,
+000000127660.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000127660.jpg,0.3542,0.0,0.0536,0.0156,False,
+000000128051.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000128051.jpg,0.942,0.0,0.261,0.0771,True,swap: annotated truck looks like car (0.54)
+000000129322.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000129322.jpg,0.0,0.0,0.1292,0.0451,False,
+000000130566.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000130566.jpg,0.0,0.0,0.0075,0.0025,False,
+000000131431.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000131431.jpg,0.0,0.0,0.0392,0.0132,False,
+000000134689.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000134689.jpg,0.0,0.0,0.0996,0.0344,False,
+000000138819.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000138819.jpg,0.0,0.0,0.0427,0.0138,False,
+000000142472.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000142472.jpg,1.0,0.0,0.9362,0.973,True,swap: annotated car looks like car (0.87) (+2 more)
+000000144798.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000144798.jpg,0.8862,0.0,0.1088,0.0237,True,swap: annotated toilet looks like toilet (0.87)
+000000145591.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000145591.jpg,0.0,0.0,0.5431,0.2298,False,
+000000146155.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000146155.jpg,0.1363,0.0,0.9508,0.5838,True,badloc: person box badly placed (IoU 0.95 with the model's box) (+1 more)
+000000146358.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000146358.jpg,0.0781,0.0,0.6669,0.2759,False,
+000000147498.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000147498.jpg,0.0,0.0,0.0,0.0,False,
+000000147725.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000147725.jpg,0.9396,0.0,0.9001,0.5291,True,swap: annotated truck looks like car (0.85) (+1 more)
+000000149568.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000149568.jpg,0.3765,0.0,0.7062,0.4035,False,
+000000150930.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000150930.jpg,0.0,0.0,0.6067,0.2673,False,
+000000151938.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000151938.jpg,0.1936,0.0,0.9675,0.6713,True,badloc: person box badly placed (IoU 0.98 with the model's box)
+000000152120.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000152120.jpg,0.2207,0.0,0.0804,0.021,False,
+000000153529.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000153529.jpg,0.913,0.0,0.9939,0.6467,True,badloc: person box badly placed (IoU 0.52 with the model's box) (+1 more)
+000000153797.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000153797.jpg,0.0547,0.0,0.2927,0.0932,False,
+000000155154.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000155154.jpg,0.0,0.0,0.3881,0.151,False,
+000000155451.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000155451.jpg,0.0,0.0,0.6465,0.2818,False,
+000000157098.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000157098.jpg,0.0,0.0,0.1421,0.0339,False,
+000000158744.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000158744.jpg,1.0,0.0,0.865,0.9682,True,swap: annotated couch looks like sink (0.15) (+1 more)
+000000159791.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000159791.jpg,0.4547,0.0,0.2144,0.0313,False,
+000000159791_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000159791_wrong.jpg,0.4547,0.0,0.2144,0.0313,False,
+000000160864.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000160864.jpg,0.1369,0.0,0.5672,0.2125,False,
+000000161642.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000161642.jpg,0.0,0.0,0.0457,0.0155,False,
+000000163258.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000163258.jpg,0.0,0.0,0.161,0.0465,False,
+000000164115.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000164115.jpg,0.1775,0.0,0.0199,0.0037,False,
+000000167240.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000167240.jpg,0.0,0.0,0.0167,0.0056,False,
+000000170893.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000170893.jpg,0.1586,0.0,0.1326,0.0371,False,
+000000172330.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000172330.jpg,0.0807,0.0,0.2073,0.0635,False,
+000000172648.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000172648.jpg,0.1263,0.9999,0.2306,0.0827,True,overlooked: unannotated person (0.62)
+000000173371.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000173371.jpg,0.2545,0.0,0.1227,0.0639,False,
+000000175443.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000175443.jpg,0.0,0.0,0.0794,0.0186,False,
+000000176799.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000176799.jpg,0.1216,0.0,0.2245,0.0548,False,
+000000177934.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000177934.jpg,0.4714,0.0,0.9,0.528,False,badloc: person box badly placed (IoU 0.75 with the model's box)
+000000179265.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000179265.jpg,0.014,1.0,0.104,0.014,True,overlooked: unannotated potted plant (0.71)
+000000179642.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000179642.jpg,0.4469,0.0,0.7812,0.4592,False,
+000000180188.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000180188.jpg,0.0,0.0,0.1375,0.0481,False,
+000000180878.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000180878.jpg,0.0414,0.0,0.9756,0.7086,True,badloc: cake box badly placed (IoU 0.03 with the model's box)
+000000181303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181303.jpg,0.1165,0.0,0.1096,0.0295,False,
+000000181753.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181753.jpg,1.0,0.0,0.3276,0.9401,True,swap: annotated couch looks like chair (0.84) (+1 more)
+000000181796.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181796.jpg,0.2195,0.0,0.9832,0.6524,True,badloc: cup box badly placed (IoU 0.02 with the model's box) (+1 more)
+000000181796_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000181796_missing.jpg,0.2195,0.0,0.9832,0.6532,True,badloc: cup box badly placed (IoU 0.02 with the model's box) (+1 more)
+000000182202.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000182202.jpg,0.5311,0.0,0.2207,0.2549,False,
+000000182611.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000182611.jpg,0.8201,0.0,0.9846,0.6219,True,badloc: bowl box badly placed (IoU 0.95 with the model's box) (+2 more)
+000000184400.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000184400.jpg,0.0,0.0,0.4264,0.1653,False,
+000000186980.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000186980.jpg,0.4211,0.0,0.4477,0.151,False,
+000000187055.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000187055.jpg,0.2203,0.0,0.4177,0.1862,False,
+000000187249.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000187249.jpg,0.2549,0.0,0.7016,0.329,False,
+000000187990.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000187990.jpg,0.0406,0.0,0.2627,0.0865,False,
+000000189828.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000189828.jpg,0.0,0.0,0.0216,0.0072,False,
+000000190140.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000190140.jpg,0.1575,0.0,0.2146,0.0699,False,
+000000190923.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000190923.jpg,0.3865,0.0,0.7538,0.3509,False,
+000000191288.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000191288.jpg,0.1256,0.0,0.1095,0.0338,False,
+000000193348.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000193348.jpg,0.12,0.0,0.0697,0.0523,False,
+000000193674.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000193674.jpg,0.7428,0.0,0.151,0.0368,False,
+000000194724.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000194724.jpg,0.2302,0.0,0.7509,0.3414,False,
+000000195045.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000195045.jpg,0.0,0.0,0.1336,0.0373,False,
+000000198915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000198915.jpg,0.0,0.0,0.0,0.0,False,
+000000200252.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000200252.jpg,0.0053,0.0,0.0157,0.0019,False,
+000000200252_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000200252_wrong.jpg,0.9843,0.0,0.0,0.0,True,swap: annotated toilet looks like bed (0.95)
+000000201676.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000201676.jpg,0.0,0.0,0.748,0.3521,False,
+000000201934.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000201934.jpg,0.0048,0.0,0.9249,0.5318,False,badloc: car box badly placed (IoU 0.75 with the model's box)
+000000201934_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000201934_wrong.jpg,0.9181,0.0,0.9249,0.5319,True,badloc: car box badly placed (IoU 0.75 with the model's box) (+1 more)
+000000203629.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000203629.jpg,0.8529,0.0,0.9543,0.5661,True,badloc: person box badly placed (IoU 0.75 with the model's box) (+2 more)
+000000204871.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000204871.jpg,0.2158,0.0,0.1836,0.0357,False,
+000000205834.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000205834.jpg,0.1425,0.0,0.068,0.0562,False,
+000000207538.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000207538.jpg,0.0,0.0,0.0456,0.0154,False,
+000000209613.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000209613.jpg,0.9474,0.0,0.6486,0.2798,True,swap: annotated dog looks like sheep (0.56)
+000000209757.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000209757.jpg,0.0396,0.0,0.9999,0.7345,True,badloc: person box badly placed (IoU 0.65 with the model's box) (+1 more)
+000000210030.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210030.jpg,0.2291,0.0,0.2427,0.1233,False,
+000000210032.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210032.jpg,0.4637,0.0,0.9687,0.6629,True,badloc: cup box badly placed (IoU 0.83 with the model's box) (+1 more)
+000000210394.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210394.jpg,0.3163,0.0,0.077,0.0066,False,
+000000210502.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210502.jpg,0.0,0.0,0.1476,0.0518,False,
+000000210502_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000210502_wrong.jpg,0.8524,0.0,0.0,0.0,True,
+000000212072.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000212072.jpg,0.0,0.0,0.0393,0.0133,False,
+000000212453.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000212453.jpg,0.0,0.0,0.054,0.0032,False,
+000000212453_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000212453_wrong.jpg,0.0,0.0,0.054,0.0032,False,
+000000213593.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000213593.jpg,0.0012,0.0,0.2724,0.0787,False,
+000000214703.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000214703.jpg,0.1364,0.0,0.1841,0.0433,False,
+000000214703_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000214703_wrong.jpg,0.9777,0.0,0.1841,0.0435,True,swap: annotated clock looks like person (0.90)
+000000222559.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000222559.jpg,0.135,0.0,0.9937,0.6803,True,badloc: boat box badly placed (IoU 0.92 with the model's box) (+1 more)
+000000224119.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000224119.jpg,0.008,0.0,0.5204,0.196,False,
+000000226883.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000226883.jpg,0.0,0.0,0.0429,0.0145,False,
+000000227482.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000227482.jpg,0.0808,0.0,0.0612,0.0336,False,
+000000227511.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000227511.jpg,0.0002,0.0,0.163,0.0352,False,
+000000227985.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000227985.jpg,0.4074,0.0,0.533,0.216,False,
+000000229753.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000229753.jpg,0.0,0.0,0.0788,0.0243,False,
+000000229948.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000229948.jpg,0.1192,0.0,0.9739,0.5652,True,badloc: person box badly placed (IoU 0.84 with the model's box)
+000000229948_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000229948_missing.jpg,0.045,0.0,0.9739,0.5626,True,badloc: person box badly placed (IoU 0.84 with the model's box)
+000000230450.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000230450.jpg,0.0055,0.0,0.1827,0.0446,False,
+000000231237.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000231237.jpg,0.1297,0.0,0.682,0.3169,False,
+000000235064.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000235064.jpg,0.0,0.0,0.0247,0.0083,False,
+000000235064_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000235064_wrong.jpg,0.9753,0.0,0.0,0.7086,True,swap: annotated zebra looks like bear (0.96)
+000000236914.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000236914.jpg,0.3955,0.0,0.3094,0.1371,False,
+000000237118.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000237118.jpg,0.2338,0.0,0.0921,0.0899,False,
+000000243626.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000243626.jpg,0.0,0.0,0.0543,0.0131,False,
+000000244019.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000244019.jpg,0.0,0.0,0.1092,0.0378,False,
+000000245915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000245915.jpg,0.0,0.0,0.9571,0.5577,True,badloc: elephant box badly placed (IoU 0.23 with the model's box) (+1 more)
+000000246522.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000246522.jpg,0.0,0.0,0.075,0.0257,False,
+000000246963.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000246963.jpg,0.6551,0.0,0.7923,0.3712,False,
+000000246968.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000246968.jpg,0.3598,0.0,0.8986,0.4912,False,
+000000247806.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000247806.jpg,0.0,0.0,0.0879,0.0302,False,
+000000248314.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000248314.jpg,0.369,0.0,0.1314,0.0895,False,
+000000256518.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000256518.jpg,0.9607,0.0,0.1078,0.0293,True,swap: annotated spoon looks like spoon (0.66)
+000000256518_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000256518_wrong.jpg,0.9691,0.0,0.1078,0.6895,True,swap: annotated bowl looks like cup (0.95) (+1 more)
+000000257370.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000257370.jpg,0.2613,0.0,0.7637,0.3663,False,
+000000259382.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259382.jpg,0.0,0.0,0.0404,0.0137,False,
+000000259625.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259625.jpg,0.0,0.0,0.0633,0.0216,False,
+000000259690.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259690.jpg,0.3598,1.0,0.998,0.7227,True,overlooked: unannotated sports ball (0.56) (+5 more)
+000000259690_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000259690_wrong.jpg,0.9322,1.0,0.998,0.7227,True,overlooked: unannotated sports ball (0.56) (+6 more)
+000000262487.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000262487.jpg,0.0595,0.0,0.1235,0.0341,False,
+000000262895.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000262895.jpg,0.1349,0.0,0.1836,0.0905,False,
+000000263299.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000263299.jpg,0.0,0.0,0.1309,0.0457,False,
+000000266409.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000266409.jpg,0.081,0.0,0.0895,0.0217,False,
+000000267434.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000267434.jpg,0.0,0.0,0.2345,0.0572,False,
+000000267434_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000267434_wrong.jpg,0.951,0.0,0.2345,0.0575,True,swap: annotated elephant looks like cow (0.93)
+000000267946.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000267946.jpg,0.0,0.0,0.0,0.0,False,
+000000269113.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000269113.jpg,0.0,0.0,0.8338,0.449,False,
+000000275727.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000275727.jpg,0.001,0.0,0.1797,0.0541,False,
+000000275791.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000275791.jpg,0.8922,0.0,0.0561,0.005,True,
+000000277051.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000277051.jpg,0.4486,0.0,0.9046,0.5915,False,
+000000277197.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000277197.jpg,0.558,0.0,0.2246,0.0459,False,
+000000277689.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000277689.jpg,1.0,0.0,0.9853,0.9799,True,swap: annotated wine glass looks like wine glass (0.79) (+7 more)
+000000278705.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000278705.jpg,0.3785,0.0,0.4959,0.1909,False,
+000000279541.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000279541.jpg,0.0508,0.0,0.6177,0.2463,False,
+000000279714.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000279714.jpg,0.0902,0.0,0.0795,0.0095,False,
+000000279714_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000279714_missing.jpg,0.0008,0.0,0.0,0.0,False,
+000000281754.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000281754.jpg,0.2247,0.0,0.4276,0.1524,False,
+000000283037.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000283037.jpg,0.0,0.0,0.5037,0.206,False,
+000000287347.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000287347.jpg,0.1208,0.0,0.9636,0.6237,True,badloc: cup box badly placed (IoU 0.79 with the model's box) (+1 more)
+000000288391.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000288391.jpg,0.0,0.0,0.0762,0.0261,False,
+000000288862.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000288862.jpg,0.3062,0.0,0.8649,0.4846,False,
+000000289059.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289059.jpg,0.1958,0.0,0.3012,0.0997,False,
+000000289059_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289059_missing.jpg,0.1804,0.0,0.0721,0.0221,False,
+000000289229.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289229.jpg,0.0146,0.0,0.1002,0.0295,False,
+000000289417.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289417.jpg,0.1257,0.0,0.163,0.0309,False,
+000000289659.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289659.jpg,0.0,0.0,0.0184,0.0062,False,
+000000289741.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000289741.jpg,0.3095,0.0,0.9255,0.5017,False,
+000000293474.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000293474.jpg,0.0,0.0,0.047,0.0038,False,
+000000295809.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000295809.jpg,0.0586,0.0,0.9711,0.674,True,badloc: car box badly placed (IoU 0.66 with the model's box)
+000000297022.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000297022.jpg,0.0883,0.0,0.1496,0.0393,False,
+000000297353.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000297353.jpg,0.1711,0.0,0.455,0.1657,False,
+000000300233.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000300233.jpg,0.9786,0.0,0.099,0.0202,True,swap: annotated spoon looks like bowl (0.88) (+1 more)
+000000301867.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000301867.jpg,0.1437,0.0,0.35,0.1036,False,
+000000302760.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000302760.jpg,0.0,0.0,0.0642,0.0161,False,
+000000303653.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000303653.jpg,0.3887,0.0,0.2489,0.0653,False,
+000000303653_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000303653_missing.jpg,0.3887,0.0,0.2005,0.0476,False,
+000000303908.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000303908.jpg,0.0012,0.0,0.9638,0.6663,True,badloc: boat box badly placed (IoU 0.86 with the model's box)
+000000305609.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000305609.jpg,0.3278,0.0,0.692,0.2976,False,
+000000308193.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000308193.jpg,0.0,0.0,0.1512,0.0532,False,
+000000308466.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000308466.jpg,0.1326,0.0,0.3027,0.106,False,
+000000309655.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000309655.jpg,0.0611,0.0,0.9482,0.5611,False,badloc: person box badly placed (IoU 0.76 with the model's box) (+1 more)
+000000310980.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000310980.jpg,0.3135,0.0,0.4775,0.1851,False,
+000000311303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000311303.jpg,0.9499,0.0,0.2165,0.15,True,swap: annotated knife looks like spoon (0.83)
+000000312720.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000312720.jpg,0.2061,0.0,0.0637,0.0205,False,
+000000313034.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000313034.jpg,0.8123,0.0,0.9885,0.7662,True,badloc: person box badly placed (IoU 0.80 with the model's box)
+000000313034_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000313034_wrong.jpg,0.8123,0.0,0.9885,0.7687,True,badloc: person box badly placed (IoU 0.80 with the model's box)
+000000315187.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000315187.jpg,0.0423,0.0,0.1348,0.0184,False,
+000000318455.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000318455.jpg,0.1367,0.0,0.9355,0.5848,False,badloc: cake box badly placed (IoU 0.46 with the model's box)
+000000318908.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000318908.jpg,0.1353,0.0,0.219,0.0791,False,
+000000319534.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000319534.jpg,0.2249,0.0,0.784,0.374,False,
+000000319617.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000319617.jpg,0.2378,0.0,0.0843,0.0814,False,
+000000320632.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000320632.jpg,0.0,0.0,0.9058,0.5096,False,badloc: zebra box badly placed (IoU 0.86 with the model's box) (+1 more)
+000000320743.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000320743.jpg,0.3148,0.0,0.9825,0.6753,True,badloc: elephant box badly placed (IoU 0.35 with the model's box) (+1 more)
+000000321214.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000321214.jpg,0.1217,0.0,0.0658,0.0461,False,
+000000322163.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000322163.jpg,0.1725,0.0,0.9887,0.7599,True,badloc: bowl box badly placed (IoU 0.93 with the model's box)
+000000322895.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000322895.jpg,0.9359,0.0,0.7269,0.343,True,swap: annotated couch looks like couch (0.74)
+000000322968.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000322968.jpg,0.0,1.0,0.1671,0.0591,True,overlooked: unannotated person (0.78)
+000000323571.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000323571.jpg,0.743,0.0,0.2559,0.0682,False,
+000000325527.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000325527.jpg,0.0,0.0,0.0458,0.0155,False,
+000000326541.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000326541.jpg,0.0676,0.0,0.8961,0.4806,False,badloc: person box badly placed (IoU 0.88 with the model's box)
+000000326541_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000326541_wrong.jpg,0.9526,0.0,0.8961,0.4806,True,swap: annotated train looks like person (0.75) (+1 more)
+000000327769.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000327769.jpg,0.4102,0.0,0.1671,0.0402,False,
+000000328959.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000328959.jpg,0.0,0.0,0.0239,0.008,False,
+000000332570.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000332570.jpg,0.4619,0.0,0.0583,0.1979,False,
+000000334309.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000334309.jpg,0.9114,0.0,0.7743,0.3913,True,swap: annotated pizza looks like hot dog (0.86)
+000000334309_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000334309_wrong.jpg,0.9114,0.0,0.7743,0.3913,True,swap: annotated sandwich looks like hot dog (0.86)
+000000335529.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000335529.jpg,0.0,0.0,0.9565,0.6126,True,badloc: boat box badly placed (IoU 0.50 with the model's box)
+000000338191.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000338191.jpg,0.0,0.0,0.2984,0.0743,False,
+000000341469.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000341469.jpg,1.0,0.0,0.8562,0.9643,True,swap: annotated handbag looks like suitcase (0.71) (+2 more)
+000000341469_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000341469_missing.jpg,1.0,0.0,0.8562,0.968,True,swap: annotated handbag looks like suitcase (0.71) (+2 more)
+000000343218.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000343218.jpg,0.285,0.0,0.2703,0.0648,False,
+000000343453.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000343453.jpg,0.0847,0.0,0.424,0.1745,False,
+000000343976.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000343976.jpg,0.0,0.0,0.0,0.0,False,
+000000344029.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000344029.jpg,0.2575,0.0,0.8387,0.4403,False,
+000000344614.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000344614.jpg,0.0,0.0,0.0967,0.0265,False,
+000000345027.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000345027.jpg,0.1549,0.0,0.0817,0.0021,False,
+000000345027_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000345027_wrong.jpg,0.9883,0.0,0.0817,0.002,True,swap: annotated traffic light looks like bench (0.91)
+000000345941.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000345941.jpg,0.0768,0.0,0.2167,0.0691,False,
+000000346968.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000346968.jpg,0.1144,0.0,0.5427,0.2279,False,
+000000351362.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000351362.jpg,0.0116,0.0,0.1704,0.0386,False,
+000000351589.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000351589.jpg,0.1993,0.0,0.0428,0.0605,False,
+000000352760.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000352760.jpg,0.3879,0.0,0.0655,0.1621,False,
+000000354547.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000354547.jpg,0.0221,0.0,0.7401,0.3603,False,
+000000354547_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000354547_wrong.jpg,0.869,0.0,0.7401,0.3611,True,swap: annotated frisbee looks like person (0.94)
+000000355325.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000355325.jpg,0.8427,0.0,0.9412,0.6269,True,badloc: wine glass box badly placed (IoU 0.93 with the model's box)
+000000356261.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000356261.jpg,0.0,0.0,0.9021,0.5388,False,badloc: horse box badly placed (IoU 0.11 with the model's box)
+000000356432.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000356432.jpg,0.0144,1.0,0.0822,0.0119,True,overlooked: unannotated chair (0.77)
+000000356612.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000356612.jpg,0.9443,0.0,0.9878,0.7112,True,badloc: cow box badly placed (IoU 0.44 with the model's box) (+1 more)
+000000359781.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000359781.jpg,0.0,0.0,0.0344,0.0116,False,
+000000361238.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000361238.jpg,0.7582,0.0,0.8,0.3625,False,
+000000361238_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000361238_missing.jpg,0.086,1.0,0.6038,0.2455,True,overlooked: unannotated person (0.85)
+000000361571.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000361571.jpg,0.0,0.0,0.083,0.0285,False,
+000000362434.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000362434.jpg,0.0616,0.0,0.0383,0.0076,False,
+000000362716.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000362716.jpg,0.0688,0.0,0.0755,0.032,False,
+000000365387.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000365387.jpg,0.0,0.0,0.1144,0.0264,False,
+000000365387_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000365387_missing.jpg,0.0,1.0,0.1144,0.0261,True,overlooked: unannotated sink (0.87)
+000000365766.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000365766.jpg,0.0,0.0,0.2927,0.0909,False,
+000000368456.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000368456.jpg,0.0,0.0,0.07,0.0239,False,
+000000368684.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000368684.jpg,0.928,0.0,0.2869,0.0643,True,swap: annotated tv looks like laptop (0.90)
+000000370677.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000370677.jpg,0.0153,0.0,0.0708,0.0061,False,
+000000370999.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000370999.jpg,0.0,1.0,0.0,0.0,True,overlooked: unannotated donut (0.84) (+2 more)
+000000374052.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000374052.jpg,0.2248,0.0,0.9278,0.5276,False,
+000000374083.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000374083.jpg,0.4546,0.0,0.553,0.2208,False,
+000000376322.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000376322.jpg,0.8457,0.0,0.999,0.7012,True,badloc: dining table box badly placed (IoU 0.00 with the model's box) (+3 more)
+000000377113.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000377113.jpg,0.0353,0.0,0.8811,0.4701,False,
+000000378116.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000378116.jpg,0.0707,0.0,0.143,0.0405,False,
+000000379441.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000379441.jpg,0.1021,0.0,0.37,0.0916,False,
+000000383289.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000383289.jpg,0.2888,0.0,0.9055,0.5085,False,badloc: car box badly placed (IoU 0.94 with the model's box)
+000000383289_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000383289_wrong.jpg,0.9509,0.0,0.9055,0.5416,True,swap: annotated bus looks like car (0.84) (+1 more)
+000000383838.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000383838.jpg,0.0364,0.0,0.0913,0.0245,False,
+000000384350.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000384350.jpg,0.0,0.0,0.5804,0.2417,False,
+000000384666.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000384666.jpg,0.1263,0.0,0.2056,0.0416,False,
+000000388215.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000388215.jpg,0.0649,0.0,0.8319,0.4473,False,
+000000392933.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000392933.jpg,0.0,0.0,0.0671,0.0229,False,
+000000396903.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000396903.jpg,0.0183,0.0,0.2114,0.06,False,
+000000397303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000397303.jpg,0.3352,0.0,0.995,0.7228,True,badloc: person box badly placed (IoU 0.63 with the model's box) (+1 more)
+000000397354.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000397354.jpg,0.9285,0.0,0.6705,0.2717,True,swap: annotated bottle looks like cup (0.61)
+000000400161.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000400161.jpg,0.051,0.0,0.1838,0.0192,False,
+000000400573.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000400573.jpg,0.074,0.0,0.9997,0.9158,True,badloc: person box badly placed (IoU 0.41 with the model's box) (+2 more)
+000000400922.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000400922.jpg,0.0,0.0,0.0986,0.028,False,
+000000402346.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000402346.jpg,0.0093,0.0,0.0425,0.0062,False,
+000000405205.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000405205.jpg,0.0115,0.0,0.0751,0.0196,False,
+000000405279.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000405279.jpg,0.2347,0.0,0.2515,0.0448,False,
+000000407646.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000407646.jpg,0.0181,0.0,0.0794,0.0247,False,
+000000407943.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000407943.jpg,0.1418,0.0,0.0875,0.0469,False,
+000000408112.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000408112.jpg,0.0174,0.0,0.2181,0.0486,False,
+000000408696.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000408696.jpg,0.1362,0.0,0.9901,0.7408,True,badloc: person box badly placed (IoU 0.90 with the model's box) (+1 more)
+000000409358.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000409358.jpg,0.0001,0.0,0.265,0.0904,False,
+000000409358_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000409358_wrong.jpg,0.735,0.0,0.0,0.0,False,
+000000410880.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000410880.jpg,0.8923,0.0,0.0822,0.0084,True,
+000000410880_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000410880_missing.jpg,0.0627,1.0,0.0619,0.0049,True,overlooked: unannotated chair (0.77)
+000000411938.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000411938.jpg,0.3756,0.0,0.8243,0.4681,False,
+000000411938_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000411938_missing.jpg,0.3756,0.0,0.8243,0.4822,False,
+000000413552.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000413552.jpg,0.0014,0.0,0.4021,0.1508,False,
+000000417043.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000417043.jpg,0.0,0.0,0.0727,0.0248,False,
+000000417608.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000417608.jpg,0.0593,0.0,0.1638,0.0329,False,
+000000420281.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000420281.jpg,0.036,0.0,0.0969,0.0305,False,
+000000420281_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000420281_missing.jpg,0.036,0.0,0.094,0.0243,False,
+000000424721.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000424721.jpg,0.1683,0.0,0.9927,0.6836,True,badloc: carrot box badly placed (IoU 0.74 with the model's box)
+000000427034.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000427034.jpg,0.4426,0.0,0.8457,0.4623,False,
+000000427160.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000427160.jpg,0.2406,0.0,0.8259,0.4394,False,
+000000428218.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000428218.jpg,0.0,0.0,0.2879,0.0896,False,
+000000429761.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000429761.jpg,0.0683,0.0,0.1294,0.0289,False,
+000000430056.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000430056.jpg,0.1704,0.0,0.1214,0.0289,False,
+000000430377.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000430377.jpg,0.1077,0.0,0.1751,0.0491,False,
+000000433103.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000433103.jpg,0.2023,0.0,0.9464,0.5377,False,badloc: person box badly placed (IoU 0.83 with the model's box) (+1 more)
+000000433915.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000433915.jpg,0.5099,0.0,0.3666,0.1171,False,
+000000435081.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000435081.jpg,0.9082,1.0,0.9979,0.617,True,overlooked: unannotated knife (0.75) (+3 more)
+000000437205.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000437205.jpg,0.8438,0.0,0.052,0.4674,True,
+000000437205_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000437205_wrong.jpg,0.948,0.0,0.0452,0.4642,True,swap: annotated pizza looks like banana (0.93)
+000000440475.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000440475.jpg,0.5152,0.0,0.9944,0.7588,True,badloc: couch box badly placed (IoU 0.05 with the model's box) (+1 more)
+000000441247.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000441247.jpg,0.9538,0.0,0.2577,0.0409,True,swap: annotated chair looks like couch (0.85) (+1 more)
+000000441442.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000441442.jpg,0.0946,0.0,0.1763,0.0572,False,
+000000442836.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000442836.jpg,0.0447,0.0,0.0931,0.0281,False,
+000000442836_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000442836_missing.jpg,0.0447,1.0,0.0931,0.0274,True,overlooked: unannotated person (0.92)
+000000443303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000443303.jpg,0.8026,0.0,0.0365,0.0072,True,
+000000447088.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000447088.jpg,0.0349,0.0,0.4386,0.1523,False,
+000000447088_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000447088_wrong.jpg,0.5614,0.0,0.263,0.0672,False,
+000000449579.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000449579.jpg,0.0291,0.0,0.3021,0.1062,False,
+000000449661.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000449661.jpg,0.3176,0.0,0.0803,0.0141,False,
+000000452122.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000452122.jpg,0.0,0.0,0.0686,0.0234,False,
+000000452321.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000452321.jpg,0.0,0.0,0.9935,0.7954,True,badloc: bus box badly placed (IoU 0.90 with the model's box) (+1 more)
+000000453584.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000453584.jpg,0.0822,0.0,0.1233,0.0152,False,
+000000455555.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000455555.jpg,0.0728,0.0,0.1115,0.0342,False,
+000000456559.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000456559.jpg,0.0455,0.0,0.1236,0.0425,False,
+000000457884.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000457884.jpg,0.0417,1.0,0.2164,0.0586,True,overlooked: unannotated sports ball (0.82)
+000000458992.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000458992.jpg,0.6496,0.0,0.4285,0.1535,False,
+000000459634.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000459634.jpg,0.6064,0.0,0.131,0.0409,False,
+000000459662.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000459662.jpg,0.499,0.0,0.1128,0.053,False,
+000000460929.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000460929.jpg,0.221,0.0,0.1003,0.0305,False,
+000000461573.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000461573.jpg,0.0,0.0,0.679,0.3096,False,
+000000462371.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000462371.jpg,0.1062,0.0,0.8474,0.4236,False,
+000000464824.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000464824.jpg,0.0962,0.0,0.3437,0.1182,False,
+000000464824_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000464824_missing.jpg,0.0962,0.0,0.3437,0.1238,False,
+000000465180.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000465180.jpg,0.2318,0.0,0.2591,0.055,False,
+000000465822.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000465822.jpg,0.2797,0.0,0.9951,0.6422,True,badloc: chair box badly placed (IoU 0.85 with the model's box) (+3 more)
+000000466256.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000466256.jpg,0.2308,0.0,0.9805,0.6346,True,badloc: carrot box badly placed (IoU 0.05 with the model's box)
+000000466602.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000466602.jpg,0.2061,0.0,0.7455,0.3645,False,
+000000466602_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000466602_missing.jpg,0.2061,0.0,0.7455,0.3659,False,
+000000467176.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000467176.jpg,0.1343,0.0,0.9455,0.6126,False,badloc: person box badly placed (IoU 0.86 with the model's box)
+000000468233.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000468233.jpg,0.0,0.0,0.1052,0.0364,False,
+000000471789.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000471789.jpg,0.1512,0.0,0.8412,0.4216,False,
+000000473406.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000473406.jpg,0.1163,0.0,0.8981,0.528,False,
+000000473821.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000473821.jpg,0.0424,0.0,0.2571,0.072,False,
+000000474095.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000474095.jpg,0.0205,0.0,0.0842,0.0237,False,
+000000475365.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000475365.jpg,0.9413,0.0,0.0,0.0,True,swap: annotated train looks like truck (0.71)
+000000475732.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000475732.jpg,0.1688,0.0,0.3145,0.1183,False,
+000000476415.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000476415.jpg,0.1437,0.0,0.0591,0.0146,False,
+000000476491.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000476491.jpg,0.0,0.0,0.0,0.0,False,
+000000480021.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000480021.jpg,0.3408,0.0,0.3253,0.0828,False,
+000000481390.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000481390.jpg,0.0234,0.0,0.9293,0.5801,False,badloc: person box badly placed (IoU 0.08 with the model's box)
+000000481582.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000481582.jpg,0.1733,0.0,0.3007,0.1257,False,
+000000481582_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000481582_wrong.jpg,0.9353,0.0,0.3007,0.6354,True,swap: annotated cow looks like horse (0.96)
+000000482487.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000482487.jpg,0.0,0.0,0.0977,0.0318,False,
+000000485480.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000485480.jpg,0.035,0.0,0.1827,0.0519,False,
+000000486040.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000486040.jpg,0.2943,0.0,0.1222,0.0402,False,
+000000491008.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000491008.jpg,0.2689,0.0,0.5672,0.2052,False,
+000000491008_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000491008_missing.jpg,0.2689,0.0,0.5672,0.2139,False,
+000000493772.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000493772.jpg,0.0079,0.0,0.1442,0.0409,False,
+000000495146.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000495146.jpg,0.8856,0.0,0.2435,0.0525,True,
+000000496954.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000496954.jpg,0.5189,0.0,0.1158,0.0502,False,
+000000499109.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000499109.jpg,0.0761,0.0,0.3394,0.1291,False,
+000000499313.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000499313.jpg,0.6216,0.0,0.996,0.879,True,badloc: cup box badly placed (IoU 0.72 with the model's box)
+000000500211.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000500211.jpg,0.1261,0.0,0.4467,0.1376,False,
+000000500716.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000500716.jpg,0.1836,0.0,0.1302,0.0354,False,
+000000502732.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000502732.jpg,0.0,1.0,0.1123,0.0389,True,overlooked: unannotated refrigerator (0.53)
+000000503823.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000503823.jpg,0.0,0.0,0.9683,0.6014,True,badloc: boat box badly placed (IoU 0.22 with the model's box)
+000000504074.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000504074.jpg,0.3642,0.0,0.9123,0.5087,False,
+000000504074_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000504074_missing.jpg,0.3642,0.0,0.7631,0.3816,False,
+000000504439.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000504439.jpg,0.0,0.0,0.0628,0.0169,False,
+000000506279.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000506279.jpg,0.1549,0.0,0.0966,0.071,False,
+000000507037.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000507037.jpg,0.1724,0.0,0.9717,0.611,True,badloc: bicycle box badly placed (IoU 0.04 with the model's box) (+2 more)
+000000507893.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000507893.jpg,0.0,0.0,0.1731,0.0516,False,
+000000508312.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000508312.jpg,0.933,0.0,0.0663,0.0088,True,swap: annotated oven looks like sink (0.73)
+000000512564.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000512564.jpg,0.9765,0.0,0.1067,0.01,True,swap: annotated truck looks like car (0.78)
+000000513484.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000513484.jpg,0.0,0.0,0.1188,0.0413,False,
+000000515982.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000515982.jpg,0.0288,0.0,0.123,0.0309,False,
+000000519039.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000519039.jpg,0.0,0.0,0.1506,0.0529,False,
+000000519338.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000519338.jpg,0.0,0.0,0.4533,0.1823,False,
+000000521052.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000521052.jpg,0.0092,0.0,0.1313,0.0375,False,
+000000521231.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000521231.jpg,0.0,0.0,0.0655,0.0223,False,
+000000521956.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000521956.jpg,0.0493,0.0,0.0997,0.0356,False,
+000000522007.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000522007.jpg,0.0091,0.0,0.1399,0.0302,False,
+000000523957.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000523957.jpg,0.2777,0.0,0.9165,0.5201,False,badloc: person box badly placed (IoU 0.82 with the model's box)
+000000525083.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000525083.jpg,1.0,1.0,0.168,0.9479,True,overlooked: unannotated toaster (0.81) (+3 more)
+000000525247.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000525247.jpg,0.2285,0.0,0.0733,0.1027,False,
+000000526103.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000526103.jpg,0.0094,0.0,0.133,0.0426,False,
+000000526103_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000526103_missing.jpg,0.0,1.0,0.133,0.0399,True,overlooked: unannotated umbrella (0.54)
+000000526751.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000526751.jpg,0.0,0.0,0.9641,0.6585,True,badloc: boat box badly placed (IoU 0.04 with the model's box)
+000000529528.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000529528.jpg,0.2742,0.0,0.0,0.0,False,
+000000529568.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000529568.jpg,0.1454,0.0,0.9432,0.5618,False,badloc: vase box badly placed (IoU 0.75 with the model's box)
+000000529568_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000529568_missing.jpg,0.1454,1.0,0.9432,0.5917,True,overlooked: unannotated sink (0.55) (+1 more)
+000000534394.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000534394.jpg,0.0011,0.0,0.1404,0.0107,False,
+000000535306.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000535306.jpg,0.2748,0.0,0.1005,0.1238,False,
+000000535306_missing.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000535306_missing.jpg,0.2748,0.0,0.0937,0.0323,False,
+000000536343.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000536343.jpg,0.0,1.0,0.0,0.0,True,overlooked: unannotated sink (0.57)
+000000539143.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000539143.jpg,0.0,0.0,0.0501,0.017,False,
+000000539883.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000539883.jpg,0.309,0.0,0.6436,0.3001,False,
+000000540502.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000540502.jpg,0.3836,1.0,0.5749,0.2156,True,overlooked: unannotated chair (0.65)
+000000543300.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000543300.jpg,0.0,0.0,0.0724,0.0248,False,
+000000544444.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000544444.jpg,0.0297,0.0,0.7317,0.3542,False,
+000000546829.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000546829.jpg,0.1808,0.0,0.4174,0.1862,False,
+000000546964.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000546964.jpg,0.9241,0.0,0.967,0.5892,True,badloc: chair box badly placed (IoU 0.89 with the model's box) (+6 more)
+000000547502.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000547502.jpg,0.027,0.0,0.0929,0.0215,False,
+000000548506.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000548506.jpg,0.0781,0.0,0.7761,0.3676,False,
+000000549136.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000549136.jpg,0.0,0.0,0.0,0.0,False,
+000000553221.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000553221.jpg,0.0382,0.0,0.3386,0.0892,False,
+000000554579.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000554579.jpg,0.0968,0.0,0.2371,0.0703,False,
+000000554838.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000554838.jpg,0.0043,0.0,0.1048,0.0326,False,
+000000559513.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000559513.jpg,0.9752,0.0,0.1114,0.0176,True,swap: annotated knife looks like fork (0.79)
+000000562197.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000562197.jpg,0.0,1.0,0.0338,0.0114,True,overlooked: unannotated bowl (0.53)
+000000562443.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000562443.jpg,0.0,0.0,0.2177,0.0786,False,
+000000563648.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000563648.jpg,0.1838,0.0,0.9941,0.6651,True,badloc: person box badly placed (IoU 0.48 with the model's box) (+4 more)
+000000563758.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000563758.jpg,0.0,0.0,0.0647,0.022,False,
+000000565045.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000565045.jpg,0.047,0.0,0.0419,0.0085,False,
+000000565607.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000565607.jpg,0.0372,0.0,0.053,0.0028,False,
+000000565853.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000565853.jpg,0.0341,0.0,0.2762,0.0636,False,
+000000568147.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000568147.jpg,0.2548,0.0,0.9557,0.6439,True,badloc: person box badly placed (IoU 0.88 with the model's box)
+000000568439.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000568439.jpg,0.1673,0.0,0.9163,0.5059,False,badloc: person box badly placed (IoU 0.81 with the model's box)
+000000572303.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000572303.jpg,0.0013,0.0,0.6356,0.2841,False,
+000000572555.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000572555.jpg,0.0029,0.0,0.0367,0.0044,False,
+000000572555_wrong.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000572555_wrong.jpg,0.9633,0.0,0.0,0.6672,True,swap: annotated bicycle looks like train (0.95)
+000000573943.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000573943.jpg,0.0,0.9997,0.0,0.0,True,overlooked: unannotated truck (0.53)
+000000574315.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000574315.jpg,0.3813,0.0,0.0609,0.0145,False,
+000000574520.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000574520.jpg,0.0249,0.0,0.1092,0.0313,False,
+000000576566.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000576566.jpg,0.2017,0.0,0.6685,0.2873,False,
+000000578093.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000578093.jpg,0.0,1.0,0.1763,0.0361,True,overlooked: unannotated bench (0.65)
+000000579818.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000579818.jpg,0.0193,0.0,0.1817,0.0477,False,
+000000579970.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000579970.jpg,0.7663,1.0,0.7552,0.3553,True,overlooked: unannotated chair (0.57)
+000000580757.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000580757.jpg,0.0,0.0,0.0521,0.0177,False,
+000000581482.jpg,/home/bjieyong/aiverify2/auditing/cv_annotation/data_sub500_v2/000000581482.jpg,0.0,0.0,0.0493,0.0103,False,

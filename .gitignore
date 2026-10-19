@@ -1,0 +1,6 @@
+WRONG_AUDIT_README.md
+DATA/bccd_training_runs/
+cv_explainability/artifacts_rcnn_planted/
+cv_explainability/artifacts_rcnn/
+cv_explainability/artifacts_bccd_frcnn/
+cv_explainability/artifacts_bccd_frcnn_planted/

@@ -1,0 +1,23 @@
+{
+  "name": "fiftyone_rcnn",
+  "method": "fiftyone",
+  "group": "rcnn",
+  "signals": {
+    "s_mistakenness": "max FiftyOne mistakenness over the image's annotations",
+    "s_possible_missing": "count of likely unannotated objects",
+    "s_possible_spurious": "count of likely nonexistent annotations"
+  },
+  "weights": {
+    "s_mistakenness": 1,
+    "s_possible_missing": 1,
+    "s_possible_spurious": 0.25
+  },
+  "params": {
+    "predictions": "prediction_jsons/predictions_rcnn.json",
+    "dataset": "data-audit",
+    "pred_field": "pred_rcnn",
+    "min_score": 0.01,
+    "flag_mistakenness": 0.5,
+    "missing_conf": 0.8
+  }
+}

@@ -1,0 +1,175 @@
+gt_class,pred_class,count
+wine glass,bottle,14
+cup,bowl,13
+truck,car,13
+cup,wine glass,12
+bowl,cup,12
+wine glass,cup,12
+spoon,knife,11
+cup,bottle,9
+person,chair,9
+laptop,tv,7
+fork,knife,7
+spoon,fork,6
+person,couch,6
+knife,fork,6
+parking meter,stop sign,5
+chair,dining table,5
+vase,bottle,5
+bowl,vase,5
+bus,truck,5
+bottle,cup,4
+backpack,chair,4
+wine glass,book,4
+orange,apple,3
+pizza,dining table,3
+vase,cup,3
+suitcase,bed,3
+couch,chair,3
+parking meter,clock,3
+dining table,chair,3
+keyboard,remote,3
+bottle,vase,3
+boat,train,3
+cake,dining table,3
+bus,car,3
+car,truck,3
+dog,sheep,3
+donut,cake,3
+backpack,handbag,3
+baseball bat,giraffe,2
+bowl,sink,2
+cake,cup,2
+cake,sandwich,2
+bowl,apple,2
+bed,chair,2
+baseball bat,stop sign,2
+baseball bat,surfboard,2
+person,car,2
+person,truck,2
+sports ball,clock,2
+skateboard,person,2
+oven,microwave,2
+sports ball,tennis racket,2
+pizza,sandwich,2
+person,motorcycle,2
+tie,kite,2
+tv,clock,2
+toilet,sink,2
+sheep,bear,2
+spoon,bowl,2
+sports ball,person,2
+suitcase,chair,2
+teddy bear,couch,2
+couch,bed,2
+cup,person,2
+chair,tv,2
+chair,laptop,2
+dining table,bowl,2
+parking meter,train,2
+parking meter,traffic light,2
+microwave,refrigerator,2
+carrot,orange,2
+car,traffic light,2
+bicycle,car,2
+knife,cell phone,2
+handbag,suitcase,2
+kite,boat,2
+knife,spoon,2
+cup,vase,2
+cat,couch,1
+cat,bowl,1
+cat,bed,1
+car,cell phone,1
+car,person,1
+bowl,fork,1
+bicycle,person,1
+bicycle,bench,1
+boat,truck,1
+boat,car,1
+boat,bus,1
+bicycle,train,1
+book,clock,1
+book,vase,1
+bowl,cake,1
+bowl,dining table,1
+apple,bowl,1
+apple,dining table,1
+airplane,car,1
+apple,banana,1
+backpack,surfboard,1
+bed,person,1
+bench,chair,1
+bench,dining table,1
+fork,spoon,1
+fork,dining table,1
+donut,cup,1
+dog,cat,1
+dog,person,1
+cow,horse,1
+cup,book,1
+chair,backpack,1
+person,bench,1
+person,bed,1
+person,backpack,1
+parking meter,surfboard,1
+parking meter,fire hydrant,1
+motorcycle,bicycle,1
+oven,dining table,1
+oven,sink,1
+keyboard,dining table,1
+keyboard,laptop,1
+frisbee,person,1
+knife,bottle,1
+knife,bird,1
+knife,toothbrush,1
+laptop,book,1
+laptop,dining table,1
+fork,wine glass,1
+handbag,backpack,1
+couch,toilet,1
+couch,sink,1
+couch,dining table,1
+clock,person,1
+cell phone,bottle,1
+chair,vase,1
+cat,person,1
+chair,couch,1
+cup,remote,1
+pizza,hot dog,1
+person,tennis racket,1
+pizza,bowl,1
+person,tv,1
+pizza,banana,1
+sandwich,cake,1
+potted plant,vase,1
+remote,cell phone,1
+remote,book,1
+sandwich,fork,1
+sandwich,dining table,1
+sandwich,hot dog,1
+person,bicycle,1
+person,surfboard,1
+person,suitcase,1
+person,handbag,1
+tie,handbag,1
+teddy bear,bird,1
+teddy bear,dog,1
+tie,book,1
+suitcase,handbag,1
+train,truck,1
+train,person,1
+train,bus,1
+traffic light,bench,1
+toilet,bed,1
+toaster,person,1
+toaster,microwave,1
+truck,bus,1
+vase,book,1
+tv,toaster,1
+tv,person,1
+tv,microwave,1
+truck,train,1
+vase,umbrella,1
+wine glass,dining table,1
+zebra,bear,1

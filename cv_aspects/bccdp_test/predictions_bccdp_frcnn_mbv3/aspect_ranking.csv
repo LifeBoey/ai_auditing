@@ -1,0 +1,2 @@
+aspect,trusted,n_groups,AP50_spread,recall_spread,worst_group,worst_AP50,worst_d_recall,worst_recall_q,best_group
+label_noise,True,3,0.5133,0.2403,wrong,0.4381,-0.2047,0.0,original

@@ -1,0 +1,10 @@
+,cleanlab_bccd_frcnn_mbv3,cleanlab_bccd_ssdlite,cleanlab_bccd_yolo11n,fiftyone_bccd_frcnn_mbv3,fiftyone_bccd_ssdlite,fiftyone_bccd_yolo11n,flags_bccd_frcnn_mbv3,flags_bccd_ssdlite,flags_bccd_yolo11n
+cleanlab_bccd_frcnn_mbv3,1.0,0.6987,0.576,0.0689,0.136,0.0623,0.2007,0.1836,0.1871
+cleanlab_bccd_ssdlite,0.6987,1.0,0.5667,0.0905,0.1391,0.0398,0.217,0.2572,0.194
+cleanlab_bccd_yolo11n,0.576,0.5667,1.0,-0.0465,0.0405,0.0486,0.1032,0.1371,0.1829
+fiftyone_bccd_frcnn_mbv3,0.0689,0.0905,-0.0465,1.0,0.4821,0.4914,0.6077,0.2821,0.149
+fiftyone_bccd_ssdlite,0.136,0.1391,0.0405,0.4821,1.0,0.3498,0.3718,0.4702,0.1908
+fiftyone_bccd_yolo11n,0.0623,0.0398,0.0486,0.4914,0.3498,1.0,0.345,0.136,0.4634
+flags_bccd_frcnn_mbv3,0.2007,0.217,0.1032,0.6077,0.3718,0.345,1.0,0.5321,0.3914
+flags_bccd_ssdlite,0.1836,0.2572,0.1371,0.2821,0.4702,0.136,0.5321,1.0,0.3907
+flags_bccd_yolo11n,0.1871,0.194,0.1829,0.149,0.1908,0.4634,0.3914,0.3907,1.0

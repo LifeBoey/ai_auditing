@@ -1,0 +1,6 @@
+category,1 method,2 methods,3 methods,4+ methods
+bad location,494,284,178,47
+missing box,573,193,62,102
+spurious box,477,69,15,0
+low confidence,397,84,10,0
+wrong class,1,1,1,1

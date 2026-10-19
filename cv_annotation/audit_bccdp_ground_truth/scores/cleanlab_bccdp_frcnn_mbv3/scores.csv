@@ -1,0 +1,415 @@
+file_name,file_path,s_swap,s_overlooked,s_badloc,s_label_issue,flagged,reason
+BloodImage_00000.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00000.jpg,0.0337,0.0,0.9013,0.5291,False,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+1 more)
+BloodImage_00001.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00001.jpg,0.0258,0.0,0.7609,0.3445,False,
+BloodImage_00002.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00002.jpg,0.0338,0.0,0.8914,0.4915,False,badloc: RBC box badly placed (IoU 0.81 with the model's box)
+BloodImage_00003.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00003.jpg,0.0551,0.0,0.8979,0.5207,False,badloc: RBC box badly placed (IoU 0.92 with the model's box)
+BloodImage_00003_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00003_wrong.jpg,0.8652,0.0,0.9957,0.7997,True,badloc: WBC box badly placed (IoU 0.06 with the model's box) (+1 more)
+BloodImage_00004.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00004.jpg,0.0546,0.0,0.976,0.6696,True,badloc: RBC box badly placed (IoU 0.67 with the model's box) (+1 more)
+BloodImage_00005.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00005.jpg,0.058,0.0,0.9697,0.5633,True,badloc: RBC box badly placed (IoU 0.74 with the model's box) (+1 more)
+BloodImage_00006.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00006.jpg,0.0966,0.0,0.9572,0.5924,True,badloc: RBC box badly placed (IoU 0.97 with the model's box) (+2 more)
+BloodImage_00007.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00007.jpg,0.0215,1.0,0.9693,0.5731,True,overlooked: unannotated Platelets (0.75) (+4 more)
+BloodImage_00008.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00008.jpg,0.0888,0.0,0.9789,0.6136,True,badloc: RBC box badly placed (IoU 0.86 with the model's box) (+4 more)
+BloodImage_00009.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00009.jpg,0.0852,0.0,0.9992,0.6374,True,badloc: RBC box badly placed (IoU 0.86 with the model's box) (+1 more)
+BloodImage_00010.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00010.jpg,0.0785,0.0,0.9194,0.5194,False,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00011.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00011.jpg,0.0428,0.0,0.9852,0.588,True,badloc: RBC box badly placed (IoU 0.83 with the model's box) (+1 more)
+BloodImage_00012.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00012.jpg,0.0614,0.0,0.9847,0.6137,True,badloc: RBC box badly placed (IoU 0.92 with the model's box) (+2 more)
+BloodImage_00012_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00012_missing.jpg,0.0614,1.0,0.9847,0.6119,True,overlooked: unannotated RBC (0.93) (+2 more)
+BloodImage_00013.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00013.jpg,0.0295,0.0,0.953,0.6182,True,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00013_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00013_missing.jpg,0.0295,0.0,0.953,0.6258,True,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00014.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00014.jpg,0.0463,0.0,0.9825,0.7021,True,badloc: RBC box badly placed (IoU 0.90 with the model's box) (+1 more)
+BloodImage_00015.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00015.jpg,0.0723,0.0,0.9978,0.7063,True,badloc: RBC box badly placed (IoU 0.85 with the model's box) (+1 more)
+BloodImage_00015_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00015_missing.jpg,0.0723,1.0,0.9848,0.9991,True,overlooked: unannotated RBC (0.98) (+2 more)
+BloodImage_00016.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00016.jpg,0.0557,0.0,0.9663,0.6552,True,badloc: RBC box badly placed (IoU 0.87 with the model's box)
+BloodImage_00016_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00016_missing.jpg,0.0557,1.0,0.9663,0.6625,True,overlooked: unannotated RBC (0.68) (+1 more)
+BloodImage_00017.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00017.jpg,0.0329,0.0,0.9362,0.5316,False,badloc: RBC box badly placed (IoU 0.79 with the model's box) (+1 more)
+BloodImage_00018.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00018.jpg,0.0392,1.0,0.9835,0.5792,True,overlooked: unannotated RBC (0.77) (+5 more)
+BloodImage_00019.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00019.jpg,0.0482,0.0,0.9726,0.6084,True,badloc: RBC box badly placed (IoU 0.63 with the model's box) (+3 more)
+BloodImage_00020.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00020.jpg,0.0599,0.0,0.9978,0.6033,True,badloc: RBC box badly placed (IoU 0.78 with the model's box) (+2 more)
+BloodImage_00021.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00021.jpg,0.0454,0.0,0.974,0.57,True,badloc: RBC box badly placed (IoU 0.80 with the model's box) (+2 more)
+BloodImage_00022.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00022.jpg,0.0342,1.0,0.898,0.4835,True,overlooked: unannotated RBC (0.72) (+1 more)
+BloodImage_00022_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00022_wrong.jpg,0.9178,1.0,0.898,0.7364,True,overlooked: unannotated RBC (0.72) (+2 more)
+BloodImage_00023.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00023.jpg,0.048,0.0,0.9436,0.5487,False,badloc: RBC box badly placed (IoU 0.69 with the model's box)
+BloodImage_00024.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00024.jpg,0.0165,0.0,0.9981,0.6624,True,badloc: RBC box badly placed (IoU 0.78 with the model's box) (+2 more)
+BloodImage_00026.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00026.jpg,0.0396,0.0,0.9517,0.5495,True,badloc: RBC box badly placed (IoU 0.71 with the model's box) (+2 more)
+BloodImage_00028.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00028.jpg,0.102,0.0,0.9824,0.5587,True,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+2 more)
+BloodImage_00029.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00029.jpg,0.0332,0.0,0.8617,0.4515,False,
+BloodImage_00030.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00030.jpg,0.1392,0.0,0.975,0.5563,True,badloc: RBC box badly placed (IoU 0.67 with the model's box) (+2 more)
+BloodImage_00031.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00031.jpg,0.1097,0.0,0.9255,0.4899,False,badloc: RBC box badly placed (IoU 0.81 with the model's box) (+1 more)
+BloodImage_00032.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00032.jpg,0.088,0.0,0.9811,0.5708,True,badloc: RBC box badly placed (IoU 0.89 with the model's box) (+5 more)
+BloodImage_00033.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00033.jpg,0.0392,0.0,0.9617,0.6117,True,badloc: RBC box badly placed (IoU 0.82 with the model's box) (+4 more)
+BloodImage_00034.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00034.jpg,0.0274,0.0,0.8666,0.4368,False,
+BloodImage_00035.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00035.jpg,0.037,0.0,0.9324,0.5209,False,badloc: RBC box badly placed (IoU 0.79 with the model's box) (+1 more)
+BloodImage_00036.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00036.jpg,0.0742,0.0,0.9912,0.6666,True,badloc: RBC box badly placed (IoU 0.75 with the model's box) (+2 more)
+BloodImage_00037.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00037.jpg,0.0559,0.0,0.9703,0.5403,True,badloc: RBC box badly placed (IoU 0.77 with the model's box)
+BloodImage_00038.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00038.jpg,0.0862,0.0,0.9557,0.5263,True,badloc: RBC box badly placed (IoU 0.54 with the model's box) (+1 more)
+BloodImage_00039.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00039.jpg,0.0484,0.0,0.9927,0.6899,True,badloc: RBC box badly placed (IoU 0.74 with the model's box) (+2 more)
+BloodImage_00040.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00040.jpg,0.0657,0.0,0.9906,0.6582,True,badloc: RBC box badly placed (IoU 0.72 with the model's box) (+1 more)
+BloodImage_00041.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00041.jpg,0.0577,0.0,0.9876,0.7102,True,badloc: RBC box badly placed (IoU 0.73 with the model's box)
+BloodImage_00042.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00042.jpg,0.0619,0.0,0.8768,0.4594,False,badloc: RBC box badly placed (IoU 0.91 with the model's box)
+BloodImage_00042_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00042_wrong.jpg,0.9125,0.0,0.9498,0.5468,True,badloc: WBC box badly placed (IoU 0.06 with the model's box) (+2 more)
+BloodImage_00043.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00043.jpg,0.0535,0.0,0.9107,0.5064,False,badloc: RBC box badly placed (IoU 0.64 with the model's box)
+BloodImage_00044.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00044.jpg,0.1726,0.0,0.4929,0.1429,False,
+BloodImage_00045.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00045.jpg,0.0118,0.0,0.9996,0.6322,True,badloc: RBC box badly placed (IoU 0.61 with the model's box) (+2 more)
+BloodImage_00046.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00046.jpg,0.116,0.0,0.9929,0.5879,True,badloc: RBC box badly placed (IoU 0.90 with the model's box) (+3 more)
+BloodImage_00046_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00046_missing.jpg,0.116,1.0,0.9929,0.5863,True,overlooked: unannotated Platelets (0.94) (+3 more)
+BloodImage_00047.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00047.jpg,0.0176,0.0,0.9158,0.529,False,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+2 more)
+BloodImage_00048.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00048.jpg,0.0427,1.0,0.973,0.6053,True,overlooked: unannotated RBC (0.62) (+3 more)
+BloodImage_00049.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00049.jpg,0.0583,0.0,0.9899,0.7388,True,badloc: RBC box badly placed (IoU 0.75 with the model's box) (+3 more)
+BloodImage_00049_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00049_missing.jpg,0.0583,1.0,0.9857,0.9994,True,overlooked: unannotated RBC (0.98) (+3 more)
+BloodImage_00050.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00050.jpg,0.0,0.0,0.9627,0.6533,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00052.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00052.jpg,0.065,0.0,0.9579,0.6283,True,badloc: RBC box badly placed (IoU 0.67 with the model's box)
+BloodImage_00052_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00052_wrong.jpg,0.9583,0.0,0.935,0.8291,True,swap: annotated WBC looks like RBC (0.97) (+1 more)
+BloodImage_00053.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00053.jpg,0.0391,0.0,0.4752,0.1423,False,
+BloodImage_00054.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00054.jpg,0.0,0.0,0.9838,0.7273,True,badloc: RBC box badly placed (IoU 0.91 with the model's box)
+BloodImage_00055.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00055.jpg,0.0552,0.0,0.7631,0.365,False,
+BloodImage_00055_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00055_missing.jpg,0.0552,1.0,0.7631,1.0,True,overlooked: unannotated WBC (0.98)
+BloodImage_00056.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00056.jpg,0.0586,0.0,0.9007,0.5322,False,badloc: RBC box badly placed (IoU 0.71 with the model's box)
+BloodImage_00057.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00057.jpg,0.0573,0.0,0.4589,0.1459,False,
+BloodImage_00058.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00058.jpg,0.0,0.0,0.9994,0.8437,True,badloc: RBC box badly placed (IoU 0.77 with the model's box)
+BloodImage_00059.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00059.jpg,0.0632,0.0,0.2387,0.0736,False,
+BloodImage_00062.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00062.jpg,0.0277,0.0,0.9682,0.6689,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+1 more)
+BloodImage_00062_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00062_missing.jpg,0.0277,1.0,0.9682,0.9994,True,overlooked: unannotated RBC (0.97) (+2 more)
+BloodImage_00063.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00063.jpg,0.0875,0.0,0.2202,0.0621,False,
+BloodImage_00064.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00064.jpg,0.1029,1.0,0.9902,0.7634,True,overlooked: unannotated RBC (0.68) (+1 more)
+BloodImage_00065.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00065.jpg,0.0074,0.0,0.373,0.1074,False,
+BloodImage_00066.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00066.jpg,0.053,0.0,0.2438,0.065,False,
+BloodImage_00067.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00067.jpg,0.0493,0.0,0.2499,0.0637,False,
+BloodImage_00068.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00068.jpg,0.0861,0.0,0.2482,0.0708,False,
+BloodImage_00068_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00068_wrong.jpg,0.9239,0.0,0.9139,0.798,True,swap: annotated WBC looks like Platelets (0.74) (+4 more)
+BloodImage_00069.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00069.jpg,0.0216,0.0,0.3295,0.0797,False,
+BloodImage_00070.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00070.jpg,0.9238,0.0,0.9886,0.7486,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+2 more)
+BloodImage_00071.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00071.jpg,0.0325,1.0,0.2859,0.0809,True,overlooked: unannotated RBC (0.63)
+BloodImage_00072.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00072.jpg,0.0296,0.0,0.1216,0.0361,False,
+BloodImage_00073.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00073.jpg,0.0075,0.0,0.9917,0.6536,True,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00074.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00074.jpg,0.0,0.0,0.9311,0.5358,False,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+1 more)
+BloodImage_00075.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00075.jpg,0.0,0.0,0.228,0.0581,False,
+BloodImage_00076.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00076.jpg,0.0036,1.0,0.8968,0.5115,True,overlooked: unannotated Platelets (0.93) (+1 more)
+BloodImage_00076_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00076_missing.jpg,0.0036,1.0,0.8968,0.9957,True,overlooked: unannotated Platelets (0.93) (+5 more)
+BloodImage_00077.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00077.jpg,0.0224,0.0,0.9894,0.7266,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+1 more)
+BloodImage_00078.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00078.jpg,0.0384,1.0,0.9823,0.7076,True,overlooked: unannotated RBC (0.57) (+1 more)
+BloodImage_00079.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00079.jpg,0.0757,0.0,0.9261,0.5365,False,badloc: RBC box badly placed (IoU 0.52 with the model's box)
+BloodImage_00081.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00081.jpg,0.0246,0.0,0.9892,0.695,True,badloc: RBC box badly placed (IoU 0.61 with the model's box) (+3 more)
+BloodImage_00082.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00082.jpg,0.0,0.0,0.9829,0.7287,True,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00083.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00083.jpg,0.008,0.9991,0.8553,0.4305,True,overlooked: unannotated Platelets (0.69)
+BloodImage_00086.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00086.jpg,0.0437,0.0,0.9585,0.6053,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00087.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00087.jpg,0.0,0.0,0.3159,0.0839,False,
+BloodImage_00087_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00087_wrong.jpg,0.9071,0.0,0.3159,0.0848,True,
+BloodImage_00088.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00088.jpg,0.0313,0.0,0.3728,0.1019,False,
+BloodImage_00089.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00089.jpg,0.024,0.0,0.2137,0.051,False,
+BloodImage_00089_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00089_wrong.jpg,0.7993,0.0,0.9817,0.8388,True,badloc: WBC box badly placed (IoU 0.63 with the model's box)
+BloodImage_00090.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00090.jpg,0.03,1.0,0.9544,0.5751,True,overlooked: unannotated Platelets (0.56) (+1 more)
+BloodImage_00091.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00091.jpg,0.0,0.0,0.9298,0.5361,False,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00092.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00092.jpg,0.0256,0.0,0.5789,0.2134,False,
+BloodImage_00093.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00093.jpg,0.0443,0.0,0.9955,0.7983,True,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00094.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00094.jpg,0.0525,0.0,0.9963,0.7232,True,badloc: RBC box badly placed (IoU 0.95 with the model's box) (+2 more)
+BloodImage_00095.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00095.jpg,0.038,0.0,0.9638,0.6077,True,badloc: RBC box badly placed (IoU 0.81 with the model's box) (+1 more)
+BloodImage_00097.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00097.jpg,0.0517,0.0,0.9851,0.6365,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+3 more)
+BloodImage_00098.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00098.jpg,0.0337,0.0,0.9838,0.696,True,badloc: RBC box badly placed (IoU 0.77 with the model's box) (+2 more)
+BloodImage_00099.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00099.jpg,0.0866,0.0,0.9881,0.6562,True,badloc: RBC box badly placed (IoU 0.89 with the model's box) (+1 more)
+BloodImage_00100.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00100.jpg,0.0171,0.0,0.9912,0.6235,True,badloc: RBC box badly placed (IoU 0.79 with the model's box)
+BloodImage_00101.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00101.jpg,0.0137,0.0,0.9782,0.6289,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+2 more)
+BloodImage_00103.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00103.jpg,0.0,0.0,0.9041,0.533,False,badloc: RBC box badly placed (IoU 0.89 with the model's box)
+BloodImage_00104.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00104.jpg,0.0376,0.0,0.9947,0.6838,True,badloc: RBC box badly placed (IoU 0.72 with the model's box) (+5 more)
+BloodImage_00106.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00106.jpg,0.0526,0.0,0.9692,0.6288,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+2 more)
+BloodImage_00107.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00107.jpg,0.0192,0.0,0.4383,0.1378,False,
+BloodImage_00108.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00108.jpg,0.024,0.0,0.9643,0.6612,True,badloc: RBC box badly placed (IoU 0.97 with the model's box)
+BloodImage_00109.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00109.jpg,0.0412,0.0,0.9842,0.6624,True,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+1 more)
+BloodImage_00110.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00110.jpg,0.7744,0.0,0.2791,0.0772,False,
+BloodImage_00111.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00111.jpg,0.0567,0.0,0.974,0.6066,True,badloc: RBC box badly placed (IoU 0.80 with the model's box) (+1 more)
+BloodImage_00112.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00112.jpg,0.0328,0.0,0.9493,0.5372,False,badloc: RBC box badly placed (IoU 0.85 with the model's box)
+BloodImage_00112_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00112_missing.jpg,0.0328,1.0,0.8133,0.9945,True,overlooked: unannotated RBC (1.00) (+2 more)
+BloodImage_00113.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00113.jpg,0.6559,0.0,0.9691,0.6796,True,badloc: RBC box badly placed (IoU 0.91 with the model's box)
+BloodImage_00114.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00114.jpg,0.036,0.0,0.9934,0.7215,True,badloc: RBC box badly placed (IoU 0.85 with the model's box) (+1 more)
+BloodImage_00115.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00115.jpg,0.0258,0.0,0.9454,0.611,False,badloc: RBC box badly placed (IoU 0.92 with the model's box)
+BloodImage_00117.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00117.jpg,0.0707,0.0,0.9597,0.6518,True,badloc: RBC box badly placed (IoU 0.81 with the model's box)
+BloodImage_00120.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00120.jpg,0.0664,0.0,0.3251,0.0986,False,
+BloodImage_00123.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00123.jpg,0.0843,0.0,0.4537,0.1437,False,
+BloodImage_00124.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00124.jpg,0.0219,0.0,0.9372,0.5907,False,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00125.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00125.jpg,0.0507,1.0,0.3968,0.1011,True,overlooked: unannotated RBC (0.80)
+BloodImage_00126.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00126.jpg,0.0,0.0,0.8097,0.4104,False,
+BloodImage_00126_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00126_wrong.jpg,0.9363,0.0,0.8097,0.7437,True,swap: annotated Platelets looks like RBC (0.97) (+1 more)
+BloodImage_00127.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00127.jpg,0.0385,1.0,0.3469,0.1007,True,overlooked: unannotated RBC (0.52) (+1 more)
+BloodImage_00127_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00127_missing.jpg,0.0385,1.0,0.142,0.0436,True,overlooked: unannotated RBC (0.52) (+1 more)
+BloodImage_00130.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00130.jpg,0.0286,1.0,0.8185,0.4247,True,overlooked: unannotated RBC (0.57)
+BloodImage_00130_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00130_wrong.jpg,0.9442,1.0,0.8185,0.7516,True,overlooked: unannotated RBC (0.57) (+1 more)
+BloodImage_00132.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00132.jpg,0.0308,0.0,0.2191,0.0523,False,
+BloodImage_00133.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00133.jpg,0.7609,0.0,0.9966,0.8865,True,badloc: RBC box badly placed (IoU 0.87 with the model's box)
+BloodImage_00133_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00133_missing.jpg,0.7609,1.0,0.9966,0.9998,True,overlooked: unannotated Platelets (0.79) (+4 more)
+BloodImage_00134.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00134.jpg,0.0068,0.0,0.2214,0.0659,False,
+BloodImage_00135.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00135.jpg,0.858,0.0,0.3069,0.5134,True,
+BloodImage_00136.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00136.jpg,0.052,0.0,0.2296,0.0591,False,
+BloodImage_00137.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00137.jpg,0.0,1.0,0.3863,0.1197,True,overlooked: unannotated RBC (0.57) (+1 more)
+BloodImage_00139.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00139.jpg,0.0378,1.0,0.876,0.4922,True,overlooked: unannotated RBC (0.87) (+2 more)
+BloodImage_00139_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00139_missing.jpg,0.0378,1.0,0.876,0.4952,True,overlooked: unannotated RBC (0.87) (+3 more)
+BloodImage_00140.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00140.jpg,0.0156,1.0,0.569,0.2064,True,overlooked: unannotated Platelets (0.92) (+1 more)
+BloodImage_00141.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00141.jpg,0.0214,0.0,0.3431,0.0891,False,
+BloodImage_00142.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00142.jpg,0.0,0.0,0.3061,0.0789,False,
+BloodImage_00143.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00143.jpg,0.0,0.0,0.3253,0.0988,False,
+BloodImage_00144.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00144.jpg,0.0361,0.0,0.8033,0.4041,False,
+BloodImage_00145.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00145.jpg,0.0564,1.0,0.9893,0.7665,True,overlooked: unannotated RBC (0.54) (+1 more)
+BloodImage_00145_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00145_missing.jpg,0.0564,1.0,0.9893,0.9997,True,overlooked: unannotated RBC (0.54) (+2 more)
+BloodImage_00147.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00147.jpg,0.0,1.0,0.1423,0.0427,True,overlooked: unannotated RBC (0.81) (+1 more)
+BloodImage_00148.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00148.jpg,0.0392,1.0,0.2713,0.0812,True,overlooked: unannotated RBC (0.84) (+1 more)
+BloodImage_00149.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00149.jpg,0.0758,0.0,0.2777,0.072,False,
+BloodImage_00150.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00150.jpg,0.0249,1.0,0.3299,1.0,True,overlooked: unannotated RBC (0.96) (+6 more)
+BloodImage_00152.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00152.jpg,0.0,1.0,0.1134,0.0393,True,overlooked: unannotated RBC (0.91) (+1 more)
+BloodImage_00154.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00154.jpg,0.0202,0.0,0.179,0.0418,False,
+BloodImage_00156.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00156.jpg,0.0346,0.0,0.3272,0.0923,False,
+BloodImage_00157.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00157.jpg,0.0269,1.0,0.1332,0.9982,True,overlooked: unannotated Platelets (0.56) (+1 more)
+BloodImage_00158.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00158.jpg,0.0509,1.0,0.2893,0.0761,True,overlooked: unannotated Platelets (0.67)
+BloodImage_00159.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00159.jpg,0.0476,1.0,0.4952,0.1653,True,overlooked: unannotated RBC (0.65) (+1 more)
+BloodImage_00159_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00159_wrong.jpg,0.8298,1.0,0.9524,0.7862,True,overlooked: unannotated RBC (0.65) (+2 more)
+BloodImage_00160.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00160.jpg,0.0367,0.0,0.1386,0.0323,False,
+BloodImage_00161.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00161.jpg,0.057,0.0,0.9771,0.5884,True,badloc: RBC box badly placed (IoU 0.93 with the model's box)
+BloodImage_00162.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00162.jpg,0.0296,0.0,0.2094,0.0505,False,
+BloodImage_00163.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00163.jpg,0.0454,1.0,0.3023,0.0776,True,overlooked: unannotated RBC (0.54)
+BloodImage_00164.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00164.jpg,0.0449,0.0,0.9876,0.6772,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+1 more)
+BloodImage_00164_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00164_missing.jpg,0.0339,0.0,0.9876,0.7583,True,badloc: RBC box badly placed (IoU 0.91 with the model's box)
+BloodImage_00165.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00165.jpg,0.0478,0.0,0.2009,0.0556,False,
+BloodImage_00166.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00166.jpg,0.0114,1.0,0.9017,0.5314,True,overlooked: unannotated RBC (0.50) (+1 more)
+BloodImage_00166_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00166_wrong.jpg,0.8453,1.0,0.9017,0.7445,True,overlooked: unannotated RBC (0.50) (+1 more)
+BloodImage_00167.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00167.jpg,0.0888,0.0,0.1915,0.058,False,
+BloodImage_00168.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00168.jpg,0.0865,1.0,0.9799,0.6976,True,overlooked: unannotated RBC (0.70) (+2 more)
+BloodImage_00169.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00169.jpg,0.0502,0.0,0.9307,0.5817,False,badloc: RBC box badly placed (IoU 0.88 with the model's box)
+BloodImage_00170.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00170.jpg,0.0782,0.0,0.1949,0.0573,False,
+BloodImage_00171.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00171.jpg,0.0,0.0,0.9906,0.777,True,badloc: RBC box badly placed (IoU 0.89 with the model's box)
+BloodImage_00172.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00172.jpg,0.0549,1.0,0.7389,0.3477,True,overlooked: unannotated RBC (0.53)
+BloodImage_00174.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00174.jpg,0.0294,0.0,0.9827,0.6766,True,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00175.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00175.jpg,0.0511,0.0,0.3218,0.0857,False,
+BloodImage_00176.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00176.jpg,0.0374,0.0,0.9867,0.7539,True,badloc: RBC box badly placed (IoU 0.87 with the model's box)
+BloodImage_00177.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00177.jpg,0.0308,0.0,0.9805,0.6929,True,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+1 more)
+BloodImage_00178.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00178.jpg,0.0335,0.0,0.9713,0.6513,True,badloc: RBC box badly placed (IoU 0.86 with the model's box) (+1 more)
+BloodImage_00179.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00179.jpg,0.0423,0.0,0.9731,0.6421,True,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00180.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00180.jpg,0.07,1.0,0.258,0.0704,True,overlooked: unannotated RBC (0.92)
+BloodImage_00182.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00182.jpg,0.0927,0.0,0.9199,0.5672,False,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00183.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00183.jpg,0.0697,0.0,0.2201,0.0637,False,
+BloodImage_00184.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00184.jpg,0.0128,1.0,0.7176,0.3296,True,overlooked: unannotated RBC (0.53)
+BloodImage_00187.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00187.jpg,0.0346,0.0,0.2083,0.0619,False,
+BloodImage_00189.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00189.jpg,0.0542,0.0,0.8626,0.4772,False,
+BloodImage_00190.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00190.jpg,0.0387,0.0,0.9717,0.656,True,badloc: RBC box badly placed (IoU 0.79 with the model's box) (+3 more)
+BloodImage_00191.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00191.jpg,0.0399,0.0,0.9936,0.7594,True,badloc: RBC box badly placed (IoU 0.83 with the model's box) (+1 more)
+BloodImage_00192.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00192.jpg,0.0439,0.0,0.9542,0.6359,True,badloc: RBC box badly placed (IoU 0.98 with the model's box)
+BloodImage_00193.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00193.jpg,0.0575,0.0,0.3808,0.1121,False,
+BloodImage_00195.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00195.jpg,0.0726,1.0,0.9086,0.541,True,overlooked: unannotated RBC (0.86) (+1 more)
+BloodImage_00196.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00196.jpg,0.031,0.0,0.9869,0.6812,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+2 more)
+BloodImage_00197.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00197.jpg,0.036,0.0,0.977,0.7027,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00198.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00198.jpg,0.0441,0.0,0.9911,0.6358,True,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00199.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00199.jpg,0.0585,0.0,0.2047,0.06,False,
+BloodImage_00200.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00200.jpg,0.0279,0.0,0.9503,0.628,True,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00201.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00201.jpg,0.0516,0.0,0.9338,0.5431,False,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00202.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00202.jpg,0.0229,0.0,0.9806,0.6666,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+1 more)
+BloodImage_00202_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00202_wrong.jpg,0.8982,0.0,0.9806,0.8463,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+3 more)
+BloodImage_00203.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00203.jpg,0.0,0.0,0.9902,0.6698,True,badloc: RBC box badly placed (IoU 0.91 with the model's box)
+BloodImage_00204.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00204.jpg,0.0233,0.0,0.9373,0.5592,False,badloc: RBC box badly placed (IoU 0.94 with the model's box) (+1 more)
+BloodImage_00204_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00204_wrong.jpg,0.8973,0.0,0.9767,0.6295,True,badloc: RBC box badly placed (IoU 0.78 with the model's box) (+3 more)
+BloodImage_00205.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00205.jpg,0.0389,0.0,0.865,0.4797,False,
+BloodImage_00206.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00206.jpg,0.0532,1.0,0.9883,0.6571,True,overlooked: unannotated RBC (0.61) (+2 more)
+BloodImage_00206_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00206_wrong.jpg,0.9062,1.0,0.9822,0.8418,True,overlooked: unannotated RBC (0.61) (+2 more)
+BloodImage_00207.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00207.jpg,0.0258,0.0,0.9804,0.7214,True,badloc: RBC box badly placed (IoU 0.88 with the model's box)
+BloodImage_00208.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00208.jpg,0.1029,0.0,0.9913,0.7189,True,badloc: RBC box badly placed (IoU 0.70 with the model's box) (+2 more)
+BloodImage_00209.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00209.jpg,0.0389,0.0,0.9596,0.5903,True,badloc: RBC box badly placed (IoU 0.79 with the model's box)
+BloodImage_00210.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00210.jpg,0.0498,1.0,0.9986,0.7232,True,overlooked: unannotated Platelets (0.75) (+2 more)
+BloodImage_00211.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00211.jpg,0.0629,0.0,0.9882,0.7022,True,badloc: RBC box badly placed (IoU 0.78 with the model's box) (+1 more)
+BloodImage_00212.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00212.jpg,0.0482,0.0,0.9734,0.6855,True,badloc: RBC box badly placed (IoU 0.94 with the model's box) (+1 more)
+BloodImage_00214.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00214.jpg,0.0522,0.0,0.9559,0.5955,True,badloc: RBC box badly placed (IoU 0.92 with the model's box) (+2 more)
+BloodImage_00214_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00214_wrong.jpg,0.9267,0.0,0.9589,0.7677,True,badloc: RBC box badly placed (IoU 0.73 with the model's box) (+3 more)
+BloodImage_00215.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00215.jpg,0.0524,0.0,0.9577,0.5977,True,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00216.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00216.jpg,0.0546,0.0,0.9814,0.6349,True,badloc: RBC box badly placed (IoU 0.92 with the model's box)
+BloodImage_00217.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00217.jpg,0.0,1.0,0.9977,0.6513,True,overlooked: unannotated Platelets (0.87) (+2 more)
+BloodImage_00218.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00218.jpg,0.0423,1.0,0.9848,0.746,True,overlooked: unannotated RBC (0.70) (+1 more)
+BloodImage_00219.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00219.jpg,0.0509,0.0,0.2835,0.0784,False,
+BloodImage_00220.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00220.jpg,0.0581,1.0,0.791,0.3969,True,overlooked: unannotated Platelets (0.67)
+BloodImage_00221.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00221.jpg,0.0829,0.0,0.9899,0.7669,True,badloc: RBC box badly placed (IoU 0.85 with the model's box)
+BloodImage_00222.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00222.jpg,0.0345,0.0,0.9701,0.6809,True,badloc: RBC box badly placed (IoU 0.83 with the model's box)
+BloodImage_00223.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00223.jpg,0.0307,0.0,0.3301,0.0844,False,
+BloodImage_00224.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00224.jpg,0.0262,1.0,0.2501,0.0853,True,overlooked: unannotated RBC (0.52)
+BloodImage_00224_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00224_wrong.jpg,0.7499,1.0,0.2119,0.0675,True,overlooked: unannotated RBC (0.52)
+BloodImage_00225.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00225.jpg,0.0458,0.0,0.1829,0.0504,False,
+BloodImage_00225_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00225_wrong.jpg,0.9077,0.0,0.9774,0.8468,True,badloc: WBC box badly placed (IoU 0.23 with the model's box) (+4 more)
+BloodImage_00226.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00226.jpg,0.0167,0.0,0.9307,0.5808,False,badloc: RBC box badly placed (IoU 0.78 with the model's box)
+BloodImage_00227.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00227.jpg,0.0062,0.0,0.9907,0.6783,True,badloc: RBC box badly placed (IoU 0.55 with the model's box) (+2 more)
+BloodImage_00228.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00228.jpg,0.0194,0.0,0.9883,0.6604,True,badloc: RBC box badly placed (IoU 0.90 with the model's box) (+1 more)
+BloodImage_00229.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00229.jpg,0.0594,0.0,0.9659,0.6675,True,badloc: RBC box badly placed (IoU 0.83 with the model's box)
+BloodImage_00230.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00230.jpg,0.0638,0.0,0.975,0.7017,True,badloc: RBC box badly placed (IoU 0.80 with the model's box)
+BloodImage_00231.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00231.jpg,0.0443,0.0,0.206,0.0552,False,
+BloodImage_00232.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00232.jpg,0.0637,1.0,0.1351,0.0389,True,overlooked: unannotated RBC (0.61)
+BloodImage_00233.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00233.jpg,0.0305,1.0,0.9844,0.7421,True,overlooked: unannotated RBC (0.58) (+2 more)
+BloodImage_00234.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00234.jpg,0.0509,0.0,0.9676,0.6084,True,badloc: RBC box badly placed (IoU 0.80 with the model's box)
+BloodImage_00235.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00235.jpg,0.055,1.0,0.1452,0.0498,True,overlooked: unannotated RBC (0.74) (+1 more)
+BloodImage_00236.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00236.jpg,0.0479,0.0,0.9231,0.5703,False,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00237.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00237.jpg,0.0569,0.0,0.1769,0.049,False,
+BloodImage_00239.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00239.jpg,0.0494,0.0,0.9914,0.7188,True,badloc: RBC box badly placed (IoU 0.65 with the model's box) (+2 more)
+BloodImage_00240.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00240.jpg,0.0251,0.0,0.19,0.0559,False,
+BloodImage_00241.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00241.jpg,0.1148,1.0,0.9822,0.6956,True,overlooked: unannotated RBC (0.67) (+2 more)
+BloodImage_00242.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00242.jpg,0.1153,0.0,0.9967,0.6763,True,badloc: RBC box badly placed (IoU 0.90 with the model's box) (+1 more)
+BloodImage_00243.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00243.jpg,0.0455,0.0,0.9991,0.853,True,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00244.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00244.jpg,0.0827,0.0,0.9578,0.6364,True,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00245.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00245.jpg,0.0674,1.0,0.9579,0.5992,True,overlooked: unannotated RBC (0.74) (+1 more)
+BloodImage_00246.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00246.jpg,0.06,0.0,0.3751,0.0972,False,
+BloodImage_00246_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00246_wrong.jpg,0.9366,0.0,0.9491,0.8002,True,badloc: RBC box badly placed (IoU 0.89 with the model's box) (+2 more)
+BloodImage_00247.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00247.jpg,0.0809,0.0,0.9988,0.6904,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+1 more)
+BloodImage_00248.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00248.jpg,0.0462,0.0,0.9854,0.6835,True,badloc: RBC box badly placed (IoU 0.79 with the model's box) (+1 more)
+BloodImage_00248_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00248_missing.jpg,0.0404,0.0,0.9441,0.6153,False,badloc: RBC box badly placed (IoU 0.89 with the model's box)
+BloodImage_00249.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00249.jpg,0.1115,1.0,0.2914,0.0925,True,overlooked: unannotated RBC (0.91) (+4 more)
+BloodImage_00250.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00250.jpg,0.0403,1.0,0.1147,0.0398,True,overlooked: unannotated RBC (0.89) (+6 more)
+BloodImage_00251.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00251.jpg,0.0487,0.0,0.2432,0.0757,False,
+BloodImage_00252.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00252.jpg,0.0465,0.0,0.3695,0.1071,False,
+BloodImage_00253.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00253.jpg,0.0268,0.0,0.3787,0.1036,False,
+BloodImage_00254.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00254.jpg,0.0322,0.0,0.3253,0.0817,False,
+BloodImage_00255.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00255.jpg,0.0432,0.0,0.9959,0.7267,True,badloc: RBC box badly placed (IoU 0.93 with the model's box) (+1 more)
+BloodImage_00256.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00256.jpg,0.0745,0.0,0.2332,0.0608,False,
+BloodImage_00257.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00257.jpg,0.0337,1.0,0.2297,0.0587,True,overlooked: unannotated RBC (0.72)
+BloodImage_00258.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00258.jpg,0.0512,1.0,0.1588,0.0465,True,overlooked: unannotated RBC (0.86) (+2 more)
+BloodImage_00259.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00259.jpg,0.0623,0.0,0.2847,0.0837,False,
+BloodImage_00260.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00260.jpg,0.0067,0.0,0.1475,0.0376,False,
+BloodImage_00261.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00261.jpg,0.017,0.0,0.1749,0.0455,False,
+BloodImage_00261_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00261_wrong.jpg,0.9663,0.0,0.9992,0.9375,True,badloc: WBC box badly placed (IoU 0.09 with the model's box) (+2 more)
+BloodImage_00262.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00262.jpg,0.0473,1.0,0.238,0.0624,True,overlooked: unannotated RBC (0.79)
+BloodImage_00263.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00263.jpg,0.0314,0.0,0.942,0.6052,False,badloc: RBC box badly placed (IoU 0.71 with the model's box)
+BloodImage_00264.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00264.jpg,0.0258,1.0,0.1356,0.0354,True,overlooked: unannotated RBC (0.68)
+BloodImage_00265.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00265.jpg,0.049,1.0,0.9719,0.6145,True,overlooked: unannotated Platelets (0.90) (+2 more)
+BloodImage_00266.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00266.jpg,0.0112,0.0,0.9946,0.6849,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+1 more)
+BloodImage_00267.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00267.jpg,0.0098,1.0,0.251,0.0687,True,overlooked: unannotated RBC (0.76) (+2 more)
+BloodImage_00267_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00267_wrong.jpg,0.89,1.0,0.251,0.0698,True,overlooked: unannotated RBC (0.76) (+3 more)
+BloodImage_00268.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00268.jpg,0.0563,1.0,0.0575,0.022,True,overlooked: unannotated RBC (0.85) (+5 more)
+BloodImage_00269.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00269.jpg,0.0551,1.0,0.2941,0.0913,True,overlooked: unannotated RBC (0.64)
+BloodImage_00270.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00270.jpg,0.0439,1.0,0.7799,0.3947,True,overlooked: unannotated RBC (0.52)
+BloodImage_00271.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00271.jpg,0.0567,0.0,0.9186,0.5295,False,badloc: RBC box badly placed (IoU 0.94 with the model's box) (+1 more)
+BloodImage_00272.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00272.jpg,0.0278,1.0,0.9836,0.7352,True,overlooked: unannotated RBC (0.60) (+1 more)
+BloodImage_00273.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00273.jpg,0.0666,0.0,0.9497,0.6242,False,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00274.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00274.jpg,0.057,0.0,0.199,0.0553,False,
+BloodImage_00275.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00275.jpg,0.042,0.0,0.5568,0.1996,False,
+BloodImage_00276.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00276.jpg,0.0525,0.0,0.9592,0.5882,True,badloc: RBC box badly placed (IoU 0.80 with the model's box)
+BloodImage_00277.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00277.jpg,0.0256,0.0,0.9793,0.7129,True,badloc: RBC box badly placed (IoU 0.88 with the model's box)
+BloodImage_00278.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00278.jpg,0.0554,0.0,0.8847,0.5062,False,badloc: RBC box badly placed (IoU 0.78 with the model's box)
+BloodImage_00279.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00279.jpg,0.053,0.0,0.786,0.387,False,
+BloodImage_00281.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00281.jpg,0.0626,1.0,0.1672,0.0492,True,overlooked: unannotated Platelets (0.81)
+BloodImage_00282.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00282.jpg,0.0698,0.0,0.2395,0.0598,False,
+BloodImage_00283.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00283.jpg,0.0255,0.0,0.9672,0.673,True,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00284.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00284.jpg,0.0666,0.0,0.1568,0.0515,False,
+BloodImage_00285.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00285.jpg,0.0073,0.0,0.2632,0.0598,False,
+BloodImage_00287.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00287.jpg,0.0505,0.0,0.9766,0.6346,True,badloc: RBC box badly placed (IoU 0.88 with the model's box) (+1 more)
+BloodImage_00288.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00288.jpg,0.0452,0.0,0.8162,0.4201,False,
+BloodImage_00289.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00289.jpg,0.038,0.0,0.9953,0.8112,True,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00290.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00290.jpg,0.0758,0.0,0.949,0.6142,False,badloc: RBC box badly placed (IoU 0.86 with the model's box) (+1 more)
+BloodImage_00291.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00291.jpg,0.0868,1.0,0.818,0.4284,True,overlooked: unannotated Platelets (0.82) (+1 more)
+BloodImage_00292.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00292.jpg,0.0202,0.0,0.2196,0.0496,False,
+BloodImage_00292_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00292_missing.jpg,0.0202,1.0,0.1698,0.0451,True,overlooked: unannotated RBC (0.59)
+BloodImage_00293.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00293.jpg,0.0231,0.0,0.9588,0.6459,True,badloc: RBC box badly placed (IoU 0.80 with the model's box)
+BloodImage_00294.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00294.jpg,0.0241,1.0,0.8268,0.436,True,overlooked: unannotated RBC (0.90)
+BloodImage_00295.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00295.jpg,0.0677,0.0,0.4197,0.1417,False,
+BloodImage_00296.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00296.jpg,0.063,1.0,0.3303,0.0858,True,overlooked: unannotated RBC (0.75) (+1 more)
+BloodImage_00297.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00297.jpg,0.0366,0.0,0.2885,0.0691,False,
+BloodImage_00298.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00298.jpg,0.0308,1.0,0.203,0.058,True,overlooked: unannotated Platelets (0.88)
+BloodImage_00299.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00299.jpg,0.0364,0.0,0.4285,0.1305,False,
+BloodImage_00300.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00300.jpg,0.0445,0.0,0.2296,0.0617,False,
+BloodImage_00301.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00301.jpg,0.0212,0.0,0.9734,0.6237,True,badloc: RBC box badly placed (IoU 0.87 with the model's box) (+1 more)
+BloodImage_00302.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00302.jpg,0.0,0.0,0.786,0.387,False,
+BloodImage_00303.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00303.jpg,0.004,1.0,0.1275,0.0445,True,overlooked: unannotated RBC (0.92) (+3 more)
+BloodImage_00304.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00304.jpg,0.0333,0.0,0.6535,0.283,False,
+BloodImage_00305.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00305.jpg,0.056,0.0,0.9667,0.6638,True,badloc: RBC box badly placed (IoU 0.88 with the model's box)
+BloodImage_00307.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00307.jpg,0.0824,0.0,0.9486,0.5683,False,badloc: RBC box badly placed (IoU 0.80 with the model's box)
+BloodImage_00308.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00308.jpg,0.0203,0.0,0.976,0.6319,True,badloc: RBC box badly placed (IoU 0.89 with the model's box)
+BloodImage_00309.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00309.jpg,0.0425,0.0,0.8963,0.4674,False,badloc: RBC box badly placed (IoU 0.54 with the model's box)
+BloodImage_00309_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00309_wrong.jpg,0.8454,0.0,0.8963,0.4887,True,badloc: RBC box badly placed (IoU 0.54 with the model's box)
+BloodImage_00310.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00310.jpg,0.0489,0.0,0.7588,0.3638,False,
+BloodImage_00311.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00311.jpg,0.0305,0.0,0.9525,0.6313,True,badloc: RBC box badly placed (IoU 0.84 with the model's box)
+BloodImage_00312.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00312.jpg,0.0447,1.0,0.2534,0.061,True,overlooked: unannotated RBC (0.69)
+BloodImage_00313.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00313.jpg,0.0446,0.0,0.8272,0.4116,False,
+BloodImage_00314.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00314.jpg,0.033,0.0,0.8165,0.4193,False,
+BloodImage_00314_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00314_missing.jpg,0.0247,1.0,0.8165,0.9976,True,overlooked: unannotated Platelets (0.97) (+1 more)
+BloodImage_00315.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00315.jpg,0.0658,0.0,0.9892,0.7693,True,badloc: RBC box badly placed (IoU 0.89 with the model's box)
+BloodImage_00317.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00317.jpg,0.082,0.0,0.9092,0.5429,False,badloc: RBC box badly placed (IoU 0.83 with the model's box)
+BloodImage_00318.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00318.jpg,0.0557,0.0,0.9348,0.5923,False,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00318_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00318_wrong.jpg,0.9688,0.0,0.9348,0.5951,True,swap: annotated Platelets looks like RBC (0.88) (+1 more)
+BloodImage_00319.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00319.jpg,0.0314,0.0,0.9826,0.6463,True,badloc: RBC box badly placed (IoU 0.71 with the model's box)
+BloodImage_00320.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00320.jpg,0.065,0.0,0.7137,0.3221,False,
+BloodImage_00322.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00322.jpg,0.0373,1.0,0.3109,1.0,True,overlooked: unannotated RBC (0.98) (+5 more)
+BloodImage_00323.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00323.jpg,0.055,1.0,0.2209,0.066,True,overlooked: unannotated RBC (0.74) (+1 more)
+BloodImage_00324.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00324.jpg,0.0447,1.0,0.8552,0.4697,True,overlooked: unannotated RBC (0.70)
+BloodImage_00324_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00324_missing.jpg,0.0447,1.0,0.8552,0.9915,True,overlooked: unannotated RBC (0.92) (+3 more)
+BloodImage_00325.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00325.jpg,0.0742,0.0,0.8873,0.4744,False,badloc: RBC box badly placed (IoU 0.76 with the model's box)
+BloodImage_00326.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00326.jpg,0.0498,0.0,0.9851,0.6345,True,badloc: RBC box badly placed (IoU 0.89 with the model's box) (+1 more)
+BloodImage_00327.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00327.jpg,0.0319,1.0,0.2276,0.0746,True,overlooked: unannotated RBC (0.88) (+5 more)
+BloodImage_00330.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00330.jpg,0.0521,1.0,0.0689,1.0,True,overlooked: unannotated RBC (0.98) (+10 more)
+BloodImage_00331.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00331.jpg,0.066,0.0,0.8908,0.5144,False,badloc: RBC box badly placed (IoU 0.86 with the model's box)
+BloodImage_00332.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00332.jpg,0.0375,0.0,0.2582,0.0672,False,
+BloodImage_00333.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00333.jpg,0.049,0.0,0.9562,0.5942,True,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00334.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00334.jpg,0.0519,0.0,0.202,0.0557,False,
+BloodImage_00335.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00335.jpg,0.1415,0.0,0.288,0.0815,False,
+BloodImage_00336.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00336.jpg,0.054,0.0,0.396,0.1202,False,
+BloodImage_00337.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00337.jpg,0.0724,1.0,0.9551,0.5726,True,overlooked: unannotated RBC (0.84) (+1 more)
+BloodImage_00338.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00338.jpg,0.0368,0.0,0.9765,0.6258,True,badloc: RBC box badly placed (IoU 0.77 with the model's box)
+BloodImage_00339.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00339.jpg,0.0767,0.0,0.9856,0.6875,True,badloc: RBC box badly placed (IoU 0.91 with the model's box) (+1 more)
+BloodImage_00340.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00340.jpg,0.0225,1.0,0.3889,0.1071,True,overlooked: unannotated Platelets (0.69)
+BloodImage_00340_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00340_wrong.jpg,0.9074,1.0,0.3889,0.4817,True,overlooked: unannotated Platelets (0.69) (+1 more)
+BloodImage_00341.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00341.jpg,0.0447,0.0,0.2802,0.0771,False,
+BloodImage_00341_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00341_missing.jpg,0.0447,0.0,0.2802,0.081,False,
+BloodImage_00342.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00342.jpg,0.0959,1.0,0.9566,0.6472,True,overlooked: unannotated RBC (0.61) (+2 more)
+BloodImage_00343.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00343.jpg,0.086,0.0,0.8428,0.4517,False,
+BloodImage_00344.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00344.jpg,0.0883,0.0,0.9456,0.5672,False,badloc: RBC box badly placed (IoU 0.81 with the model's box)
+BloodImage_00345.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00345.jpg,0.1077,0.0,0.2957,0.0795,False,
+BloodImage_00346.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00346.jpg,0.046,1.0,0.1865,0.0489,True,overlooked: unannotated RBC (0.87)
+BloodImage_00347.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00347.jpg,0.0911,0.0,0.9734,0.6177,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00347_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00347_missing.jpg,0.0911,1.0,0.9734,0.6207,True,overlooked: unannotated RBC (0.72) (+1 more)
+BloodImage_00348.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00348.jpg,0.0255,0.0,0.9858,0.7476,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00348_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00348_wrong.jpg,0.9415,0.0,0.9922,0.8849,True,badloc: RBC box badly placed (IoU 0.82 with the model's box) (+5 more)
+BloodImage_00349.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00349.jpg,0.0799,1.0,0.992,0.7853,True,overlooked: unannotated Platelets (0.73) (+1 more)
+BloodImage_00350.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00350.jpg,0.0275,1.0,0.069,1.0,True,overlooked: unannotated RBC (0.99) (+2 more)
+BloodImage_00351.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00351.jpg,0.0504,0.0,0.3275,0.078,False,
+BloodImage_00352.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00352.jpg,0.0983,0.0,0.7899,0.3993,False,
+BloodImage_00353.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00353.jpg,0.0654,0.0,0.9691,0.6149,True,badloc: RBC box badly placed (IoU 0.70 with the model's box)
+BloodImage_00354.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00354.jpg,0.0437,0.0,0.967,0.6204,True,badloc: RBC box badly placed (IoU 0.85 with the model's box)
+BloodImage_00355.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00355.jpg,0.07,0.0,0.8974,0.5231,False,badloc: RBC box badly placed (IoU 0.85 with the model's box)
+BloodImage_00356.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00356.jpg,0.0492,0.0,0.8686,0.4809,False,
+BloodImage_00357.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00357.jpg,0.0543,1.0,0.4204,0.1141,True,overlooked: unannotated RBC (0.62)
+BloodImage_00359.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00359.jpg,0.0,1.0,0.9467,0.6179,True,overlooked: unannotated Platelets (0.68) (+1 more)
+BloodImage_00360.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00360.jpg,0.054,0.0,0.2584,0.0677,False,
+BloodImage_00361.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00361.jpg,0.0684,0.0,0.9677,0.6699,True,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+1 more)
+BloodImage_00362.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00362.jpg,0.0224,0.0,0.7197,0.3325,False,
+BloodImage_00364.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00364.jpg,0.029,0.0,0.9965,0.7566,True,badloc: RBC box badly placed (IoU 0.78 with the model's box) (+1 more)
+BloodImage_00365.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00365.jpg,0.0543,0.0,0.9994,0.8316,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00366.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00366.jpg,0.0403,0.0,0.659,0.2746,False,
+BloodImage_00367.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00367.jpg,0.0551,0.0,0.2797,0.0582,False,
+BloodImage_00368.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00368.jpg,0.045,0.0,0.1837,0.0436,False,
+BloodImage_00368_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00368_missing.jpg,0.045,1.0,0.1837,0.0481,True,overlooked: unannotated RBC (0.82)
+BloodImage_00369.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00369.jpg,0.0624,0.0,0.9974,0.8215,True,badloc: RBC box badly placed (IoU 0.90 with the model's box)
+BloodImage_00370.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00370.jpg,0.0634,0.0,0.2527,0.0638,False,
+BloodImage_00371.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00371.jpg,0.0777,0.0,0.9563,0.6056,True,badloc: RBC box badly placed (IoU 0.93 with the model's box) (+1 more)
+BloodImage_00372.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00372.jpg,0.0668,1.0,0.9753,0.6245,True,overlooked: unannotated RBC (0.56) (+1 more)
+BloodImage_00374.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00374.jpg,0.012,0.0,0.2495,0.0649,False,
+BloodImage_00374_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00374_missing.jpg,0.012,1.0,0.2495,0.9906,True,overlooked: unannotated RBC (0.97) (+1 more)
+BloodImage_00375.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00375.jpg,0.0619,0.0,0.9885,0.738,True,badloc: RBC box badly placed (IoU 0.77 with the model's box) (+1 more)
+BloodImage_00376.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00376.jpg,0.0672,1.0,0.9812,0.7282,True,overlooked: unannotated RBC (0.62) (+1 more)
+BloodImage_00377.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00377.jpg,0.0596,0.0,0.9552,0.6359,True,badloc: Platelets box badly placed (IoU 0.91 with the model's box)
+BloodImage_00378.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00378.jpg,0.0674,1.0,0.8566,0.4688,True,overlooked: unannotated RBC (0.80)
+BloodImage_00379.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00379.jpg,0.07,0.0,0.9636,0.6379,True,badloc: RBC box badly placed (IoU 0.77 with the model's box)
+BloodImage_00381.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00381.jpg,0.0474,0.0,0.9772,0.6809,True,badloc: RBC box badly placed (IoU 0.88 with the model's box)
+BloodImage_00382.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00382.jpg,0.05,0.0,0.9456,0.6144,False,badloc: RBC box badly placed (IoU 0.92 with the model's box)
+BloodImage_00383.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00383.jpg,0.0274,0.0,0.2526,0.0571,False,
+BloodImage_00384.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00384.jpg,0.0759,0.0,0.2589,0.0705,False,
+BloodImage_00385.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00385.jpg,0.0674,0.0,0.2729,0.0714,False,
+BloodImage_00386.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00386.jpg,0.0969,0.0,0.2803,0.0782,False,
+BloodImage_00387.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00387.jpg,0.0543,0.0,0.9514,0.628,True,badloc: RBC box badly placed (IoU 0.92 with the model's box)
+BloodImage_00388.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00388.jpg,0.095,0.0,0.211,0.0588,False,
+BloodImage_00389.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00389.jpg,0.0517,1.0,0.2916,0.0948,True,overlooked: unannotated RBC (0.55)
+BloodImage_00389_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00389_missing.jpg,0.0351,1.0,0.2893,0.0916,True,overlooked: unannotated RBC (0.55)
+BloodImage_00390.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00390.jpg,0.0721,0.0,0.3583,0.1083,False,
+BloodImage_00391.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00391.jpg,0.0881,0.0,0.2272,0.056,False,
+BloodImage_00392.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00392.jpg,0.099,0.0,0.2137,0.0635,False,
+BloodImage_00393.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00393.jpg,0.0718,0.0,0.2418,0.0694,False,
+BloodImage_00395.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00395.jpg,0.0531,0.0,0.9529,0.619,True,badloc: RBC box badly placed (IoU 0.89 with the model's box) (+1 more)
+BloodImage_00396.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00396.jpg,0.0717,0.0,0.267,0.0612,False,
+BloodImage_00397.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00397.jpg,0.0813,0.0,0.9668,0.6154,True,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00398.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00398.jpg,0.0783,0.0,0.9697,0.6829,True,badloc: RBC box badly placed (IoU 0.87 with the model's box)
+BloodImage_00400.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00400.jpg,0.0291,0.0,0.9945,0.6778,True,badloc: RBC box badly placed (IoU 0.92 with the model's box) (+1 more)
+BloodImage_00402.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00402.jpg,0.0025,0.0,0.3449,0.0871,False,
+BloodImage_00403.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00403.jpg,0.0817,0.0,0.9962,0.68,True,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+1 more)
+BloodImage_00403_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00403_wrong.jpg,0.9424,0.0,0.9962,0.8676,True,badloc: RBC box badly placed (IoU 0.84 with the model's box) (+7 more)
+BloodImage_00404.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00404.jpg,0.0388,0.0,0.9365,0.5911,False,badloc: RBC box badly placed (IoU 0.83 with the model's box)
+BloodImage_00405.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00405.jpg,0.1032,0.0,0.9915,0.6996,True,badloc: RBC box badly placed (IoU 0.90 with the model's box) (+1 more)
+BloodImage_00405_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00405_missing.jpg,0.1032,0.0,0.9456,0.6182,False,badloc: RBC box badly placed (IoU 0.71 with the model's box)
+BloodImage_00407.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00407.jpg,0.0795,0.0,0.8982,0.4852,False,badloc: RBC box badly placed (IoU 0.94 with the model's box)
+BloodImage_00408.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00408.jpg,0.055,0.0,0.9506,0.617,True,badloc: RBC box badly placed (IoU 0.87 with the model's box)
+BloodImage_00409.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00409.jpg,0.0718,0.0,0.8933,0.4783,False,badloc: RBC box badly placed (IoU 0.82 with the model's box)
+BloodImage_00410.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00410.jpg,0.092,0.0,0.9607,0.5995,True,badloc: RBC box badly placed (IoU 0.90 with the model's box) (+1 more)

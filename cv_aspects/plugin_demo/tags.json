@@ -1,0 +1,30 @@
+{
+  "images": "Y:\\home\\bjieyong\\aiverify2\\auditing\\DATA\\bccdp_images",
+  "labels": "Y:\\home\\bjieyong\\aiverify2\\auditing\\DATA\\bccdp_ground_truth.json",
+  "clip": null,
+  "aspects": {
+    "odd_even": {
+      "kind": "categorical",
+      "description": "whether the file name (without extension) ends in an odd or even number  [plugin: Y:\\home\\bjieyong\\aiverify2\\auditing\\cv_aspects\\plugins\\odd_even.py]",
+      "requires": [
+        "images"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "even",
+        "neither",
+        "odd"
+      ],
+      "counts": {
+        "even": 182,
+        "neither": 50,
+        "odd": 182
+      },
+      "plugin": "Y:\\home\\bjieyong\\aiverify2\\auditing\\cv_aspects\\plugins\\odd_even.py",
+      "plugin_kind": "categorical"
+    }
+  },
+  "skipped": {},
+  "dropped": {}
+}

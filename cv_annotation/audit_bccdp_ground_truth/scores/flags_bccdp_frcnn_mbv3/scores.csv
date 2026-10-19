@@ -1,0 +1,415 @@
+file_name,file_path,s_score,s_max_severity,flagged,reason
+BloodImage_00000.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00000.jpg,0.9414,0.7973,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.90)
+BloodImage_00001.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00001.jpg,0.8262,0.7373,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.10 (score 0.82)
+BloodImage_00002.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00002.jpg,0.9963,0.7584,False,missing: model sees RBC 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.40)
+BloodImage_00003.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00003.jpg,0.7522,0.7522,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.85)
+BloodImage_00003_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00003_wrong.jpg,0.994,0.8846,False,wrong_class: annotated WBC; model says RBC 0.88 at IoU 0.89 (WBC 0.00)
+BloodImage_00004.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00004.jpg,0.8841,0.8159,False,missing: model sees RBC 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00005.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00005.jpg,0.9967,0.8502,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.99)
+BloodImage_00006.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00006.jpg,0.8654,0.6522,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.19 (score 0.81)
+BloodImage_00007.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00007.jpg,0.9672,0.6953,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.29 (score 0.97)
+BloodImage_00008.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00008.jpg,0.9773,0.8687,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.98)
+BloodImage_00009.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00009.jpg,0.9435,0.784,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.92)
+BloodImage_00010.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00010.jpg,0.9731,0.8476,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.96)
+BloodImage_00011.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00011.jpg,0.992,0.8398,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.12 (score 0.96)
+BloodImage_00012.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00012.jpg,0.9662,0.7475,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.93)
+BloodImage_00012_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00012_missing.jpg,1.0,0.9911,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00013.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00013.jpg,0.0,0.0,False,
+BloodImage_00013_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00013_missing.jpg,0.9998,0.9929,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00014.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00014.jpg,0.3289,0.0319,False,low_confidence: annotated RBC; model only gives RBC 0.11
+BloodImage_00015.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00015.jpg,0.6731,0.6479,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.76)
+BloodImage_00015_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00015_missing.jpg,0.9999,0.9849,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00016.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00016.jpg,0.0692,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.23
+BloodImage_00016_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00016_missing.jpg,0.9967,0.9555,True,missing: model sees RBC 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+BloodImage_00017.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00017.jpg,0.971,0.8411,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.98)
+BloodImage_00018.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00018.jpg,0.9979,0.7714,False,missing: model sees RBC 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00019.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00019.jpg,0.9319,0.793,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.99)
+BloodImage_00020.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00020.jpg,0.999,0.9286,True,duplicate_box: annotated RBC twice at IoU 0.93 (same as annotation 432)
+BloodImage_00021.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00021.jpg,0.974,0.8381,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.97)
+BloodImage_00022.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00022.jpg,0.9559,0.715,False,missing: model sees RBC 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00022_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00022_wrong.jpg,1.0,0.9806,True,wrong_class: annotated Platelets; model says RBC 0.98 at IoU 0.88 (Platelets 0.00)
+BloodImage_00023.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00023.jpg,0.9641,0.8362,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.98)
+BloodImage_00024.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00024.jpg,0.6656,0.5216,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.10 (score 0.58)
+BloodImage_00026.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00026.jpg,0.8727,0.4721,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.10 (score 0.53)
+BloodImage_00028.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00028.jpg,0.9951,0.8234,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.17 (score 0.99)
+BloodImage_00029.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00029.jpg,0.9903,0.8342,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.97)
+BloodImage_00030.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00030.jpg,0.9975,0.7833,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.91)
+BloodImage_00031.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00031.jpg,0.9995,0.8151,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.96)
+BloodImage_00032.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00032.jpg,1.0,0.8618,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.99)
+BloodImage_00033.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00033.jpg,0.7263,0.5924,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.40 (score 0.98)
+BloodImage_00034.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00034.jpg,0.9795,0.8245,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.97)
+BloodImage_00035.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00035.jpg,0.969,0.7474,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.12 (score 0.85)
+BloodImage_00036.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00036.jpg,0.9309,0.7313,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.85)
+BloodImage_00037.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00037.jpg,0.971,0.8059,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.17 (score 0.97)
+BloodImage_00038.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00038.jpg,1.0,0.9139,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+BloodImage_00039.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00039.jpg,0.1418,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.17
+BloodImage_00040.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00040.jpg,0.9225,0.8163,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.95)
+BloodImage_00041.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00041.jpg,0.7967,0.7114,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.21 (score 0.90)
+BloodImage_00042.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00042.jpg,0.7703,0.4947,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.23 (score 0.64)
+BloodImage_00042_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00042_wrong.jpg,0.9997,0.8607,False,wrong_class: annotated WBC; model says RBC 0.86 at IoU 0.82 (WBC 0.00)
+BloodImage_00043.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00043.jpg,0.716,0.4531,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.17 (score 0.54)
+BloodImage_00044.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00044.jpg,0.2855,0.1736,False,unsupported: annotated Platelets; nothing predicted there
+BloodImage_00045.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00045.jpg,0.9916,0.6337,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.25 (score 0.85)
+BloodImage_00046.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00046.jpg,0.9992,0.7965,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.92)
+BloodImage_00046_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00046_missing.jpg,1.0,0.9938,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00047.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00047.jpg,0.9255,0.7048,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.79)
+BloodImage_00048.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00048.jpg,0.6542,0.5777,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.40 (score 0.96)
+BloodImage_00049.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00049.jpg,0.1296,0.0119,False,low_confidence: annotated RBC; model only gives RBC 0.18
+BloodImage_00049_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00049_missing.jpg,1.0,0.9803,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00050.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00050.jpg,0.0,0.0,False,
+BloodImage_00052.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00052.jpg,0.2799,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.02
+BloodImage_00052_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00052_wrong.jpg,1.0,0.9825,True,wrong_class: annotated Platelets; model says WBC 0.99 at IoU 0.84 (Platelets 0.01)
+BloodImage_00053.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00053.jpg,0.0,0.0,False,
+BloodImage_00054.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00054.jpg,0.2459,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.13
+BloodImage_00055.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00055.jpg,0.6557,0.6399,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.26 (score 0.87)
+BloodImage_00055_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00055_missing.jpg,0.9999,0.9805,True,missing: model sees WBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00056.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00056.jpg,0.8843,0.8843,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.99)
+BloodImage_00057.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00057.jpg,0.0627,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.24
+BloodImage_00058.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00058.jpg,0.9622,0.9622,True,missing: model sees RBC 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+BloodImage_00059.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00059.jpg,0.5325,0.5109,False,missing: model sees Platelets 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00062.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00062.jpg,0.1099,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.19
+BloodImage_00062_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00062_missing.jpg,1.0,0.9749,True,missing: model sees RBC 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00063.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00063.jpg,0.0,0.0,False,
+BloodImage_00064.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00064.jpg,0.0312,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.28
+BloodImage_00065.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00065.jpg,0.0,0.0,False,
+BloodImage_00066.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00066.jpg,0.7878,0.7396,False,missing: model sees RBC 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.20)
+BloodImage_00067.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00067.jpg,0.0,0.0,False,
+BloodImage_00068.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00068.jpg,0.1737,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.13
+BloodImage_00068_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00068_wrong.jpg,1.0,0.9924,True,wrong_class: annotated WBC; model says RBC 0.99 at IoU 0.91 (WBC 0.00)
+BloodImage_00069.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00069.jpg,0.7122,0.7122,False,missing: model sees RBC 0.71 where nothing is annotated (best overlap with an annotation: IoU 0.29)
+BloodImage_00070.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00070.jpg,0.0167,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.28
+BloodImage_00071.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00071.jpg,0.0,0.0,False,
+BloodImage_00072.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00072.jpg,0.0,0.0,False,
+BloodImage_00073.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00073.jpg,0.8349,0.7942,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.18 (score 0.97)
+BloodImage_00074.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00074.jpg,0.9976,0.7858,False,missing: model sees RBC 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+BloodImage_00075.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00075.jpg,0.0,0.0,False,
+BloodImage_00076.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00076.jpg,0.821,0.5815,False,missing: model sees Platelets 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00076_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00076_missing.jpg,1.0,0.9905,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00077.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00077.jpg,0.0048,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.30
+BloodImage_00078.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00078.jpg,0.0,0.0,False,
+BloodImage_00079.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00079.jpg,0.9424,0.8265,False,missing: model sees RBC 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.10)
+BloodImage_00081.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00081.jpg,0.7155,0.6666,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.77)
+BloodImage_00082.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00082.jpg,0.0,0.0,False,
+BloodImage_00083.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00083.jpg,0.9833,0.6584,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.77)
+BloodImage_00086.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00086.jpg,0.9629,0.8561,False,missing: model sees RBC 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.36)
+BloodImage_00087.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00087.jpg,0.0407,0.0407,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.08 at IoU 0.80)
+BloodImage_00087_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00087_wrong.jpg,0.9251,0.9189,True,wrong_class: annotated Platelets; model says RBC 0.92 at IoU 0.92 (Platelets 0.00)
+BloodImage_00088.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00088.jpg,0.2506,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.05
+BloodImage_00089.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00089.jpg,0.2254,0.1331,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.04 at IoU 0.86)
+BloodImage_00089_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00089_wrong.jpg,0.9972,0.9801,True,wrong_class: annotated WBC; model says RBC 0.98 at IoU 0.78 (WBC 0.00)
+BloodImage_00090.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00090.jpg,0.4328,0.4328,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.19 (score 0.53)
+BloodImage_00091.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00091.jpg,0.753,0.7479,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.18 (score 0.91)
+BloodImage_00092.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00092.jpg,0.6422,0.4738,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.46 (score 0.89)
+BloodImage_00093.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00093.jpg,0.7928,0.7928,False,missing: model sees RBC 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00094.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00094.jpg,0.557,0.1044,False,low_confidence: annotated RBC; model only gives RBC 0.11
+BloodImage_00095.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00095.jpg,0.8679,0.8332,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.94)
+BloodImage_00097.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00097.jpg,0.9832,0.8737,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.98)
+BloodImage_00098.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00098.jpg,0.112,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.19
+BloodImage_00099.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00099.jpg,0.7744,0.7676,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.19 (score 0.94)
+BloodImage_00100.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00100.jpg,0.9941,0.9325,True,duplicate_box: annotated RBC twice at IoU 0.93 (same as annotation 1706)
+BloodImage_00101.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00101.jpg,0.9404,0.8157,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.94)
+BloodImage_00103.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00103.jpg,0.7581,0.6347,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.71)
+BloodImage_00104.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00104.jpg,0.9956,0.9152,True,duplicate_box: annotated RBC twice at IoU 0.92 (same as annotation 1768)
+BloodImage_00106.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00106.jpg,0.7064,0.6623,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.83)
+BloodImage_00107.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00107.jpg,0.039,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.28
+BloodImage_00108.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00108.jpg,0.2604,0.12,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.04 at IoU 0.87)
+BloodImage_00109.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00109.jpg,0.3031,0.0971,False,low_confidence: annotated RBC; model only gives RBC 0.11
+BloodImage_00110.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00110.jpg,0.1455,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.21
+BloodImage_00111.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00111.jpg,0.8652,0.7995,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.18 (score 0.97)
+BloodImage_00112.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00112.jpg,0.9417,0.7486,False,missing: model sees RBC 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00112_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00112_missing.jpg,1.0,0.9954,True,missing: model sees RBC 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00113.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00113.jpg,0.9073,0.8843,False,wrong_class: annotated WBC; model says Platelets 0.88 at IoU 0.65 (WBC 0.00)
+BloodImage_00114.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00114.jpg,0.0,0.0,False,
+BloodImage_00115.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00115.jpg,0.8555,0.7989,False,missing: model sees RBC 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.31)
+BloodImage_00117.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00117.jpg,0.1282,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.21
+BloodImage_00120.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00120.jpg,0.0,0.0,False,
+BloodImage_00123.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00123.jpg,0.9657,0.9657,True,missing: model sees RBC 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.09)
+BloodImage_00124.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00124.jpg,0.1314,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.17
+BloodImage_00125.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00125.jpg,0.8634,0.8012,False,missing: model sees RBC 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00126.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00126.jpg,0.6628,0.6628,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.21 (score 0.84)
+BloodImage_00126_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00126_wrong.jpg,1.0,0.9854,True,wrong_class: annotated WBC; model says RBC 0.99 at IoU 0.94 (WBC 0.00)
+BloodImage_00127.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00127.jpg,0.9125,0.9125,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00127_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00127_missing.jpg,0.9994,0.9836,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00130.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00130.jpg,0.7944,0.7944,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.99)
+BloodImage_00130_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00130_wrong.jpg,1.0,0.9964,True,wrong_class: annotated Platelets; model says WBC 1.00 at IoU 0.96 (Platelets 0.00)
+BloodImage_00132.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00132.jpg,0.0,0.0,False,
+BloodImage_00133.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00133.jpg,0.9734,0.9474,True,wrong_class: annotated Platelets; model says WBC 0.97 at IoU 0.80 (Platelets 0.02)
+BloodImage_00133_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00133_missing.jpg,1.0,0.992,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00134.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00134.jpg,0.8915,0.8915,False,missing: model sees RBC 0.89 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00135.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00135.jpg,0.9717,0.9717,True,wrong_class: annotated Platelets; model says WBC 0.98 at IoU 0.89 (Platelets 0.01)
+BloodImage_00136.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00136.jpg,0.3958,0.3958,False,missing: model sees Platelets 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00137.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00137.jpg,0.9541,0.8121,False,missing: model sees RBC 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00139.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00139.jpg,0.9774,0.8698,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00139_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00139_missing.jpg,1.0,0.9313,True,missing: model sees RBC 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00140.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00140.jpg,0.9986,0.9041,True,missing: model sees RBC 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00141.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00141.jpg,0.2256,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.17
+BloodImage_00142.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00142.jpg,0.0,0.0,False,
+BloodImage_00143.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00143.jpg,0.0,0.0,False,
+BloodImage_00144.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00144.jpg,0.5388,0.5388,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.12 (score 0.61)
+BloodImage_00145.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00145.jpg,0.2647,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.15
+BloodImage_00145_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00145_missing.jpg,1.0,0.9839,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00147.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00147.jpg,0.9564,0.8106,False,missing: model sees RBC 0.81 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00148.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00148.jpg,0.9636,0.8376,False,missing: model sees RBC 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00149.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00149.jpg,0.0,0.0,False,
+BloodImage_00150.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00150.jpg,0.9999,0.9627,True,missing: model sees RBC 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00152.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00152.jpg,0.9141,0.9141,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00154.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00154.jpg,0.9729,0.9053,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00156.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00156.jpg,0.0,0.0,False,
+BloodImage_00157.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00157.jpg,0.9555,0.9555,True,missing: model sees RBC 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00158.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00158.jpg,0.8734,0.8734,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00159.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00159.jpg,0.0,0.0,False,
+BloodImage_00159_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00159_wrong.jpg,0.9998,0.9707,True,wrong_class: annotated WBC; model says RBC 0.97 at IoU 0.86 (WBC 0.00)
+BloodImage_00160.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00160.jpg,0.1364,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.17
+BloodImage_00161.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00161.jpg,0.8588,0.7333,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.16 (score 0.87)
+BloodImage_00162.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00162.jpg,0.0,0.0,False,
+BloodImage_00163.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00163.jpg,0.0,0.0,False,
+BloodImage_00164.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00164.jpg,0.0,0.0,False,
+BloodImage_00164_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00164_missing.jpg,0.9989,0.9346,True,missing: model sees RBC 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00165.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00165.jpg,0.0,0.0,False,
+BloodImage_00166.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00166.jpg,0.8794,0.8794,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.99)
+BloodImage_00166_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00166_wrong.jpg,1.0,0.9719,True,wrong_class: annotated WBC; model says Platelets 0.97 at IoU 0.83 (WBC 0.00)
+BloodImage_00167.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00167.jpg,0.49,0.49,False,missing: model sees Platelets 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00168.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00168.jpg,0.1034,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.20
+BloodImage_00169.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00169.jpg,0.4654,0.4654,False,missing: model sees Platelets 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00170.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00170.jpg,0.7568,0.7568,False,missing: model sees RBC 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00171.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00171.jpg,0.1986,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.10
+BloodImage_00172.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00172.jpg,0.6482,0.6482,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.29 (score 0.91)
+BloodImage_00174.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00174.jpg,0.8774,0.8278,False,missing: model sees RBC 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+BloodImage_00175.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00175.jpg,0.0,0.0,False,
+BloodImage_00176.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00176.jpg,0.7214,0.7214,False,missing: model sees RBC 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+BloodImage_00177.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00177.jpg,0.1119,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.23
+BloodImage_00178.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00178.jpg,0.2483,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.19
+BloodImage_00179.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00179.jpg,0.4745,0.3894,False,missing: model sees Platelets 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00180.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00180.jpg,0.9974,0.9225,True,missing: model sees RBC 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00182.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00182.jpg,0.1608,0.1608,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.03 at IoU 0.79)
+BloodImage_00183.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00183.jpg,0.0503,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.25
+BloodImage_00184.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00184.jpg,0.4615,0.3696,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.31 (score 0.54)
+BloodImage_00187.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00187.jpg,0.7962,0.7962,False,missing: model sees RBC 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00189.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00189.jpg,0.7632,0.7457,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.88)
+BloodImage_00190.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00190.jpg,0.1019,0.1019,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.05 at IoU 0.86)
+BloodImage_00191.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00191.jpg,0.2971,0.101,False,low_confidence: annotated RBC; model only gives RBC 0.12
+BloodImage_00192.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00192.jpg,0.0344,0.0344,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.08 at IoU 0.98)
+BloodImage_00193.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00193.jpg,0.0,0.0,False,
+BloodImage_00195.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00195.jpg,0.9991,0.9462,True,missing: model sees RBC 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00196.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00196.jpg,0.5816,0.4945,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.58)
+BloodImage_00197.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00197.jpg,0.1888,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.11
+BloodImage_00198.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00198.jpg,0.9166,0.6949,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.23 (score 0.91)
+BloodImage_00199.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00199.jpg,0.0,0.0,False,
+BloodImage_00200.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00200.jpg,0.0,0.0,False,
+BloodImage_00201.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00201.jpg,0.7124,0.681,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.23 (score 0.89)
+BloodImage_00202.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00202.jpg,0.0,0.0,False,
+BloodImage_00202_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00202_wrong.jpg,1.0,0.9927,True,wrong_class: annotated Platelets; model says WBC 0.99 at IoU 0.93 (Platelets 0.00)
+BloodImage_00203.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00203.jpg,0.5536,0.4719,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.23 (score 0.61)
+BloodImage_00204.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00204.jpg,0.8174,0.7405,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.87)
+BloodImage_00204_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00204_wrong.jpg,0.9977,0.9365,True,wrong_class: annotated WBC; model says RBC 0.94 at IoU 0.92 (WBC 0.00)
+BloodImage_00205.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00205.jpg,0.6759,0.6759,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.80)
+BloodImage_00206.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00206.jpg,0.8154,0.7061,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.28 (score 0.98)
+BloodImage_00206_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00206_wrong.jpg,0.9993,0.9715,True,wrong_class: annotated WBC; model says RBC 0.97 at IoU 0.92 (WBC 0.00)
+BloodImage_00207.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00207.jpg,0.2665,0.1155,False,low_confidence: annotated RBC; model only gives RBC 0.13
+BloodImage_00208.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00208.jpg,0.0482,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.25
+BloodImage_00209.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00209.jpg,0.7263,0.6775,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.24 (score 0.89)
+BloodImage_00210.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00210.jpg,0.7951,0.5943,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.31 (score 0.87)
+BloodImage_00211.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00211.jpg,0.2433,0.0545,False,low_confidence: annotated RBC; model only gives RBC 0.10
+BloodImage_00212.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00212.jpg,0.1172,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.22
+BloodImage_00214.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00214.jpg,0.9639,0.8186,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.92)
+BloodImage_00214_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00214_wrong.jpg,1.0,0.9924,True,wrong_class: annotated Platelets; model says RBC 0.99 at IoU 0.76 (Platelets 0.00)
+BloodImage_00215.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00215.jpg,0.8587,0.8069,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.18 (score 0.98)
+BloodImage_00216.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00216.jpg,0.803,0.803,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.16 (score 0.96)
+BloodImage_00217.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00217.jpg,0.9861,0.8831,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.10 (score 0.98)
+BloodImage_00218.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00218.jpg,0.0,0.0,False,
+BloodImage_00219.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00219.jpg,0.1234,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.18
+BloodImage_00220.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00220.jpg,0.4685,0.4685,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.23 (score 0.61)
+BloodImage_00221.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00221.jpg,0.165,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.14
+BloodImage_00222.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00222.jpg,0.0507,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.26
+BloodImage_00223.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00223.jpg,0.0,0.0,False,
+BloodImage_00224.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00224.jpg,0.7608,0.7608,False,missing: model sees RBC 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00224_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00224_wrong.jpg,0.9633,0.8465,False,wrong_class: annotated RBC; model says Platelets 0.85 at IoU 0.76 (RBC 0.00)
+BloodImage_00225.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00225.jpg,0.0,0.0,False,
+BloodImage_00225_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00225_wrong.jpg,0.9999,0.9816,True,wrong_class: annotated RBC; model says WBC 0.99 at IoU 0.92 (RBC 0.01)
+BloodImage_00226.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00226.jpg,0.1363,0.1363,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.02 at IoU 0.90)
+BloodImage_00227.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00227.jpg,0.0,0.0,False,
+BloodImage_00228.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00228.jpg,0.9989,0.9822,True,missing: model sees WBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00229.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00229.jpg,0.09,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.21
+BloodImage_00230.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00230.jpg,0.0,0.0,False,
+BloodImage_00231.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00231.jpg,0.3306,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.11
+BloodImage_00232.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00232.jpg,0.0,0.0,False,
+BloodImage_00233.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00233.jpg,0.8293,0.8293,False,missing: model sees RBC 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00234.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00234.jpg,0.9845,0.8018,False,missing: model sees RBC 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.07)
+BloodImage_00235.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00235.jpg,0.9862,0.9477,True,missing: model sees RBC 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00236.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00236.jpg,0.8904,0.8656,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00237.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00237.jpg,0.0,0.0,False,
+BloodImage_00239.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00239.jpg,0.1361,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.16
+BloodImage_00240.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00240.jpg,0.0,0.0,False,
+BloodImage_00241.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00241.jpg,0.0368,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.28
+BloodImage_00242.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00242.jpg,0.8161,0.7685,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.19 (score 0.95)
+BloodImage_00243.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00243.jpg,0.1568,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.14
+BloodImage_00244.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00244.jpg,0.8178,0.7847,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.29)
+BloodImage_00245.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00245.jpg,0.8878,0.7366,False,missing: model sees RBC 0.74 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00246.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00246.jpg,0.0,0.0,False,
+BloodImage_00246_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00246_wrong.jpg,0.9999,0.974,True,wrong_class: annotated RBC; model says WBC 1.00 at IoU 0.90 (RBC 0.02)
+BloodImage_00247.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00247.jpg,0.7489,0.7489,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.87)
+BloodImage_00248.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00248.jpg,0.6195,0.5608,False,missing: model sees Platelets 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00248_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00248_missing.jpg,0.9986,0.9963,True,missing: model sees WBC 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00249.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00249.jpg,0.9968,0.9121,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00250.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00250.jpg,1.0,0.9118,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00251.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00251.jpg,0.9876,0.933,True,duplicate_box: annotated RBC twice at IoU 0.93 (same as annotation 3422)
+BloodImage_00252.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00252.jpg,0.0,0.0,False,
+BloodImage_00253.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00253.jpg,0.99,0.9346,True,missing: model sees RBC 0.93 where nothing is annotated (best overlap with an annotation: IoU 0.10)
+BloodImage_00254.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00254.jpg,0.0,0.0,False,
+BloodImage_00255.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00255.jpg,0.9285,0.7989,False,missing: model sees RBC 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00256.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00256.jpg,0.9155,0.9155,True,missing: model sees RBC 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.16)
+BloodImage_00257.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00257.jpg,0.7203,0.7203,False,missing: model sees RBC 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00258.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00258.jpg,0.9721,0.8599,False,missing: model sees RBC 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00259.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00259.jpg,0.7565,0.7534,False,missing: model sees RBC 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.23)
+BloodImage_00260.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00260.jpg,0.0,0.0,False,
+BloodImage_00261.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00261.jpg,0.0,0.0,False,
+BloodImage_00261_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00261_wrong.jpg,0.9994,0.9665,True,wrong_class: annotated WBC; model says RBC 0.97 at IoU 0.90 (WBC 0.00)
+BloodImage_00262.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00262.jpg,0.9137,0.7927,False,missing: model sees RBC 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00263.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00263.jpg,0.801,0.7797,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.21)
+BloodImage_00264.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00264.jpg,0.2128,0.1152,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.04 at IoU 0.84)
+BloodImage_00265.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00265.jpg,0.9703,0.7765,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+BloodImage_00266.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00266.jpg,0.5883,0.5204,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.46 (score 0.96)
+BloodImage_00267.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00267.jpg,0.9842,0.7719,False,missing: model sees RBC 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00267_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00267_wrong.jpg,0.9985,0.9066,True,wrong_class: annotated WBC; model says Platelets 0.91 at IoU 0.90 (WBC 0.00)
+BloodImage_00268.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00268.jpg,0.9999,0.9666,True,missing: model sees RBC 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.01)
+BloodImage_00269.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00269.jpg,0.0,0.0,False,
+BloodImage_00270.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00270.jpg,0.989,0.8893,False,missing: model sees RBC 0.89 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00271.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00271.jpg,0.9647,0.7871,False,missing: model sees RBC 0.79 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00272.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00272.jpg,0.0607,0.0178,False,low_confidence: annotated RBC; model only gives RBC 0.26
+BloodImage_00273.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00273.jpg,0.1033,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.20
+BloodImage_00274.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00274.jpg,0.0,0.0,False,
+BloodImage_00275.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00275.jpg,0.5677,0.4618,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.49 (score 0.90)
+BloodImage_00276.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00276.jpg,0.9393,0.8734,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+BloodImage_00277.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00277.jpg,0.0,0.0,False,
+BloodImage_00278.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00278.jpg,0.7661,0.722,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.83)
+BloodImage_00279.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00279.jpg,0.9899,0.9235,True,missing: model sees RBC 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00281.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00281.jpg,0.9499,0.8738,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00282.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00282.jpg,0.0,0.0,False,
+BloodImage_00283.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00283.jpg,0.7535,0.7535,False,missing: model sees RBC 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00284.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00284.jpg,0.9312,0.9312,True,duplicate_box: annotated RBC twice at IoU 0.93 (same as annotation 3779)
+BloodImage_00285.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00285.jpg,0.0,0.0,False,
+BloodImage_00287.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00287.jpg,0.6057,0.5488,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.68)
+BloodImage_00288.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00288.jpg,0.7729,0.7729,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.97)
+BloodImage_00289.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00289.jpg,0.0024,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.30
+BloodImage_00290.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00290.jpg,0.1011,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.20
+BloodImage_00291.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00291.jpg,0.9702,0.7794,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00292.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00292.jpg,0.0,0.0,False,
+BloodImage_00292_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00292_missing.jpg,1.0,0.9376,True,missing: model sees RBC 0.94 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00293.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00293.jpg,0.0,0.0,False,
+BloodImage_00294.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00294.jpg,0.9938,0.8996,False,missing: model sees RBC 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00295.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00295.jpg,0.9779,0.9181,True,missing: model sees RBC 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00296.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00296.jpg,0.7556,0.7477,False,missing: model sees RBC 0.75 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00297.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00297.jpg,0.0,0.0,False,
+BloodImage_00298.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00298.jpg,0.8358,0.6779,False,missing: model sees Platelets 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00299.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00299.jpg,0.5917,0.5917,False,missing: model sees Platelets 0.83 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00300.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00300.jpg,0.1628,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.14
+BloodImage_00301.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00301.jpg,0.9787,0.8615,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.12 (score 0.97)
+BloodImage_00302.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00302.jpg,0.9432,0.6718,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.30 (score 0.96)
+BloodImage_00303.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00303.jpg,0.9982,0.9176,True,missing: model sees RBC 0.92 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00304.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00304.jpg,0.5914,0.5914,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.38 (score 0.96)
+BloodImage_00305.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00305.jpg,0.0,0.0,False,
+BloodImage_00307.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00307.jpg,0.7991,0.7857,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.16 (score 0.94)
+BloodImage_00308.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00308.jpg,0.5277,0.5277,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.27 (score 0.72)
+BloodImage_00309.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00309.jpg,0.9457,0.6887,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.12 (score 0.78)
+BloodImage_00309_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00309_wrong.jpg,0.9991,0.877,False,wrong_class: annotated Platelets; model says RBC 0.88 at IoU 0.85 (Platelets 0.00)
+BloodImage_00310.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00310.jpg,0.5057,0.5057,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.27 (score 0.69)
+BloodImage_00311.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00311.jpg,0.0,0.0,False,
+BloodImage_00312.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00312.jpg,0.4456,0.0,False,low_confidence: annotated Platelets; model only gives Platelets 0.00
+BloodImage_00313.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00313.jpg,0.744,0.5248,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.32 (score 0.77)
+BloodImage_00314.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00314.jpg,0.6048,0.6048,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.20 (score 0.76)
+BloodImage_00314_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00314_missing.jpg,0.9993,0.9852,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00315.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00315.jpg,0.8068,0.7774,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00317.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00317.jpg,0.4971,0.4971,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.10 (score 0.55)
+BloodImage_00318.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00318.jpg,0.0,0.0,False,
+BloodImage_00318_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00318_wrong.jpg,0.9994,0.9433,True,wrong_class: annotated WBC; model says RBC 0.94 at IoU 0.78 (WBC 0.00)
+BloodImage_00319.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00319.jpg,0.779,0.6473,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.25 (score 0.87)
+BloodImage_00320.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00320.jpg,0.5727,0.5727,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.32 (score 0.84)
+BloodImage_00322.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00322.jpg,1.0,0.9758,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00323.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00323.jpg,0.9998,0.8797,False,missing: model sees RBC 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00324.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00324.jpg,0.8706,0.7006,False,missing: model sees RBC 0.70 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00324_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00324_missing.jpg,1.0,0.9657,True,missing: model sees RBC 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00325.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00325.jpg,0.8595,0.6665,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.76)
+BloodImage_00326.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00326.jpg,0.8557,0.7699,False,missing: model sees RBC 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.08)
+BloodImage_00327.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00327.jpg,0.9829,0.8823,False,missing: model sees RBC 0.88 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00330.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00330.jpg,1.0,0.9784,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00331.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00331.jpg,0.998,0.9217,True,duplicate_box: annotated RBC twice at IoU 0.92 (same as annotation 4315)
+BloodImage_00332.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00332.jpg,0.8668,0.8668,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00333.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00333.jpg,0.5169,0.5169,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.31 (score 0.75)
+BloodImage_00334.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00334.jpg,0.9503,0.8185,False,missing: model sees RBC 0.82 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+BloodImage_00335.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00335.jpg,0.0,0.0,False,
+BloodImage_00336.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00336.jpg,0.9937,0.9527,True,missing: model sees RBC 0.95 where nothing is annotated (best overlap with an annotation: IoU 0.26)
+BloodImage_00337.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00337.jpg,0.9946,0.8565,False,missing: model sees RBC 0.86 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+BloodImage_00338.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00338.jpg,0.5154,0.4631,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.14 (score 0.54)
+BloodImage_00339.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00339.jpg,0.9809,0.9117,True,missing: model sees RBC 0.91 where nothing is annotated (best overlap with an annotation: IoU 0.11)
+BloodImage_00340.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00340.jpg,0.0,0.0,False,
+BloodImage_00340_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00340_wrong.jpg,0.9999,0.9905,True,wrong_class: annotated WBC; model says RBC 0.99 at IoU 0.84 (WBC 0.00)
+BloodImage_00341.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00341.jpg,0.7583,0.7583,False,missing: model sees RBC 0.76 where nothing is annotated (best overlap with an annotation: IoU 0.10)
+BloodImage_00341_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00341_missing.jpg,1.0,0.9979,True,missing: model sees WBC 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+BloodImage_00342.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00342.jpg,0.0,0.0,False,
+BloodImage_00343.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00343.jpg,0.9995,0.8952,False,missing: model sees RBC 0.90 where nothing is annotated (best overlap with an annotation: IoU 0.09)
+BloodImage_00344.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00344.jpg,0.9631,0.8411,False,missing: model sees RBC 0.84 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00345.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00345.jpg,0.7782,0.7782,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.05)
+BloodImage_00346.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00346.jpg,0.8682,0.8682,False,missing: model sees RBC 0.87 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00347.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00347.jpg,0.8752,0.7719,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.18 (score 0.94)
+BloodImage_00347_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00347_missing.jpg,0.9987,0.9721,True,missing: model sees RBC 0.97 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00348.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00348.jpg,0.0,0.0,False,
+BloodImage_00348_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00348_wrong.jpg,1.0,0.9946,True,wrong_class: annotated RBC; model says WBC 0.99 at IoU 0.90 (RBC 0.00)
+BloodImage_00349.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00349.jpg,0.4436,0.4436,False,missing: model sees Platelets 0.73 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00350.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00350.jpg,0.9998,0.9912,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00351.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00351.jpg,0.0,0.0,False,
+BloodImage_00352.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00352.jpg,0.7315,0.7315,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.23 (score 0.95)
+BloodImage_00353.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00353.jpg,0.7223,0.7223,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.24 (score 0.95)
+BloodImage_00354.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00354.jpg,0.701,0.6393,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.30 (score 0.91)
+BloodImage_00355.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00355.jpg,0.8018,0.8018,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.90)
+BloodImage_00356.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00356.jpg,0.6564,0.6564,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.15 (score 0.77)
+BloodImage_00357.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00357.jpg,0.0,0.0,False,
+BloodImage_00359.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00359.jpg,0.0,0.0,False,
+BloodImage_00360.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00360.jpg,0.0,0.0,False,
+BloodImage_00361.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00361.jpg,0.0104,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.29
+BloodImage_00362.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00362.jpg,0.5056,0.5056,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.31 (score 0.73)
+BloodImage_00364.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00364.jpg,0.0646,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.24
+BloodImage_00365.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00365.jpg,0.7742,0.7742,False,missing: model sees RBC 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.21)
+BloodImage_00366.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00366.jpg,0.4788,0.4788,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.38 (score 0.77)
+BloodImage_00367.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00367.jpg,0.0,0.0,False,
+BloodImage_00368.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00368.jpg,0.0335,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.27
+BloodImage_00368_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00368_missing.jpg,0.9999,0.9587,True,missing: model sees RBC 0.96 where nothing is annotated (best overlap with an annotation: IoU 0.06)
+BloodImage_00369.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00369.jpg,0.124,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.18
+BloodImage_00370.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00370.jpg,0.0,0.0,False,
+BloodImage_00371.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00371.jpg,0.0936,0.0936,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.05 at IoU 0.92)
+BloodImage_00372.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00372.jpg,0.8166,0.7974,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.18 (score 0.97)
+BloodImage_00374.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00374.jpg,0.0,0.0,False,
+BloodImage_00374_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00374_missing.jpg,1.0,0.9922,True,missing: model sees RBC 0.99 where nothing is annotated (best overlap with an annotation: IoU 0.02)
+BloodImage_00375.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00375.jpg,0.1863,0.0994,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.05 at IoU 0.49)
+BloodImage_00376.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00376.jpg,0.095,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.22
+BloodImage_00377.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00377.jpg,0.0,0.0,False,
+BloodImage_00378.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00378.jpg,0.9199,0.7978,False,missing: model sees RBC 0.80 where nothing is annotated (best overlap with an annotation: IoU 0.00)
+BloodImage_00379.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00379.jpg,0.106,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.19
+BloodImage_00381.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00381.jpg,0.4648,0.4648,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.46 (score 0.86)
+BloodImage_00382.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00382.jpg,0.0081,0.0081,False,unsupported: annotated RBC; nothing predicted there (best: RBC 0.10 at IoU 0.92)
+BloodImage_00383.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00383.jpg,0.0688,0.0688,False,unsupported: annotated Platelets; nothing predicted there (best: Platelets 0.07 at IoU 0.84)
+BloodImage_00384.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00384.jpg,0.0,0.0,False,
+BloodImage_00385.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00385.jpg,0.0,0.0,False,
+BloodImage_00386.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00386.jpg,0.0,0.0,False,
+BloodImage_00387.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00387.jpg,0.0,0.0,False,
+BloodImage_00388.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00388.jpg,0.0,0.0,False,
+BloodImage_00389.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00389.jpg,0.0,0.0,False,
+BloodImage_00389_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00389_missing.jpg,0.9997,0.9958,True,missing: model sees WBC 1.00 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00390.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00390.jpg,0.0,0.0,False,
+BloodImage_00391.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00391.jpg,0.0,0.0,False,
+BloodImage_00392.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00392.jpg,0.0,0.0,False,
+BloodImage_00393.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00393.jpg,0.0,0.0,False,
+BloodImage_00395.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00395.jpg,0.0732,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.25
+BloodImage_00396.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00396.jpg,0.1391,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.18
+BloodImage_00397.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00397.jpg,0.9001,0.7204,False,missing: model sees RBC 0.72 where nothing is annotated (best overlap with an annotation: IoU 0.10)
+BloodImage_00398.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00398.jpg,0.17,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.13
+BloodImage_00400.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00400.jpg,0.8668,0.8537,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.96)
+BloodImage_00402.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00402.jpg,0.0,0.0,False,
+BloodImage_00403.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00403.jpg,0.9834,0.9326,True,duplicate_box: annotated RBC twice at IoU 0.93 (same as annotation 5303)
+BloodImage_00403_wrong.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00403_wrong.jpg,1.0,0.9738,True,wrong_class: annotated Platelets; model says RBC 0.97 at IoU 0.93 (Platelets 0.00)
+BloodImage_00404.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00404.jpg,0.8406,0.784,False,missing: model sees RBC 0.78 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00405.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00405.jpg,0.5659,0.4659,False,missing: model sees Platelets 0.77 where nothing is annotated (best overlap with an annotation: IoU 0.03)
+BloodImage_00405_missing.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00405_missing.jpg,0.9996,0.9842,True,missing: model sees RBC 0.98 where nothing is annotated (best overlap with an annotation: IoU 0.04)
+BloodImage_00407.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00407.jpg,0.9064,0.7989,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.11 (score 0.90)
+BloodImage_00408.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00408.jpg,0.0259,0.0,False,low_confidence: annotated RBC; model only gives RBC 0.27
+BloodImage_00409.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00409.jpg,0.9193,0.7684,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.13 (score 0.89)
+BloodImage_00410.jpg,/home/bjieyong/aiverify2/auditing/DATA/bccdp_images/BloodImage_00410.jpg,0.8989,0.8556,False,bad_location: annotated RBC; best confident RBC box only overlaps at IoU 0.12 (score 0.97)
