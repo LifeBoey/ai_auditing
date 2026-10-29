@@ -1,0 +1,3200 @@
+{
+  "images": "/home/bjieyong/aiverify2/auditing/DATA/data_sub500_v2",
+  "labels": "/home/bjieyong/aiverify2/auditing/DATA/labels_sub500_v2.json",
+  "clip": "/mnt/c/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt",
+  "aspects": {
+    "brightness": {
+      "kind": "numeric",
+      "description": "mean grey level (0-255)",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        97.16840744018555,
+        112.62943267822266,
+        131.03601455688477
+      ],
+      "groups": [
+        "1: [9.9, 97.2)",
+        "2: [97.2, 113)",
+        "3: [113, 131)",
+        "4: [131, 226]"
+      ],
+      "counts": {
+        "1: [9.9, 97.2)": 125,
+        "2: [97.2, 113)": 124,
+        "3: [113, 131)": 126,
+        "4: [131, 226]": 125
+      }
+    },
+    "contrast": {
+      "kind": "numeric",
+      "description": "std of grey level",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        51.762725830078125,
+        60.093990325927734,
+        67.795166015625
+      ],
+      "groups": [
+        "1: [18.2, 51.8)",
+        "2: [51.8, 60.1)",
+        "3: [60.1, 67.8)",
+        "4: [67.8, 108]"
+      ],
+      "counts": {
+        "1: [18.2, 51.8)": 125,
+        "2: [51.8, 60.1)": 124,
+        "3: [60.1, 67.8)": 126,
+        "4: [67.8, 108]": 125
+      }
+    },
+    "sharpness": {
+      "kind": "numeric",
+      "description": "variance of the Laplacian (low = blurry)",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        777.1032867431641,
+        1614.4473876953125,
+        3396.5910034179688
+      ],
+      "groups": [
+        "1: [104, 777)",
+        "2: [777, 1.61e+03)",
+        "3: [1.61e+03, 3.4e+03)",
+        "4: [3.4e+03, 2.56e+04]"
+      ],
+      "counts": {
+        "1: [104, 777)": 125,
+        "2: [777, 1.61e+03)": 125,
+        "3: [1.61e+03, 3.4e+03)": 125,
+        "4: [3.4e+03, 2.56e+04]": 125
+      }
+    },
+    "saturation": {
+      "kind": "numeric",
+      "description": "mean HSV saturation (0-1)",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.20906756445765495,
+        0.30343545973300934,
+        0.40434346348047256
+      ],
+      "groups": [
+        "1: [0, 0.209)",
+        "2: [0.209, 0.303)",
+        "3: [0.303, 0.404)",
+        "4: [0.404, 0.845]"
+      ],
+      "counts": {
+        "1: [0, 0.209)": 125,
+        "2: [0.209, 0.303)": 125,
+        "3: [0.303, 0.404)": 125,
+        "4: [0.404, 0.845]": 125
+      }
+    },
+    "hue": {
+      "kind": "numeric",
+      "description": "saturation-weighted mean hue (degrees, unwrapped around the dataset mean) - stain colour",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        19.67204093933104,
+        37.34675788879393,
+        79.27078247070311
+      ],
+      "groups": [
+        "1: [-139, 19.7)",
+        "2: [19.7, 37.3)",
+        "3: [37.3, 79.3)",
+        "4: [79.3, 220]",
+        "n/a"
+      ],
+      "counts": {
+        "1: [-139, 19.7)": 121,
+        "2: [19.7, 37.3)": 122,
+        "3: [37.3, 79.3)": 121,
+        "4: [79.3, 220]": 122,
+        "n/a": 14
+      }
+    },
+    "aspect_ratio": {
+      "kind": "numeric",
+      "description": "width / height",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0,
+        1.3333333333333333,
+        1.4988290398126465
+      ],
+      "groups": [
+        "1: [0.384, 1)",
+        "2: [1, 1.33)",
+        "3: [1.33, 1.5)",
+        "4: [1.5, 3.79]"
+      ],
+      "counts": {
+        "1: [0.384, 1)": 120,
+        "2: [1, 1.33)": 42,
+        "3: [1.33, 1.5)": 186,
+        "4: [1.5, 3.79]": 152
+      }
+    },
+    "megapixels": {
+      "kind": "numeric",
+      "description": "image resolution",
+      "requires": [
+        "images"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.27054,
+        0.27328,
+        0.3072
+      ],
+      "groups": [
+        "1: [0.046, 0.271)",
+        "2: [0.271, 0.273)",
+        "3: [0.273, 0.307)",
+        "4: [0.307, 0.41]"
+      ],
+      "counts": {
+        "1: [0.046, 0.271)": 125,
+        "2: [0.271, 0.273)": 61,
+        "3: [0.273, 0.307)": 123,
+        "4: [0.307, 0.41]": 191
+      }
+    },
+    "n_gt": {
+      "kind": "numeric",
+      "description": "number of GT boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        2.0,
+        4.0,
+        10.0
+      ],
+      "groups": [
+        "1: [0, 2)",
+        "2: [2, 4)",
+        "3: [4, 10)",
+        "4: [10, 62]"
+      ],
+      "counts": {
+        "1: [0, 2)": 76,
+        "2: [2, 4)": 142,
+        "3: [4, 10)": 145,
+        "4: [10, 62]": 137
+      }
+    },
+    "n_classes": {
+      "kind": "categorical",
+      "description": "number of distinct classes present",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "counts": {
+        "0": 5,
+        "1": 104,
+        "2": 151,
+        "3": 96,
+        "4": 47,
+        "5": 33,
+        "6": 21,
+        "7": 18,
+        "8": 9,
+        "9": 8,
+        "10": 3,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "14": 1
+      }
+    },
+    "crowding": {
+      "kind": "numeric",
+      "description": "mean max IoU between GT boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.004141858076827366,
+        0.08685715839980696,
+        0.1700115486225797
+      ],
+      "groups": [
+        "1: [0, 0.00414)",
+        "2: [0.00414, 0.0869)",
+        "3: [0.0869, 0.17)",
+        "4: [0.17, 0.765]"
+      ],
+      "counts": {
+        "1: [0, 0.00414)": 125,
+        "2: [0.00414, 0.0869)": 125,
+        "3: [0.0869, 0.17)": 125,
+        "4: [0.17, 0.765]": 125
+      }
+    },
+    "small_frac": {
+      "kind": "numeric",
+      "description": "fraction of GT boxes smaller than 32^2 px",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.3333333333333333
+      ],
+      "groups": [
+        "1: [0, 0.333)",
+        "2: [0.333, 1]",
+        "n/a"
+      ],
+      "counts": {
+        "1: [0, 0.333)": 358,
+        "2: [0.333, 1]": 137,
+        "n/a": 5
+      }
+    },
+    "mean_box_area": {
+      "kind": "numeric",
+      "description": "mean GT box area / image area",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        0.032734258514493714,
+        0.08614641321321322,
+        0.2062784716630793
+      ],
+      "groups": [
+        "1: [0.000169, 0.0327)",
+        "2: [0.0327, 0.0861)",
+        "3: [0.0861, 0.206)",
+        "4: [0.206, 0.98]",
+        "n/a"
+      ],
+      "counts": {
+        "1: [0.000169, 0.0327)": 124,
+        "2: [0.0327, 0.0861)": 123,
+        "3: [0.0861, 0.206)": 124,
+        "4: [0.206, 0.98]": 124,
+        "n/a": 5
+      }
+    },
+    "n_person": {
+      "kind": "numeric",
+      "description": "number of person boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0,
+        2.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2)",
+        "3: [2, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 246,
+        "2: [1, 2)": 89,
+        "3: [2, 13]": 165
+      }
+    },
+    "has_person": {
+      "kind": "categorical",
+      "description": "image contains a person",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 246,
+        "yes": 254
+      }
+    },
+    "n_bicycle": {
+      "kind": "numeric",
+      "description": "number of bicycle boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 7]"
+      ],
+      "counts": {
+        "1: [0, 1)": 485,
+        "2: [1, 7]": 15
+      }
+    },
+    "has_bicycle": {
+      "kind": "categorical",
+      "description": "image contains a bicycle",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 485,
+        "yes": 15
+      }
+    },
+    "n_car": {
+      "kind": "numeric",
+      "description": "number of car boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 443,
+        "2: [1, 13]": 57
+      }
+    },
+    "has_car": {
+      "kind": "categorical",
+      "description": "image contains a car",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 443,
+        "yes": 57
+      }
+    },
+    "n_motorcycle": {
+      "kind": "numeric",
+      "description": "number of motorcycle boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 5]"
+      ],
+      "counts": {
+        "1: [0, 1)": 486,
+        "2: [1, 5]": 14
+      }
+    },
+    "has_motorcycle": {
+      "kind": "categorical",
+      "description": "image contains a motorcycle",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 486,
+        "yes": 14
+      }
+    },
+    "n_airplane": {
+      "kind": "numeric",
+      "description": "number of airplane boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 490,
+        "2: [1, 2]": 10
+      }
+    },
+    "has_airplane": {
+      "kind": "categorical",
+      "description": "image contains a airplane",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 490,
+        "yes": 10
+      }
+    },
+    "n_bus": {
+      "kind": "numeric",
+      "description": "number of bus boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 481,
+        "2: [1, 4]": 19
+      }
+    },
+    "has_bus": {
+      "kind": "categorical",
+      "description": "image contains a bus",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 481,
+        "yes": 19
+      }
+    },
+    "n_train": {
+      "kind": "numeric",
+      "description": "number of train boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 478,
+        "2: [1, 1]": 22
+      }
+    },
+    "has_train": {
+      "kind": "categorical",
+      "description": "image contains a train",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 478,
+        "yes": 22
+      }
+    },
+    "n_truck": {
+      "kind": "numeric",
+      "description": "number of truck boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 474,
+        "2: [1, 13]": 26
+      }
+    },
+    "has_truck": {
+      "kind": "categorical",
+      "description": "image contains a truck",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 474,
+        "yes": 26
+      }
+    },
+    "n_boat": {
+      "kind": "numeric",
+      "description": "number of boat boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 12]"
+      ],
+      "counts": {
+        "1: [0, 1)": 484,
+        "2: [1, 12]": 16
+      }
+    },
+    "has_boat": {
+      "kind": "categorical",
+      "description": "image contains a boat",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 484,
+        "yes": 16
+      }
+    },
+    "n_traffic light": {
+      "kind": "numeric",
+      "description": "number of traffic light boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 10]"
+      ],
+      "counts": {
+        "1: [0, 1)": 483,
+        "2: [1, 10]": 17
+      }
+    },
+    "has_traffic light": {
+      "kind": "categorical",
+      "description": "image contains a traffic light",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 483,
+        "yes": 17
+      }
+    },
+    "n_fire hydrant": {
+      "kind": "numeric",
+      "description": "number of fire hydrant boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 9]"
+      ],
+      "counts": {
+        "1: [0, 1)": 488,
+        "2: [1, 9]": 12
+      }
+    },
+    "has_fire hydrant": {
+      "kind": "categorical",
+      "description": "image contains a fire hydrant",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 488,
+        "yes": 12
+      }
+    },
+    "n_stop sign": {
+      "kind": "numeric",
+      "description": "number of stop sign boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 495,
+        "2: [1, 1]": 5
+      }
+    },
+    "has_stop sign": {
+      "kind": "categorical",
+      "description": "image contains a stop sign",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 495,
+        "yes": 5
+      }
+    },
+    "n_parking meter": {
+      "kind": "numeric",
+      "description": "number of parking meter boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 7]"
+      ],
+      "counts": {
+        "1: [0, 1)": 493,
+        "2: [1, 7]": 7
+      }
+    },
+    "has_parking meter": {
+      "kind": "categorical",
+      "description": "image contains a parking meter",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 493,
+        "yes": 7
+      }
+    },
+    "n_bench": {
+      "kind": "numeric",
+      "description": "number of bench boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 3]"
+      ],
+      "counts": {
+        "1: [0, 1)": 478,
+        "2: [1, 3]": 22
+      }
+    },
+    "has_bench": {
+      "kind": "categorical",
+      "description": "image contains a bench",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 478,
+        "yes": 22
+      }
+    },
+    "n_bird": {
+      "kind": "numeric",
+      "description": "number of bird boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 22]"
+      ],
+      "counts": {
+        "1: [0, 1)": 492,
+        "2: [1, 22]": 8
+      }
+    },
+    "has_bird": {
+      "kind": "categorical",
+      "description": "image contains a bird",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 492,
+        "yes": 8
+      }
+    },
+    "n_cat": {
+      "kind": "numeric",
+      "description": "number of cat boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 492,
+        "2: [1, 1]": 8
+      }
+    },
+    "has_cat": {
+      "kind": "categorical",
+      "description": "image contains a cat",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 492,
+        "yes": 8
+      }
+    },
+    "n_dog": {
+      "kind": "numeric",
+      "description": "number of dog boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 483,
+        "2: [1, 4]": 17
+      }
+    },
+    "has_dog": {
+      "kind": "categorical",
+      "description": "image contains a dog",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 483,
+        "yes": 17
+      }
+    },
+    "n_horse": {
+      "kind": "numeric",
+      "description": "number of horse boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 488,
+        "2: [1, 4]": 12
+      }
+    },
+    "has_horse": {
+      "kind": "categorical",
+      "description": "image contains a horse",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 488,
+        "yes": 12
+      }
+    },
+    "n_sheep": {
+      "kind": "numeric",
+      "description": "number of sheep boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        4.0
+      ],
+      "groups": [
+        "1: [0, 4)",
+        "2: [4, 14]"
+      ],
+      "counts": {
+        "1: [0, 4)": 496,
+        "2: [4, 14]": 4
+      }
+    },
+    "has_sheep": {
+      "kind": "categorical",
+      "description": "image contains a sheep",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 496,
+        "yes": 4
+      }
+    },
+    "n_cow": {
+      "kind": "numeric",
+      "description": "number of cow boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 9]"
+      ],
+      "counts": {
+        "1: [0, 1)": 495,
+        "2: [1, 9]": 5
+      }
+    },
+    "has_cow": {
+      "kind": "categorical",
+      "description": "image contains a cow",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 495,
+        "yes": 5
+      }
+    },
+    "n_elephant": {
+      "kind": "numeric",
+      "description": "number of elephant boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 492,
+        "2: [1, 13]": 8
+      }
+    },
+    "has_elephant": {
+      "kind": "categorical",
+      "description": "image contains a elephant",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 492,
+        "yes": 8
+      }
+    },
+    "n_bear": {
+      "kind": "numeric",
+      "description": "number of bear boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 497,
+        "2: [1, 1]": 3
+      }
+    },
+    "has_bear": {
+      "kind": "categorical",
+      "description": "image contains a bear",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 497,
+        "yes": 3
+      }
+    },
+    "n_zebra": {
+      "kind": "numeric",
+      "description": "number of zebra boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 7]"
+      ],
+      "counts": {
+        "1: [0, 1)": 492,
+        "2: [1, 7]": 8
+      }
+    },
+    "has_zebra": {
+      "kind": "categorical",
+      "description": "image contains a zebra",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 492,
+        "yes": 8
+      }
+    },
+    "n_giraffe": {
+      "kind": "numeric",
+      "description": "number of giraffe boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 8]"
+      ],
+      "counts": {
+        "1: [0, 1)": 490,
+        "2: [1, 8]": 10
+      }
+    },
+    "has_giraffe": {
+      "kind": "categorical",
+      "description": "image contains a giraffe",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 490,
+        "yes": 10
+      }
+    },
+    "n_backpack": {
+      "kind": "numeric",
+      "description": "number of backpack boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 486,
+        "2: [1, 4]": 14
+      }
+    },
+    "has_backpack": {
+      "kind": "categorical",
+      "description": "image contains a backpack",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 486,
+        "yes": 14
+      }
+    },
+    "n_umbrella": {
+      "kind": "numeric",
+      "description": "number of umbrella boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 12]"
+      ],
+      "counts": {
+        "1: [0, 1)": 486,
+        "2: [1, 12]": 14
+      }
+    },
+    "has_umbrella": {
+      "kind": "categorical",
+      "description": "image contains a umbrella",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 486,
+        "yes": 14
+      }
+    },
+    "n_handbag": {
+      "kind": "numeric",
+      "description": "number of handbag boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 5]"
+      ],
+      "counts": {
+        "1: [0, 1)": 479,
+        "2: [1, 5]": 21
+      }
+    },
+    "has_handbag": {
+      "kind": "categorical",
+      "description": "image contains a handbag",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 479,
+        "yes": 21
+      }
+    },
+    "n_tie": {
+      "kind": "numeric",
+      "description": "number of tie boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 9]"
+      ],
+      "counts": {
+        "1: [0, 1)": 478,
+        "2: [1, 9]": 22
+      }
+    },
+    "has_tie": {
+      "kind": "categorical",
+      "description": "image contains a tie",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 478,
+        "yes": 22
+      }
+    },
+    "n_suitcase": {
+      "kind": "numeric",
+      "description": "number of suitcase boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 8]"
+      ],
+      "counts": {
+        "1: [0, 1)": 489,
+        "2: [1, 8]": 11
+      }
+    },
+    "has_suitcase": {
+      "kind": "categorical",
+      "description": "image contains a suitcase",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 489,
+        "yes": 11
+      }
+    },
+    "n_frisbee": {
+      "kind": "numeric",
+      "description": "number of frisbee boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 490,
+        "2: [1, 1]": 10
+      }
+    },
+    "has_frisbee": {
+      "kind": "categorical",
+      "description": "image contains a frisbee",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 490,
+        "yes": 10
+      }
+    },
+    "n_skis": {
+      "kind": "numeric",
+      "description": "number of skis boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 5]"
+      ],
+      "counts": {
+        "1: [0, 1)": 484,
+        "2: [1, 5]": 16
+      }
+    },
+    "has_skis": {
+      "kind": "categorical",
+      "description": "image contains a skis",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 484,
+        "yes": 16
+      }
+    },
+    "n_snowboard": {
+      "kind": "numeric",
+      "description": "number of snowboard boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 498,
+        "2: [1, 1]": 2
+      }
+    },
+    "has_snowboard": {
+      "kind": "categorical",
+      "description": "image contains a snowboard",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 498,
+        "yes": 2
+      }
+    },
+    "n_sports ball": {
+      "kind": "numeric",
+      "description": "number of sports ball boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 482,
+        "2: [1, 13]": 18
+      }
+    },
+    "has_sports ball": {
+      "kind": "categorical",
+      "description": "image contains a sports ball",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 482,
+        "yes": 18
+      }
+    },
+    "n_kite": {
+      "kind": "numeric",
+      "description": "number of kite boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 492,
+        "2: [1, 13]": 8
+      }
+    },
+    "has_kite": {
+      "kind": "categorical",
+      "description": "image contains a kite",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 492,
+        "yes": 8
+      }
+    },
+    "n_baseball bat": {
+      "kind": "numeric",
+      "description": "number of baseball bat boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 5]"
+      ],
+      "counts": {
+        "1: [0, 1)": 491,
+        "2: [1, 5]": 9
+      }
+    },
+    "has_baseball bat": {
+      "kind": "categorical",
+      "description": "image contains a baseball bat",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 491,
+        "yes": 9
+      }
+    },
+    "n_baseball glove": {
+      "kind": "numeric",
+      "description": "number of baseball glove boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 494,
+        "2: [1, 4]": 6
+      }
+    },
+    "has_baseball glove": {
+      "kind": "categorical",
+      "description": "image contains a baseball glove",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 494,
+        "yes": 6
+      }
+    },
+    "n_skateboard": {
+      "kind": "numeric",
+      "description": "number of skateboard boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 8]"
+      ],
+      "counts": {
+        "1: [0, 1)": 486,
+        "2: [1, 8]": 14
+      }
+    },
+    "has_skateboard": {
+      "kind": "categorical",
+      "description": "image contains a skateboard",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 486,
+        "yes": 14
+      }
+    },
+    "n_surfboard": {
+      "kind": "numeric",
+      "description": "number of surfboard boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 489,
+        "2: [1, 2]": 11
+      }
+    },
+    "has_surfboard": {
+      "kind": "categorical",
+      "description": "image contains a surfboard",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 489,
+        "yes": 11
+      }
+    },
+    "n_tennis racket": {
+      "kind": "numeric",
+      "description": "number of tennis racket boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 487,
+        "2: [1, 2]": 13
+      }
+    },
+    "has_tennis racket": {
+      "kind": "categorical",
+      "description": "image contains a tennis racket",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 487,
+        "yes": 13
+      }
+    },
+    "n_bottle": {
+      "kind": "numeric",
+      "description": "number of bottle boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 455,
+        "2: [1, 13]": 45
+      }
+    },
+    "has_bottle": {
+      "kind": "categorical",
+      "description": "image contains a bottle",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 455,
+        "yes": 45
+      }
+    },
+    "n_wine glass": {
+      "kind": "numeric",
+      "description": "number of wine glass boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 12]"
+      ],
+      "counts": {
+        "1: [0, 1)": 479,
+        "2: [1, 12]": 21
+      }
+    },
+    "has_wine glass": {
+      "kind": "categorical",
+      "description": "image contains a wine glass",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 479,
+        "yes": 21
+      }
+    },
+    "n_cup": {
+      "kind": "numeric",
+      "description": "number of cup boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 10]"
+      ],
+      "counts": {
+        "1: [0, 1)": 448,
+        "2: [1, 10]": 52
+      }
+    },
+    "has_cup": {
+      "kind": "categorical",
+      "description": "image contains a cup",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 448,
+        "yes": 52
+      }
+    },
+    "n_fork": {
+      "kind": "numeric",
+      "description": "number of fork boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 6]"
+      ],
+      "counts": {
+        "1: [0, 1)": 482,
+        "2: [1, 6]": 18
+      }
+    },
+    "has_fork": {
+      "kind": "categorical",
+      "description": "image contains a fork",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 482,
+        "yes": 18
+      }
+    },
+    "n_knife": {
+      "kind": "numeric",
+      "description": "number of knife boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 6]"
+      ],
+      "counts": {
+        "1: [0, 1)": 473,
+        "2: [1, 6]": 27
+      }
+    },
+    "has_knife": {
+      "kind": "categorical",
+      "description": "image contains a knife",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 473,
+        "yes": 27
+      }
+    },
+    "n_spoon": {
+      "kind": "numeric",
+      "description": "number of spoon boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 5]"
+      ],
+      "counts": {
+        "1: [0, 1)": 479,
+        "2: [1, 5]": 21
+      }
+    },
+    "has_spoon": {
+      "kind": "categorical",
+      "description": "image contains a spoon",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 479,
+        "yes": 21
+      }
+    },
+    "n_bowl": {
+      "kind": "numeric",
+      "description": "number of bowl boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 11]"
+      ],
+      "counts": {
+        "1: [0, 1)": 463,
+        "2: [1, 11]": 37
+      }
+    },
+    "has_bowl": {
+      "kind": "categorical",
+      "description": "image contains a bowl",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 463,
+        "yes": 37
+      }
+    },
+    "n_banana": {
+      "kind": "numeric",
+      "description": "number of banana boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 3]"
+      ],
+      "counts": {
+        "1: [0, 1)": 495,
+        "2: [1, 3]": 5
+      }
+    },
+    "has_banana": {
+      "kind": "categorical",
+      "description": "image contains a banana",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 495,
+        "yes": 5
+      }
+    },
+    "n_apple": {
+      "kind": "numeric",
+      "description": "number of apple boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 5]"
+      ],
+      "counts": {
+        "1: [0, 1)": 490,
+        "2: [1, 5]": 10
+      }
+    },
+    "has_apple": {
+      "kind": "categorical",
+      "description": "image contains a apple",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 490,
+        "yes": 10
+      }
+    },
+    "n_sandwich": {
+      "kind": "numeric",
+      "description": "number of sandwich boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 9]"
+      ],
+      "counts": {
+        "1: [0, 1)": 485,
+        "2: [1, 9]": 15
+      }
+    },
+    "has_sandwich": {
+      "kind": "categorical",
+      "description": "image contains a sandwich",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 485,
+        "yes": 15
+      }
+    },
+    "n_orange": {
+      "kind": "numeric",
+      "description": "number of orange boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 3]"
+      ],
+      "counts": {
+        "1: [0, 1)": 492,
+        "2: [1, 3]": 8
+      }
+    },
+    "has_orange": {
+      "kind": "categorical",
+      "description": "image contains a orange",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 492,
+        "yes": 8
+      }
+    },
+    "n_broccoli": {
+      "kind": "numeric",
+      "description": "number of broccoli boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 3]"
+      ],
+      "counts": {
+        "1: [0, 1)": 498,
+        "2: [1, 3]": 2
+      }
+    },
+    "has_broccoli": {
+      "kind": "categorical",
+      "description": "image contains a broccoli",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 498,
+        "yes": 2
+      }
+    },
+    "n_carrot": {
+      "kind": "numeric",
+      "description": "number of carrot boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        3.0
+      ],
+      "groups": [
+        "1: [0, 3)",
+        "2: [3, 10]"
+      ],
+      "counts": {
+        "1: [0, 3)": 494,
+        "2: [3, 10]": 6
+      }
+    },
+    "has_carrot": {
+      "kind": "categorical",
+      "description": "image contains a carrot",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 494,
+        "yes": 6
+      }
+    },
+    "n_hot dog": {
+      "kind": "numeric",
+      "description": "number of hot dog boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 496,
+        "2: [1, 1]": 4
+      }
+    },
+    "has_hot dog": {
+      "kind": "categorical",
+      "description": "image contains a hot dog",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 496,
+        "yes": 4
+      }
+    },
+    "n_pizza": {
+      "kind": "numeric",
+      "description": "number of pizza boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 10]"
+      ],
+      "counts": {
+        "1: [0, 1)": 481,
+        "2: [1, 10]": 19
+      }
+    },
+    "has_pizza": {
+      "kind": "categorical",
+      "description": "image contains a pizza",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 481,
+        "yes": 19
+      }
+    },
+    "n_donut": {
+      "kind": "numeric",
+      "description": "number of donut boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 12]"
+      ],
+      "counts": {
+        "1: [0, 1)": 496,
+        "2: [1, 12]": 4
+      }
+    },
+    "has_donut": {
+      "kind": "categorical",
+      "description": "image contains a donut",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 496,
+        "yes": 4
+      }
+    },
+    "n_cake": {
+      "kind": "numeric",
+      "description": "number of cake boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 484,
+        "2: [1, 13]": 16
+      }
+    },
+    "has_cake": {
+      "kind": "categorical",
+      "description": "image contains a cake",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 484,
+        "yes": 16
+      }
+    },
+    "n_chair": {
+      "kind": "numeric",
+      "description": "number of chair boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 429,
+        "2: [1, 13]": 71
+      }
+    },
+    "has_chair": {
+      "kind": "categorical",
+      "description": "image contains a chair",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 429,
+        "yes": 71
+      }
+    },
+    "n_couch": {
+      "kind": "numeric",
+      "description": "number of couch boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 3]"
+      ],
+      "counts": {
+        "1: [0, 1)": 477,
+        "2: [1, 3]": 23
+      }
+    },
+    "has_couch": {
+      "kind": "categorical",
+      "description": "image contains a couch",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 477,
+        "yes": 23
+      }
+    },
+    "n_potted plant": {
+      "kind": "numeric",
+      "description": "number of potted plant boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 9]"
+      ],
+      "counts": {
+        "1: [0, 1)": 474,
+        "2: [1, 9]": 26
+      }
+    },
+    "has_potted plant": {
+      "kind": "categorical",
+      "description": "image contains a potted plant",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 474,
+        "yes": 26
+      }
+    },
+    "n_bed": {
+      "kind": "numeric",
+      "description": "number of bed boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 488,
+        "2: [1, 2]": 12
+      }
+    },
+    "has_bed": {
+      "kind": "categorical",
+      "description": "image contains a bed",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 488,
+        "yes": 12
+      }
+    },
+    "n_dining table": {
+      "kind": "numeric",
+      "description": "number of dining table boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 9]"
+      ],
+      "counts": {
+        "1: [0, 1)": 446,
+        "2: [1, 9]": 54
+      }
+    },
+    "has_dining table": {
+      "kind": "categorical",
+      "description": "image contains a dining table",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 446,
+        "yes": 54
+      }
+    },
+    "n_toilet": {
+      "kind": "numeric",
+      "description": "number of toilet boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 476,
+        "2: [1, 1]": 24
+      }
+    },
+    "has_toilet": {
+      "kind": "categorical",
+      "description": "image contains a toilet",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 476,
+        "yes": 24
+      }
+    },
+    "n_tv": {
+      "kind": "numeric",
+      "description": "number of tv boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 8]"
+      ],
+      "counts": {
+        "1: [0, 1)": 482,
+        "2: [1, 8]": 18
+      }
+    },
+    "has_tv": {
+      "kind": "categorical",
+      "description": "image contains a tv",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 482,
+        "yes": 18
+      }
+    },
+    "n_laptop": {
+      "kind": "numeric",
+      "description": "number of laptop boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 7]"
+      ],
+      "counts": {
+        "1: [0, 1)": 482,
+        "2: [1, 7]": 18
+      }
+    },
+    "has_laptop": {
+      "kind": "categorical",
+      "description": "image contains a laptop",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 482,
+        "yes": 18
+      }
+    },
+    "n_mouse": {
+      "kind": "numeric",
+      "description": "number of mouse boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 496,
+        "2: [1, 1]": 4
+      }
+    },
+    "has_mouse": {
+      "kind": "categorical",
+      "description": "image contains a mouse",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 496,
+        "yes": 4
+      }
+    },
+    "n_remote": {
+      "kind": "numeric",
+      "description": "number of remote boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 6]"
+      ],
+      "counts": {
+        "1: [0, 1)": 488,
+        "2: [1, 6]": 12
+      }
+    },
+    "has_remote": {
+      "kind": "categorical",
+      "description": "image contains a remote",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 488,
+        "yes": 12
+      }
+    },
+    "n_keyboard": {
+      "kind": "numeric",
+      "description": "number of keyboard boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 491,
+        "2: [1, 4]": 9
+      }
+    },
+    "has_keyboard": {
+      "kind": "categorical",
+      "description": "image contains a keyboard",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 491,
+        "yes": 9
+      }
+    },
+    "n_cell phone": {
+      "kind": "numeric",
+      "description": "number of cell phone boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 4]"
+      ],
+      "counts": {
+        "1: [0, 1)": 479,
+        "2: [1, 4]": 21
+      }
+    },
+    "has_cell phone": {
+      "kind": "categorical",
+      "description": "image contains a cell phone",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 479,
+        "yes": 21
+      }
+    },
+    "n_microwave": {
+      "kind": "numeric",
+      "description": "number of microwave boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 485,
+        "2: [1, 2]": 15
+      }
+    },
+    "has_microwave": {
+      "kind": "categorical",
+      "description": "image contains a microwave",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 485,
+        "yes": 15
+      }
+    },
+    "n_oven": {
+      "kind": "numeric",
+      "description": "number of oven boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 484,
+        "2: [1, 2]": 16
+      }
+    },
+    "has_oven": {
+      "kind": "categorical",
+      "description": "image contains a oven",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 484,
+        "yes": 16
+      }
+    },
+    "n_toaster": {
+      "kind": "numeric",
+      "description": "number of toaster boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 497,
+        "2: [1, 1]": 3
+      }
+    },
+    "has_toaster": {
+      "kind": "categorical",
+      "description": "image contains a toaster",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 497,
+        "yes": 3
+      }
+    },
+    "n_sink": {
+      "kind": "numeric",
+      "description": "number of sink boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 474,
+        "2: [1, 2]": 26
+      }
+    },
+    "has_sink": {
+      "kind": "categorical",
+      "description": "image contains a sink",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 474,
+        "yes": 26
+      }
+    },
+    "n_refrigerator": {
+      "kind": "numeric",
+      "description": "number of refrigerator boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 483,
+        "2: [1, 1]": 17
+      }
+    },
+    "has_refrigerator": {
+      "kind": "categorical",
+      "description": "image contains a refrigerator",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 483,
+        "yes": 17
+      }
+    },
+    "n_book": {
+      "kind": "numeric",
+      "description": "number of book boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 474,
+        "2: [1, 13]": 26
+      }
+    },
+    "has_book": {
+      "kind": "categorical",
+      "description": "image contains a book",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 474,
+        "yes": 26
+      }
+    },
+    "n_clock": {
+      "kind": "numeric",
+      "description": "number of clock boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 474,
+        "2: [1, 2]": 26
+      }
+    },
+    "has_clock": {
+      "kind": "categorical",
+      "description": "image contains a clock",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 474,
+        "yes": 26
+      }
+    },
+    "n_vase": {
+      "kind": "numeric",
+      "description": "number of vase boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 13]"
+      ],
+      "counts": {
+        "1: [0, 1)": 482,
+        "2: [1, 13]": 18
+      }
+    },
+    "has_vase": {
+      "kind": "categorical",
+      "description": "image contains a vase",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 482,
+        "yes": 18
+      }
+    },
+    "n_scissors": {
+      "kind": "numeric",
+      "description": "number of scissors boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 2]"
+      ],
+      "counts": {
+        "1: [0, 1)": 498,
+        "2: [1, 2]": 2
+      }
+    },
+    "has_scissors": {
+      "kind": "categorical",
+      "description": "image contains a scissors",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 498,
+        "yes": 2
+      }
+    },
+    "n_teddy bear": {
+      "kind": "numeric",
+      "description": "number of teddy bear boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 6]"
+      ],
+      "counts": {
+        "1: [0, 1)": 486,
+        "2: [1, 6]": 14
+      }
+    },
+    "has_teddy bear": {
+      "kind": "categorical",
+      "description": "image contains a teddy bear",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 486,
+        "yes": 14
+      }
+    },
+    "n_toothbrush": {
+      "kind": "numeric",
+      "description": "number of toothbrush boxes",
+      "requires": [
+        "labels"
+      ],
+      "method": "quantile(4)",
+      "edges": [
+        1.0
+      ],
+      "groups": [
+        "1: [0, 1)",
+        "2: [1, 1]"
+      ],
+      "counts": {
+        "1: [0, 1)": 497,
+        "2: [1, 1]": 3
+      }
+    },
+    "has_toothbrush": {
+      "kind": "categorical",
+      "description": "image contains a toothbrush",
+      "requires": [
+        "labels"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "no",
+        "yes"
+      ],
+      "counts": {
+        "no": 497,
+        "yes": 3
+      }
+    },
+    "clip_cluster": {
+      "kind": "categorical",
+      "description": "KMeans cluster of the CLIP image embedding",
+      "requires": [
+        "clip"
+      ],
+      "method": "categorical",
+      "edges": null,
+      "groups": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "counts": {
+        "c0": 176,
+        "c1": 121,
+        "c2": 86,
+        "c3": 66,
+        "c4": 51
+      }
+    }
+  },
+  "skipped": {},
+  "dropped": {
+    "n_hair drier": "only one group (1: [0, 0]) - the aspect is constant on this data",
+    "has_hair drier": "only one group (no) - the aspect is constant on this data"
+  }
+}

@@ -1,0 +1,13 @@
+method,kind,missing box,wrong class,bad location,spurious box,low confidence,none,mentions_right_problem
+cleanlab · frcnn_mbv3,missing,0.48,0.04,0.08,0.0,0.0,0.4,0.48
+cleanlab · frcnn_mbv3,wrong,0.2,0.08,0.0,0.0,0.0,0.72,0.08
+cleanlab · yolo11x,missing,0.28,0.04,0.12,0.0,0.0,0.56,0.28
+cleanlab · yolo11x,wrong,0.0,0.56,0.16,0.0,0.0,0.28,0.56
+fiftyone · frcnn_mbv3,missing,0.36,0.52,0.0,0.08,0.0,0.04,0.88
+fiftyone · frcnn_mbv3,wrong,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+fiftyone · yolo11x,missing,0.44,0.44,0.0,0.0,0.0,0.12,0.76
+fiftyone · yolo11x,wrong,0.0,0.96,0.0,0.04,0.0,0.0,0.96
+flags · frcnn_mbv3,missing,0.88,0.0,0.0,0.08,0.0,0.04,0.88
+flags · frcnn_mbv3,wrong,0.04,0.76,0.12,0.0,0.04,0.04,0.76
+flags · yolo11x,missing,0.8,0.0,0.04,0.04,0.0,0.12,0.8
+flags · yolo11x,wrong,0.0,0.88,0.04,0.04,0.0,0.04,0.88

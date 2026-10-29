@@ -14,7 +14,7 @@
   },
   "params": {
     "predictions": "../DATA/prediction_jsons/predictions_bccdp_frcnn_mbv3.json",
-    "dataset": "data-audit",
+    "dataset": "audit_bccdp_ground_truth",
     "pred_field": "pred_bccdp_frcnn_mbv3",
     "min_score": 0.01,
     "flag_mistakenness": 0.5,

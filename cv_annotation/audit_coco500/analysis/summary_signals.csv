@@ -1,0 +1,19 @@
+signal,missing,wrong,any
+cleanlab · frcnn_mbv3 · swap (w 1),0.549,0.8366,0.6928
+cleanlab · frcnn_mbv3 · overlooked (w 1),0.6094,0.476,0.5427
+cleanlab · frcnn_mbv3 · badloc (w 0.25),0.548,0.533,0.5405
+cleanlab · frcnn_mbv3 · label_issue (w 0),0.611,0.7312,0.6711
+cleanlab · yolo11x · swap (w 1),0.5204,0.9158,0.7181
+cleanlab · yolo11x · overlooked (w 1),0.6154,0.4744,0.5449
+cleanlab · yolo11x · badloc (w 0.25),0.5088,0.4592,0.484
+cleanlab · yolo11x · label_issue (w 0),0.507,0.5773,0.5422
+fiftyone · frcnn_mbv3 · mistakenness (w 1),0.5585,0.9471,0.7528
+fiftyone · frcnn_mbv3 · possible_missing (w 1),0.7441,0.4125,0.5783
+fiftyone · frcnn_mbv3 · possible_spurious (w 0.25),0.529,0.5761,0.5526
+fiftyone · yolo11x · mistakenness (w 1),0.5859,0.971,0.7784
+fiftyone · yolo11x · possible_missing (w 1),0.8409,0.4774,0.6592
+fiftyone · yolo11x · possible_spurious (w 0.25),0.5255,0.5725,0.549
+flags · frcnn_mbv3 · score (w 0.5),0.8238,0.8159,0.8199
+flags · frcnn_mbv3 · max_severity (w 1),0.8792,0.8625,0.8709
+flags · yolo11x · score (w 0.5),0.8263,0.8813,0.8538
+flags · yolo11x · max_severity (w 1),0.8826,0.9241,0.9034

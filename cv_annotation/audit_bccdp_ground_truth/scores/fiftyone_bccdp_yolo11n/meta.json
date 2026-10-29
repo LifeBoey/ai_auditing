@@ -14,7 +14,7 @@
   },
   "params": {
     "predictions": "../DATA/prediction_jsons/predictions_bccdp_yolo11n.json",
-    "dataset": "data-audit",
+    "dataset": "audit_bccdp_ground_truth",
     "pred_field": "pred_bccdp_yolo11n",
     "min_score": 0.01,
     "flag_mistakenness": 0.5,

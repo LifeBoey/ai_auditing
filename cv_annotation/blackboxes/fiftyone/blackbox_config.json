@@ -1,0 +1,6 @@
+{
+  "description": "FiftyOne Brain mistakenness / possible missing / possible spurious for one model's predictions",
+  "script": "blackbox_fiftyone.py",
+  "predictions": "per_model",
+  "accepts": ["audit_name"]
+}

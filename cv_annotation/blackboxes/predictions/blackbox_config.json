@@ -1,0 +1,7 @@
+{
+  "description": "rule-based comparison of the annotations with one model's predictions (flag_annotations.py)",
+  "script": "blackbox_predictions.py",
+  "predictions": "per_model",
+  "prefix": "flags",
+  "accepts": ["work_dir", "evaluate_planted"]
+}

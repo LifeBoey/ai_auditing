@@ -1,0 +1,3052 @@
+{
+  "snr_db": 10.0,
+  "seed": 42,
+  "files": {
+    "000010001.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.026447108015418053
+      }
+    },
+    "000010002.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02446705847978592,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010003.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02715369686484337,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010005.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.022319741547107697
+      }
+    },
+    "000010006.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017663581296801567,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010007.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022470610216259956,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010008.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.03129895403981209,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010009.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022413428872823715,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010010.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.03551199659705162,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010011.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02488233521580696,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010012.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018932191655039787,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010013.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.024014975875616074,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010014.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021823039278388023,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010015.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022522959858179092,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010016.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.028188422322273254,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010018.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.021197563037276268
+      }
+    },
+    "000010019.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.016296396031975746
+      }
+    },
+    "000010020.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019766274839639664,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010022.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015392215922474861,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010023.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01751766912639141,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010024.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0362861193716526,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010025.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017728125676512718,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010026.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016177725046873093,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010027.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.022267747670412064
+      }
+    },
+    "000010028.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013890566304326057,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010029.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.0052306740544736385
+      }
+    },
+    "000010030.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.023475226014852524,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010031.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.03126011788845062,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010034.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022961193695664406,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010035.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.024499353021383286,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010036.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02719898521900177,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010037.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.026525329798460007,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010039.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.026491202414035797,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010040.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.030602306127548218,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010042.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02683030441403389,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010043.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017484590411186218
+      }
+    },
+    "000010044.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02032807655632496
+      }
+    },
+    "000010045.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019072117283940315,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010046.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.023167425766587257
+      }
+    },
+    "000010047.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022121794521808624,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010048.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02658912166953087,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010049.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.023102600127458572
+      }
+    },
+    "000010050.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016641663387417793,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010051.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.013583566062152386
+      }
+    },
+    "000010053.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01724470593035221
+      }
+    },
+    "000010054.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016937166452407837,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010055.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.014638219028711319
+      }
+    },
+    "000010056.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011748412624001503,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010057.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.009543080814182758
+      }
+    },
+    "000010058.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011207948438823223,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010059.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0106588713824749,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010061.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013087128289043903,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010062.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018448635935783386,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010063.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.012443231418728828,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010064.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014464800246059895,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010065.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014126772992312908,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010066.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011830447241663933,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010067.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014311662875115871,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010068.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01669900305569172,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010071.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01780209317803383,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010072.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014614470303058624,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010073.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01664925552904606,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010074.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.023900292813777924,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010075.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.026879651471972466
+      }
+    },
+    "000010077.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.013588781468570232
+      }
+    },
+    "000010078.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.015622438862919807
+      }
+    },
+    "000010079.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02179071120917797,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010080.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015201820991933346,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010081.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.012662695720791817,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010082.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01532509084790945,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010083.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.013538980856537819
+      }
+    },
+    "000010084.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013008171692490578,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010085.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.027065662667155266,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010086.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.015700824558734894
+      }
+    },
+    "000010087.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019647840410470963,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010089.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01941477507352829,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010091.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01943478360772133,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010092.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01955552212893963,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010094.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.013123461045324802
+      }
+    },
+    "000010095.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.007942822761833668,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010096.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020666969940066338,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010097.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.030081141740083694
+      }
+    },
+    "000010098.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.031501829624176025,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010100.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.026606205850839615
+      }
+    },
+    "000010101.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0261946152895689,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010102.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019366906955838203,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010103.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.023487702012062073,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010104.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.008372738026082516,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010105.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015500561334192753,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010106.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017629873007535934
+      }
+    },
+    "000010108.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0164432805031538,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010109.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021410193294286728,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010110.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017772408202290535,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010111.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015575733967125416,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010112.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01754625327885151,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010113.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016987068578600883,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010114.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017910171300172806
+      }
+    },
+    "000010115.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016342470422387123,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010116.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016666604205965996,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010117.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01817561313509941,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010119.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.0147708086296916
+      }
+    },
+    "000010120.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.015230107121169567
+      }
+    },
+    "000010121.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022470122203230858,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010122.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018318094313144684,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010123.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014009665697813034,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010125.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01618065871298313,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010126.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017877381294965744,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010127.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.012718545272946358,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010129.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014100869186222553,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010130.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016618873924016953,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010131.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015483640134334564,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010132.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.014407394453883171
+      }
+    },
+    "000010133.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01745682768523693,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010134.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018249286338686943,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010135.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015228617005050182,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010136.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018713971599936485,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010137.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015336597338318825,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010139.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.012950924225151539,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010140.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011024225503206253,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010141.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014015448279678822,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010142.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013726768083870411,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010143.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.015640264376997948
+      }
+    },
+    "000010144.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01718512736260891
+      }
+    },
+    "000010145.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.028263268992304802,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010146.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02589644119143486,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010147.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021300364285707474,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010149.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020267141982913017,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010150.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021574607118964195,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010151.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.019306860864162445
+      }
+    },
+    "000010152.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.024016844108700752
+      }
+    },
+    "000010153.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021939367055892944,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010155.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.026261132210493088,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010156.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01793908141553402,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010157.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01884169690310955,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010158.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019866997376084328,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010159.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02176567167043686,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010160.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.012218496762216091,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010161.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019036097452044487,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010162.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01879242993891239,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010163.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01755373924970627,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010164.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01790422573685646
+      }
+    },
+    "000010165.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014217761345207691,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010166.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02099710889160633,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010167.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.025236329063773155,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010168.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019205376505851746,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010169.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022071393206715584,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010170.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02203964628279209
+      }
+    },
+    "000010172.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.008599876426160336,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010173.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.022847918793559074
+      }
+    },
+    "000010174.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022624576464295387,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010175.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.023200413212180138,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010176.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019256047904491425,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010177.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.020311059430241585
+      }
+    },
+    "000010178.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019999030977487564,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010179.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018739035353064537,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010180.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.023328609764575958,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010181.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.020505771040916443
+      }
+    },
+    "000010182.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015767887234687805,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010183.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013134777545928955,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010184.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015447203069925308,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010185.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.012309350073337555
+      }
+    },
+    "000010186.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01342566218227148,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010187.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01706184819340706,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010188.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01764773018658161,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010189.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011116404086351395,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010191.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019163277000188828,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010192.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01771754026412964,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010194.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017783591523766518,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010195.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01853538304567337,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010197.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011603311635553837,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010198.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017610790207982063
+      }
+    },
+    "000010199.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.026721393689513206,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010200.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.028053350746631622,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010201.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.018380308523774147
+      }
+    },
+    "000010202.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01801595836877823,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010203.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.008621875196695328,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010204.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02692105621099472,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010205.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018514666706323624,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010206.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02322685532271862,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010207.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015478823333978653,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010208.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01767178438603878,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010209.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021097559481859207,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010210.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02349928766489029,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010211.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02455146797001362,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010212.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01822124980390072,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010213.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019244663417339325,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010214.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02991640381515026,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010215.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02058601938188076,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010217.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020339692011475563,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010219.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01681724563241005,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010220.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.019461795687675476
+      }
+    },
+    "000010221.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019970232620835304,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010222.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.008934247307479382,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010223.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011969980783760548,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010224.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020360156893730164,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010225.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014233799651265144,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010226.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014553943648934364,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010227.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.025974567979574203
+      }
+    },
+    "000010228.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.025789784267544746
+      }
+    },
+    "000010230.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0211448036134243,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010231.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019031265750527382,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010232.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.031418658792972565,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010234.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021800294518470764,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010235.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017239335924386978,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010236.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017250968143343925,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010237.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020681163296103477,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010238.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021850958466529846,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010240.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.020830223336815834
+      }
+    },
+    "000010241.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020782316103577614,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010242.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02835594303905964,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010243.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01787545345723629,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010244.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017217744141817093,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010245.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016624586656689644,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010246.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01592138782143593,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010247.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015328412875533104,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010248.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022748488932847977,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010249.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.025517065078020096,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010250.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017044641077518463
+      }
+    },
+    "000010251.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015571355819702148,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010252.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01860789954662323,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010253.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015263589099049568,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010254.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015951041132211685,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010256.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02568921446800232
+      }
+    },
+    "000010257.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.021509947255253792
+      }
+    },
+    "000010259.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.026203304529190063,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010260.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021094880998134613,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010261.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02975521609187126,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010262.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.028010442852973938,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010263.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.03345663100481033,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010264.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.028557177633047104,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010266.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02475280687212944,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010267.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.025298340246081352,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010268.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02623651549220085,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010269.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.027931317687034607,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010270.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018427908420562744,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010271.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.027370089665055275,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010272.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018101846799254417,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010273.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.018553223460912704
+      }
+    },
+    "000010274.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0250314399600029,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010275.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02437867783010006,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010277.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02482149749994278,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010278.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017654523253440857
+      }
+    },
+    "000010279.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020224303007125854,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010281.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01483573392033577,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010282.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.012669172137975693
+      }
+    },
+    "000010283.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01797279715538025,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010284.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015876365825533867,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010285.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015963107347488403,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010286.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.015978103503584862
+      }
+    },
+    "000010287.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015255969017744064,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010288.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.008510079234838486,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010289.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.027034983038902283,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010290.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014481627382338047,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010291.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01908101700246334
+      }
+    },
+    "000010292.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.017700983211398125
+      }
+    },
+    "000010293.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01664624735713005,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010294.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020611215382814407,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010295.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02513503096997738,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010297.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01836100034415722,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010298.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.011292955838143826
+      }
+    },
+    "000010299.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.011742600239813328,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010300.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01702941209077835,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010301.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.013842769898474216
+      }
+    },
+    "000010302.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01291228923946619,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010303.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.014999259263277054
+      }
+    },
+    "000010305.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020312782377004623,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010306.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02103602886199951,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010307.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015494653023779392,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010308.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016666030511260033,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010309.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013952362351119518,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010310.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.016261301934719086
+      }
+    },
+    "000010311.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013399489223957062,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010312.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021251147612929344,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010315.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.024677351117134094,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010317.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021057741716504097,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010318.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018108593299984932,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010319.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.024889418855309486,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010320.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.022003795951604843
+      }
+    },
+    "000010321.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019263247027993202,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010322.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.025777151808142662,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010323.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021454084664583206,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010324.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022051824256777763,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010325.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019825316965579987,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010326.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02257777750492096
+      }
+    },
+    "000010327.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.028576623648405075
+      }
+    },
+    "000010328.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02391018345952034
+      }
+    },
+    "000010329.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020397299900650978,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010330.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02881547622382641,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010331.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02298593521118164
+      }
+    },
+    "000010332.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01759987883269787,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010333.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.0250173881649971,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010334.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02068490907549858,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010335.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021378647536039352,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010336.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021647565066814423,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010338.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01872212439775467,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010339.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.023414762690663338
+      }
+    },
+    "000010340.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022216686978936195,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010341.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022556979209184647,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010342.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02726178988814354,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010343.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02007610909640789,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010344.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.024687055498361588,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010345.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019519856199622154,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010346.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02020353265106678,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010347.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.024123365059494972,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010349.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018709124997258186,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010350.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021199924871325493,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010351.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019268866628408432,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010352.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020202096551656723,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010353.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022491563111543655,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010354.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01821960136294365,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010355.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.018073374405503273,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010357.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.014519304037094116,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010358.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01987364888191223,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010359.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01669592782855034
+      }
+    },
+    "000010360.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01742910034954548,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010361.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01606566086411476,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010362.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01608746126294136
+      }
+    },
+    "000010363.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016201023012399673,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010364.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.017886832356452942,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010365.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01746559329330921,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010366.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015534291043877602,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010367.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021595871075987816,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010368.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015812618657946587,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010369.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019970467314124107,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010370.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01945435255765915,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010371.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.021217964589595795
+      }
+    },
+    "000010373.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.013290448114275932,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010374.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01691291108727455,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010375.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.016780318692326546,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010376.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019049623981118202,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010377.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02334558591246605,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010378.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.020467357710003853
+      }
+    },
+    "000010379.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02136264555156231
+      }
+    },
+    "000010380.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01681789569556713,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010381.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019966870546340942,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010382.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.02349805273115635
+      }
+    },
+    "000010383.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02111969329416752,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010384.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.020487703382968903,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010385.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019219543784856796,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010386.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01608230173587799,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010387.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.015847783535718918,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010388.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.026728827506303787,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010389.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019586807116866112,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010390.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.022650914266705513,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010391.WAV": {
+      "noise": "white",
+      "params": {
+        "should_apply": true,
+        "noise_std": 0.01945067010819912
+      }
+    },
+    "000010392.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02669992856681347,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010393.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01853560470044613,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010394.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02335788868367672,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010395.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02194550447165966,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010396.WAV": {
+      "noise": "blue",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.02351209707558155,
+        "f_decay": 3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010397.WAV": {
+      "noise": "brown",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.019397100433707237,
+        "f_decay": -6.02,
+        "apply_a_weighting": false
+      }
+    },
+    "000010398.WAV": {
+      "noise": "pink",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.01736694760620594,
+        "f_decay": -3.01,
+        "apply_a_weighting": false
+      }
+    },
+    "000010399.WAV": {
+      "noise": "violet",
+      "params": {
+        "should_apply": true,
+        "desired_noise_rms": 0.021130820736289024,
+        "f_decay": 6.02,
+        "apply_a_weighting": false
+      }
+    }
+  },
+  "summary": {
+    "blue": 79,
+    "brown": 73,
+    "pink": 66,
+    "violet": 66,
+    "white": 69
+  }
+}

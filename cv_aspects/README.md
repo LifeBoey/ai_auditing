@@ -32,7 +32,7 @@ Run the commands from inside `cv_aspects/`. The examples use the BCCD data in `.
 | Image folder | **required** (`--images`) | – | `.jpg/.png/...` files |
 | Ground truth | optional (`--labels`), enables the box-based aspects | **required** (`--labels`) | COCO json (`images`, `annotations`, `categories`) |
 | Predictions | – | **required** (`--preds`) | see below |
-| CLIP weights | optional (`--clip`), enables `clip_cluster` | – | OpenAI CLIP `.pt`, e.g. `C:/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt` |
+| CLIP weights | optional (`--clip`), enables `clip_cluster` | – | OpenAI CLIP `.pt`, e.g. `/mnt/c/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt` |
 | Config | optional (`--config`) | – | JSON with your binning / plugin settings |
 | Your own aspect | optional (`--plugin`) | – | a `.py` file made from `plugin_template.py` |
 
@@ -51,7 +51,8 @@ Include low-score boxes too (e.g. down to 0.001). AP needs them, and the tool ch
 ```
 python split_by_aspect.py --images ../DATA/bccd_images \
     --labels ../DATA/bccd_ground_truth.json \
-    --clip C:/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt
+    --out aspects_bccd
+    --clip /mnt/c/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt
 ```
 
 - Only `--images` is required. Without `--labels` the box-based aspects are skipped, and without `--clip` `clip_cluster` is skipped. Skipped aspects are listed at the end of the run.

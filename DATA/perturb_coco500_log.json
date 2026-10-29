@@ -1,0 +1,1224 @@
+{
+  "seed": null,
+  "missing_fraction": 0.2998,
+  "wrong_fraction": 0.2935,
+  "reconstructed_from": {
+    "clean": "labels_coco5000.json",
+    "perturbed": "labels_sub500_v2.json"
+  },
+  "perturbations": [
+    {
+      "image": "000000000785_missing.jpg",
+      "source": "000000000785.jpg",
+      "type": "missing",
+      "n_original": 2,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "skis",
+          "bbox_xyxy": [
+            205,
+            362,
+            615,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000006614_missing.jpg",
+      "source": "000000006614.jpg",
+      "type": "missing",
+      "n_original": 2,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "apple",
+          "bbox_xyxy": [
+            18,
+            40,
+            482,
+            251
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000051598_missing.jpg",
+      "source": "000000051598.jpg",
+      "type": "missing",
+      "n_original": 2,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "sink",
+          "bbox_xyxy": [
+            0,
+            430,
+            140,
+            536
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000054654_missing.jpg",
+      "source": "000000054654.jpg",
+      "type": "missing",
+      "n_original": 2,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            99,
+            50,
+            371,
+            632
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000079034_missing.jpg",
+      "source": "000000079034.jpg",
+      "type": "missing",
+      "n_original": 6,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "fire hydrant",
+          "bbox_xyxy": [
+            211,
+            103,
+            327,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000080340_missing.jpg",
+      "source": "000000080340.jpg",
+      "type": "missing",
+      "n_original": 20,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "chair",
+          "bbox_xyxy": [
+            500,
+            111,
+            639,
+            313
+          ]
+        },
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            525,
+            0,
+            631,
+            69
+          ]
+        },
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            490,
+            0,
+            554,
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000181796_missing.jpg",
+      "source": "000000181796.jpg",
+      "type": "missing",
+      "n_original": 15,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "dining table",
+          "bbox_xyxy": [
+            2,
+            17,
+            634,
+            355
+          ]
+        },
+        {
+          "class": "fork",
+          "bbox_xyxy": [
+            405,
+            178,
+            594,
+            220
+          ]
+        },
+        {
+          "class": "spoon",
+          "bbox_xyxy": [
+            95,
+            165,
+            228,
+            209
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000229948_missing.jpg",
+      "source": "000000229948.jpg",
+      "type": "missing",
+      "n_original": 18,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "horse",
+          "bbox_xyxy": [
+            302,
+            85,
+            531,
+            333
+          ]
+        },
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            200,
+            111,
+            287,
+            246
+          ]
+        },
+        {
+          "class": "truck",
+          "bbox_xyxy": [
+            367,
+            2,
+            640,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000279714_missing.jpg",
+      "source": "000000279714.jpg",
+      "type": "missing",
+      "n_original": 5,
+      "n_removed": 2,
+      "removed": [
+        {
+          "class": "car",
+          "bbox_xyxy": [
+            221,
+            433,
+            425,
+            605
+          ]
+        },
+        {
+          "class": "parking meter",
+          "bbox_xyxy": [
+            31,
+            425,
+            261,
+            627
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000289059_missing.jpg",
+      "source": "000000289059.jpg",
+      "type": "missing",
+      "n_original": 3,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "tennis racket",
+          "bbox_xyxy": [
+            350,
+            278,
+            551,
+            409
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000303653_missing.jpg",
+      "source": "000000303653.jpg",
+      "type": "missing",
+      "n_original": 7,
+      "n_removed": 2,
+      "removed": [
+        {
+          "class": "horse",
+          "bbox_xyxy": [
+            3,
+            160,
+            127,
+            279
+          ]
+        },
+        {
+          "class": "horse",
+          "bbox_xyxy": [
+            340,
+            163,
+            551,
+            301
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000341469_missing.jpg",
+      "source": "000000341469.jpg",
+      "type": "missing",
+      "n_original": 13,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "suitcase",
+          "bbox_xyxy": [
+            133,
+            470,
+            243,
+            553
+          ]
+        },
+        {
+          "class": "suitcase",
+          "bbox_xyxy": [
+            126,
+            132,
+            256,
+            221
+          ]
+        },
+        {
+          "class": "suitcase",
+          "bbox_xyxy": [
+            26,
+            157,
+            130,
+            221
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000361238_missing.jpg",
+      "source": "000000361238.jpg",
+      "type": "missing",
+      "n_original": 10,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            581,
+            20,
+            640,
+            131
+          ]
+        },
+        {
+          "class": "pizza",
+          "bbox_xyxy": [
+            42,
+            241,
+            311,
+            346
+          ]
+        },
+        {
+          "class": "dining table",
+          "bbox_xyxy": [
+            0,
+            238,
+            640,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000365387_missing.jpg",
+      "source": "000000365387.jpg",
+      "type": "missing",
+      "n_original": 4,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "sink",
+          "bbox_xyxy": [
+            271,
+            112,
+            372,
+            214
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000410880_missing.jpg",
+      "source": "000000410880.jpg",
+      "type": "missing",
+      "n_original": 10,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "bench",
+          "bbox_xyxy": [
+            0,
+            203,
+            77,
+            369
+          ]
+        },
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            291,
+            30,
+            316,
+            127
+          ]
+        },
+        {
+          "class": "chair",
+          "bbox_xyxy": [
+            155,
+            220,
+            310,
+            350
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000411938_missing.jpg",
+      "source": "000000411938.jpg",
+      "type": "missing",
+      "n_original": 17,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "bicycle",
+          "bbox_xyxy": [
+            293,
+            284,
+            414,
+            426
+          ]
+        },
+        {
+          "class": "bicycle",
+          "bbox_xyxy": [
+            427,
+            278,
+            605,
+            421
+          ]
+        },
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            363,
+            161,
+            403,
+            245
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000420281_missing.jpg",
+      "source": "000000420281.jpg",
+      "type": "missing",
+      "n_original": 4,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "hot dog",
+          "bbox_xyxy": [
+            148,
+            383,
+            237,
+            505
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000442836_missing.jpg",
+      "source": "000000442836.jpg",
+      "type": "missing",
+      "n_original": 4,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            47,
+            150,
+            116,
+            349
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000464824_missing.jpg",
+      "source": "000000464824.jpg",
+      "type": "missing",
+      "n_original": 3,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "fire hydrant",
+          "bbox_xyxy": [
+            230,
+            262,
+            308,
+            351
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000466602_missing.jpg",
+      "source": "000000466602.jpg",
+      "type": "missing",
+      "n_original": 3,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "skis",
+          "bbox_xyxy": [
+            102,
+            411,
+            309,
+            632
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000491008_missing.jpg",
+      "source": "000000491008.jpg",
+      "type": "missing",
+      "n_original": 26,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "pizza",
+          "bbox_xyxy": [
+            289,
+            288,
+            394,
+            340
+          ]
+        },
+        {
+          "class": "dining table",
+          "bbox_xyxy": [
+            0,
+            308,
+            133,
+            330
+          ]
+        },
+        {
+          "class": "chair",
+          "bbox_xyxy": [
+            303,
+            347,
+            353,
+            394
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000504074_missing.jpg",
+      "source": "000000504074.jpg",
+      "type": "missing",
+      "n_original": 9,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "chair",
+          "bbox_xyxy": [
+            320,
+            157,
+            407,
+            304
+          ]
+        },
+        {
+          "class": "laptop",
+          "bbox_xyxy": [
+            249,
+            231,
+            405,
+            352
+          ]
+        },
+        {
+          "class": "chair",
+          "bbox_xyxy": [
+            522,
+            198,
+            640,
+            422
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000526103_missing.jpg",
+      "source": "000000526103.jpg",
+      "type": "missing",
+      "n_original": 3,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "umbrella",
+          "bbox_xyxy": [
+            242,
+            0,
+            424,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000529568_missing.jpg",
+      "source": "000000529568.jpg",
+      "type": "missing",
+      "n_original": 35,
+      "n_removed": 3,
+      "removed": [
+        {
+          "class": "potted plant",
+          "bbox_xyxy": [
+            0,
+            351,
+            70,
+            502
+          ]
+        },
+        {
+          "class": "oven",
+          "bbox_xyxy": [
+            130,
+            396,
+            232,
+            533
+          ]
+        },
+        {
+          "class": "sink",
+          "bbox_xyxy": [
+            290,
+            385,
+            453,
+            477
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000535306_missing.jpg",
+      "source": "000000535306.jpg",
+      "type": "missing",
+      "n_original": 2,
+      "n_removed": 1,
+      "removed": [
+        {
+          "class": "person",
+          "bbox_xyxy": [
+            113,
+            2,
+            325,
+            209
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000028452_wrong.jpg",
+      "source": "000000028452.jpg",
+      "type": "wrong",
+      "n_original": 2,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "bottle",
+          "to": "wine glass",
+          "bbox_xyxy": [
+            281,
+            162,
+            308,
+            241
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000078266_wrong.jpg",
+      "source": "000000078266.jpg",
+      "type": "wrong",
+      "n_original": 15,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "refrigerator",
+          "to": "microwave",
+          "bbox_xyxy": [
+            55,
+            96,
+            149,
+            204
+          ]
+        },
+        {
+          "from": "sink",
+          "to": "microwave",
+          "bbox_xyxy": [
+            15,
+            194,
+            171,
+            228
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000094871_wrong.jpg",
+      "source": "000000094871.jpg",
+      "type": "wrong",
+      "n_original": 10,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "person",
+          "to": "toaster",
+          "bbox_xyxy": [
+            0,
+            0,
+            49,
+            161
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000099114_wrong.jpg",
+      "source": "000000099114.jpg",
+      "type": "wrong",
+      "n_original": 21,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "person",
+          "to": "cup",
+          "bbox_xyxy": [
+            360,
+            166,
+            384,
+            252
+          ]
+        },
+        {
+          "from": "person",
+          "to": "keyboard",
+          "bbox_xyxy": [
+            154,
+            148,
+            169,
+            214
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000159791_wrong.jpg",
+      "source": "000000159791.jpg",
+      "type": "wrong",
+      "n_original": 15,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "person",
+          "to": "toaster",
+          "bbox_xyxy": [
+            258,
+            327,
+            288,
+            361
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000200252_wrong.jpg",
+      "source": "000000200252.jpg",
+      "type": "wrong",
+      "n_original": 3,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "bed",
+          "to": "toilet",
+          "bbox_xyxy": [
+            16,
+            112,
+            500,
+            375
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000201934_wrong.jpg",
+      "source": "000000201934.jpg",
+      "type": "wrong",
+      "n_original": 6,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "bus",
+          "to": "train",
+          "bbox_xyxy": [
+            0,
+            58,
+            262,
+            297
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000210502_wrong.jpg",
+      "source": "000000210502.jpg",
+      "type": "wrong",
+      "n_original": 1,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "train",
+          "to": "truck",
+          "bbox_xyxy": [
+            0,
+            31,
+            639,
+            444
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000212453_wrong.jpg",
+      "source": "000000212453.jpg",
+      "type": "wrong",
+      "n_original": 9,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "person",
+          "to": "cow",
+          "bbox_xyxy": [
+            70,
+            0,
+            137,
+            111
+          ]
+        },
+        {
+          "from": "person",
+          "to": "bench",
+          "bbox_xyxy": [
+            208,
+            108,
+            258,
+            207
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000214703_wrong.jpg",
+      "source": "000000214703.jpg",
+      "type": "wrong",
+      "n_original": 4,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "person",
+          "to": "clock",
+          "bbox_xyxy": [
+            232,
+            320,
+            365,
+            370
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000235064_wrong.jpg",
+      "source": "000000235064.jpg",
+      "type": "wrong",
+      "n_original": 1,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "bear",
+          "to": "zebra",
+          "bbox_xyxy": [
+            112,
+            131,
+            545,
+            418
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000256518_wrong.jpg",
+      "source": "000000256518.jpg",
+      "type": "wrong",
+      "n_original": 8,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "cup",
+          "to": "bowl",
+          "bbox_xyxy": [
+            430,
+            46,
+            557,
+            213
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000259690_wrong.jpg",
+      "source": "000000259690.jpg",
+      "type": "wrong",
+      "n_original": 26,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "truck",
+          "to": "airplane",
+          "bbox_xyxy": [
+            573,
+            119,
+            639,
+            152
+          ]
+        },
+        {
+          "from": "person",
+          "to": "remote",
+          "bbox_xyxy": [
+            292,
+            85,
+            430,
+            386
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000267434_wrong.jpg",
+      "source": "000000267434.jpg",
+      "type": "wrong",
+      "n_original": 7,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "cow",
+          "to": "elephant",
+          "bbox_xyxy": [
+            278,
+            195,
+            358,
+            361
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000313034_wrong.jpg",
+      "source": "000000313034.jpg",
+      "type": "wrong",
+      "n_original": 11,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "fork",
+          "to": "bowl",
+          "bbox_xyxy": [
+            304,
+            274,
+            331,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000326541_wrong.jpg",
+      "source": "000000326541.jpg",
+      "type": "wrong",
+      "n_original": 9,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "person",
+          "to": "train",
+          "bbox_xyxy": [
+            295,
+            139,
+            346,
+            242
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000334309_wrong.jpg",
+      "source": "000000334309.jpg",
+      "type": "wrong",
+      "n_original": 10,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "car",
+          "to": "truck",
+          "bbox_xyxy": [
+            92,
+            119,
+            135,
+            147
+          ]
+        },
+        {
+          "from": "pizza",
+          "to": "sandwich",
+          "bbox_xyxy": [
+            252,
+            220,
+            345,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000345027_wrong.jpg",
+      "source": "000000345027.jpg",
+      "type": "wrong",
+      "n_original": 35,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "boat",
+          "to": "airplane",
+          "bbox_xyxy": [
+            332,
+            208,
+            373,
+            282
+          ]
+        },
+        {
+          "from": "bench",
+          "to": "traffic light",
+          "bbox_xyxy": [
+            115,
+            335,
+            220,
+            386
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000354547_wrong.jpg",
+      "source": "000000354547.jpg",
+      "type": "wrong",
+      "n_original": 3,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "person",
+          "to": "frisbee",
+          "bbox_xyxy": [
+            95,
+            61,
+            272,
+            632
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000383289_wrong.jpg",
+      "source": "000000383289.jpg",
+      "type": "wrong",
+      "n_original": 6,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "car",
+          "to": "bus",
+          "bbox_xyxy": [
+            1,
+            164,
+            349,
+            433
+          ]
+        },
+        {
+          "from": "car",
+          "to": "bicycle",
+          "bbox_xyxy": [
+            315,
+            148,
+            639,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000409358_wrong.jpg",
+      "source": "000000409358.jpg",
+      "type": "wrong",
+      "n_original": 2,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "toilet",
+          "to": "couch",
+          "bbox_xyxy": [
+            75,
+            386,
+            309,
+            573
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000437205_wrong.jpg",
+      "source": "000000437205.jpg",
+      "type": "wrong",
+      "n_original": 3,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "banana",
+          "to": "pizza",
+          "bbox_xyxy": [
+            14,
+            288,
+            159,
+            510
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000447088_wrong.jpg",
+      "source": "000000447088.jpg",
+      "type": "wrong",
+      "n_original": 6,
+      "n_changed": 1,
+      "changed": [
+        {
+          "from": "person",
+          "to": "dog",
+          "bbox_xyxy": [
+            277,
+            9,
+            432,
+            313
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000481582_wrong.jpg",
+      "source": "000000481582.jpg",
+      "type": "wrong",
+      "n_original": 4,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "horse",
+          "to": "cow",
+          "bbox_xyxy": [
+            197,
+            47,
+            397,
+            421
+          ]
+        },
+        {
+          "from": "person",
+          "to": "potted plant",
+          "bbox_xyxy": [
+            306,
+            149,
+            459,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "image": "000000572555_wrong.jpg",
+      "source": "000000572555.jpg",
+      "type": "wrong",
+      "n_original": 4,
+      "n_changed": 2,
+      "changed": [
+        {
+          "from": "train",
+          "to": "bicycle",
+          "bbox_xyxy": [
+            146,
+            56,
+            584,
+            357
+          ]
+        },
+        {
+          "from": "traffic light",
+          "to": "parking meter",
+          "bbox_xyxy": [
+            258,
+            0,
+            288,
+            62
+          ]
+        }
+      ]
+    }
+  ]
+}

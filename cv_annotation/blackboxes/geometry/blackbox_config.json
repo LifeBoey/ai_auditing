@@ -1,0 +1,6 @@
+{
+  "description": "box size / shape outliers for their class, broken boxes and duplicates (labels only, no model)",
+  "script": "blackbox_geometry.py",
+  "predictions": "none",
+  "to_run": false
+}

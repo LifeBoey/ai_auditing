@@ -11,7 +11,7 @@ Both start the same way: transcribe the audio with several models, then combine 
 
 - **Models:** `facebook/wav2vec2-large-960h-lv60-self`, `facebook/hubert-large-ls960-ft`, `openai/whisper-large-v3-turbo`.
 - **ROVER accuracy:** 1.44% word error rate (WER) against the true labels, better than any single model (1.62–1.90%).
-- **Audit:** with 25 errors planted in 250 annotations, the audit found **24/25** (precision 0.83).
+- **Audit:** with 25 errors planted in 250 annotations, the audit found **25/25** (precision 0.86).
   - Scoring by error *rate* (WER/CER) found only 12/25, because a 2-word error in a long sentence looks tiny as a rate. Counting the words the models *agree* the annotation got wrong works much better.
 - **Generate:** when all 3 models agree (70% of utterances), the ROVER transcript has 0.43% WER and needs no human. The other 30% go to a person.
 
@@ -60,7 +60,7 @@ $PY detect_label_errors.py --ground-truth-csv <YOUR_LABELS.csv> \
 - **Output:** `label_error_scores.csv`, worst first. Check the rows where `flagged` is True.
 - **`suspect_words` shows why a row was flagged:**
   - `+WORD` is in the annotation, but no model heard it.
-  - `-WORD` was heard by every model, but is missing from the annotation.
+  - `-WORD` is missing from the annotation: every model heard a different word there, or most models heard some word where the annotation has none, even if they disagree on which (a likely deletion). Words the models only split apart ("CLASSROOMS" vs "CLASS ROOMS") don't count.
 - **Default rule:** flag a row if at least 2 such words are found. Change it with `--threshold`.
 - **Expect some false flags:** foreign-language speech, unusual names and compound words ("LOIN CLOTH" vs "LOINCLOTH") get flagged even when the annotation is right. Use your judgement.
 - **To measure the audit itself:** `make_planted_errors.py` plants known errors into a correct label set and writes an answer key. Pass `--planted-key planted_errors_key.csv` to see how many get caught.
@@ -68,7 +68,7 @@ $PY detect_label_errors.py --ground-truth-csv <YOUR_LABELS.csv> \
 **Review the results by listening:**
 ```bash
 $PY review_label_errors.py --ground-truth-csv <YOUR_LABELS.csv> --audio-dir <AUDIO_DIR> \
-    --transcripts transcripts/wav2vec2_large.csv transcripts/hubert_large.csv transcripts/whisper_turbo.csv
+    --transcripts transcripts/wav2vec2_large.csv transcripts/hubert_large.csv transcripts/whisper_turbo.csv --output-html label_error_review.html
 ```
 - **Output:** `label_error_review.html`, one card per utterance, most suspicious first. Open it in a browser.
 - **Each card has:** an audio player, the annotation and the ROVER transcript with differing words highlighted, the `suspect_words`, and the scores (including each model's WER). `--transcripts` is optional and adds each model's own transcript.

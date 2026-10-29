@@ -1,0 +1,6 @@
+{
+  "description": "TODO: one line on what your method checks (shown by run_audit.py --list-methods)",
+  "script": "blackbox_template.py",
+  "predictions": "per_model",
+  "to_run": false
+}

@@ -12,7 +12,9 @@ over aligned words), and the annotation is scored against the ensemble:
       unsupported_words       annotation words that NO model produced
                               (catches insertions and substitutions)
       missing_words           words EVERY model produced that the annotation
-                              lacks or changed (catches deletions and substitutions)
+                              changed, or where the annotation has no word but
+                              MOST models heard one, even if they disagree on
+                              which (catches deletions and substitutions)
                             A count, not a rate, so a 2-word error in a long
                             sentence is not diluted, and a word that only some
                             models stumble on is not blamed on the annotation.
@@ -53,6 +55,10 @@ METRICS = ["confident_errors", "rover_wer", "rover_cer", "weighted_wer",
            "min_model_wer", "median_model_wer"]
 DEFAULT_THRESHOLDS = {"confident_errors": 2}  # counts; every other metric is a rate
 DEFAULT_RATE_THRESHOLD = 0.25
+# A word the annotation omits counts as missing when more than this fraction of
+# models heard some word there (a strict majority), whether or not they agree
+# on which; a substituted word needs all models to agree on it.
+GAP_MIN_AGREEMENT = 0.5
 
 
 def default_threshold(metric):
@@ -212,6 +218,16 @@ def rover(hyps):
     return words, confidences
 
 
+def word_presence(hyps):
+    """
+    Per ROVER output word (as returned by rover), the fraction of hypotheses
+    that put any word in its slot. Unlike the vote fraction, this is high when
+    every model heard something but they disagree on what it was.
+    """
+    return [sum(v is not None for v in votes) / len(votes)
+            for votes in rover_slots(hyps) if vote(votes)[0] is not None]
+
+
 def weighted_word_errors(annotation, rover_words, confidences):
     """
     Edits between annotation and ROVER output, each weighted by the ensemble's
@@ -230,7 +246,32 @@ def weighted_word_errors(annotation, rover_words, confidences):
     return total
 
 
-def confident_disagreements(annotation, hyps, rover_words, confidences):
+def split_compounds(pairs):
+    """
+    Indices of (annotation, ROVER) alignment pairs where the models split one
+    annotation word into several ("classrooms" vs "class rooms", "app" vs
+    "a p p"): a run of gaps plus the neighbouring aligned word that, joined,
+    spell that annotation word. These are spelling differences, not errors.
+    """
+    split = set()
+    i = 0
+    while i < len(pairs):
+        if pairs[i][0] is not None:
+            i += 1
+            continue
+        lo = hi = i
+        while hi + 1 < len(pairs) and pairs[hi + 1][0] is None:
+            hi += 1
+        gap = "".join(h for _, h in pairs[lo:hi + 1])
+        if lo > 0 and pairs[lo - 1][1] is not None and pairs[lo - 1][1] + gap == pairs[lo - 1][0]:
+            split.update(range(lo - 1, hi + 1))
+        if hi + 1 < len(pairs) and pairs[hi + 1][1] is not None and gap + pairs[hi + 1][1] == pairs[hi + 1][0]:
+            split.update(range(lo, hi + 2))
+        i = hi + 1
+    return split
+
+
+def confident_disagreements(annotation, hyps, rover_words, confidences, presence):
     """
     Word-level disagreements between the annotation and the models that the
     models are confident about.
@@ -238,8 +279,15 @@ def confident_disagreements(annotation, hyps, rover_words, confidences):
     Returns (unsupported, missing):
         unsupported: annotation words that no hypothesis matches when aligned
             to it, i.e. no model heard that word there.
-        missing: ROVER words with a unanimous vote that the annotation omits
-            or replaces, i.e. every model heard a word the annotation lacks.
+        missing: ROVER words that the annotation replaces with a unanimous
+            vote, or omits outright where most models heard some word
+            (presence, see word_presence), even if they disagree on which. A
+            gap in the annotation where the models heard speech is strong
+            evidence of a deletion; a different word there needs every model
+            to agree, since models often disagree on spelling (e.g.
+            "cuddling" vs "cadlin").
+            Words split from an annotation compound are ignored (see
+            split_compounds).
     """
     supported = [False] * len(annotation)
     for h in hyps:
@@ -254,10 +302,18 @@ def confident_disagreements(annotation, hyps, rover_words, confidences):
 
     missing = []
     r = 0
-    for ann_w, rov_w in align(annotation, rover_words):
+    pairs = align(annotation, rover_words)
+    split = split_compounds(pairs)
+    for idx, (ann_w, rov_w) in enumerate(pairs):
         if rov_w is None:
             continue
-        if ann_w != rov_w and confidences[r] == 1.0:
+        if idx in split:
+            confident = False
+        elif ann_w is None:
+            confident = presence[r] > GAP_MIN_AGREEMENT
+        else:
+            confident = ann_w != rov_w and confidences[r] == 1.0
+        if confident:
             missing.append(rov_w)
         r += 1
     return unsupported, missing
@@ -286,7 +342,8 @@ def score_utterance(annotation, model_texts):
         for h in hyps.values()
     )
     unsupported, missing = confident_disagreements(
-        ann_words, list(hyps.values()), rover_words, confidences
+        ann_words, list(hyps.values()), rover_words, confidences,
+        word_presence(list(hyps.values()))
     )
 
     row = {

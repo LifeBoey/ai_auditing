@@ -1,7 +1,7 @@
 {
-  "images": "Y:\\home\\bjieyong\\aiverify2\\auditing\\DATA\\bccd_images",
-  "labels": "Y:\\home\\bjieyong\\aiverify2\\auditing\\DATA\\bccd_ground_truth.json",
-  "clip": "C:/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt",
+  "images": "/home/bjieyong/aiverify2/auditing/DATA/bccd_images",
+  "labels": "/home/bjieyong/aiverify2/auditing/DATA/bccd_ground_truth.json",
+  "clip": "/mnt/c/Users/Gabriel/fiftyone/__models__/CLIP-ViT-B-32.pt",
   "aspects": {
     "brightness": {
       "kind": "numeric",
@@ -111,9 +111,9 @@
       ],
       "method": "quantile(4)",
       "edges": [
-        -40.02278137207031,
-        -29.090776443481445,
-        -14.37205696105957
+        -40.02278518676758,
+        -29.090778350830078,
+        -14.372058868408203
       ],
       "groups": [
         "1: [-64.4, -40)",

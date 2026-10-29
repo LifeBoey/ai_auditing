@@ -1,0 +1,15 @@
+what,type,wrong_top50,wrong_top100,wrong_auc,missing_top50,missing_top100,missing_auc,any_top50,any_top100,any_auc
+cleanlab · frcnn_mbv3,method,5,9,0.7429,5,9,0.6193,10,18,0.6811
+cleanlab · yolo11x,method,10,19,0.8528,4,6,0.6234,14,25,0.7381
+fiftyone · frcnn_mbv3,method,5,7,0.7535,6,13,0.6783,11,20,0.7159
+fiftyone · yolo11x,method,4,21,0.8892,12,15,0.7803,16,36,0.8348
+flags · frcnn_mbv3,method,12,17,0.8564,16,17,0.8707,28,34,0.8636
+flags · yolo11x,method,13,20,0.9208,12,20,0.8696,25,40,0.8952
+rrf (groups),rule,11,19,0.8956,11,15,0.8492,22,34,0.8724
+mean (groups),rule,11,19,0.8987,11,15,0.8328,22,34,0.8657
+max (groups),rule,8,18,0.88,10,16,0.8449,18,34,0.8624
+vote (groups),rule,11,19,0.9025,11,15,0.8271,22,34,0.8648
+rrf (no groups),rule,11,19,0.894,11,16,0.8533,22,35,0.8737
+mean (no groups),rule,11,19,0.8987,11,15,0.8328,22,34,0.8657
+max (no groups),rule,11,17,0.8844,14,19,0.8828,25,36,0.8836
+vote (no groups),rule,14,19,0.9187,13,18,0.8733,27,37,0.896

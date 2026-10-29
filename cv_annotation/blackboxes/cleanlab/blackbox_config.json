@@ -1,0 +1,7 @@
+{
+  "description": "cleanlab ObjectLab swap / overlooked / badloc scores for one model's predictions",
+  "script": "blackbox_cleanlab.py",
+  "predictions": "per_model",
+  "accepts": ["work_dir", "evaluate_planted"],
+  "weight": 0.5
+}

@@ -20,6 +20,6 @@
     "flag_score": 0.2,
     "flag_badloc": 0.05,
     "cleanlab_args": [],
-    "work_dir": "audit_bccdp_ground_truth/work/cleanlab_bccdp_yolo11n_ann"
+    "work_dir": "audit_bccdp_ground_truth/work/cleanlab_bccdp_yolo11n"
   }
 }
